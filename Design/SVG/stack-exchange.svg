@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>stack-exchange</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.94140621,14.9804688 L20.0625,14.9804688 L20.0625,15.8398438 C20.0625,17.3125 18.9179688,18.4960938 17.5117188,18.4960938 L16.7695313,18.4960938 L13.3789063,22 L13.3789063,18.4960938 L6.49218747,18.4960938 C5.08593747,18.4960938 3.94140621,17.3125 3.94140621,15.8398438 L3.94140621,14.9804688 Z M3.94140621,14.0585938 L20.0625,14.0585938 L20.0625,10.7382812 L3.94140621,10.7382812 L3.94140621,14.0585938 Z M3.94140621,9.78515624 L20.0625,9.78515624 L20.0625,6.46484372 L3.94140621,6.46484372 L3.94140621,9.78515624 Z M17.5078125,1.99999995 L6.49218747,1.99999995 C5.08593747,1.99999995 3.94140621,3.18359371 3.94140621,4.64453121 L3.94140621,5.51562497 L20.0625,5.51562497 L20.0625,4.64453121 C20.0585938,3.18359371 18.9140625,1.99999995 17.5078125,1.99999995 Z" id="path-1"></path>
+    </defs>
+    <g id="stack-exchange" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>step-backward</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M5.74999997,20.28125 L5.74999997,3.71874996 C5.74999997,3.46093746 5.96093747,3.24999996 6.21874997,3.24999996 L8.09374998,3.24999996 C8.35156248,3.24999996 8.56249998,3.46093746 8.56249998,3.71874996 L8.56249998,10.609375 L16.1992188,3.53906246 C17.0039063,2.8710937 18.25,3.42968746 18.25,4.49999996 L18.25,19.5 C18.25,20.5703125 17.0039063,21.1289063 16.1992188,20.4609375 L8.56249998,13.4335938 L8.56249998,20.28125 C8.56249998,20.5390625 8.35156248,20.75 8.09374998,20.75 L6.21874997,20.75 C5.96093747,20.75 5.74999997,20.5390625 5.74999997,20.28125 Z" id="path-1"></path>
+    </defs>
+    <g id="step-backward" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

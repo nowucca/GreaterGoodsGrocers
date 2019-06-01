@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>share</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M21.6754297,9.41546874 L14.8002735,3.47855464 C14.1984766,2.95882808 13.25,3.38074214 13.25,4.1880859 L13.25,7.31515623 C6.97542966,7.38699216 1.99999995,8.64453123 1.99999995,14.5908594 C1.99999995,16.9908985 3.54613277,19.3685547 5.25519528,20.6116407 C5.78851559,20.9995704 6.54859372,20.5126954 6.3519531,19.8838672 C4.58070309,14.2192969 7.19207029,12.7154688 13.25,12.6283203 L13.25,16.0625 C13.25,16.8710938 14.1992188,17.2911328 14.8002735,16.7720313 L21.6754297,10.8345312 C22.1078907,10.4610156 22.1084766,9.78949218 21.6754297,9.41546874 Z" id="path-1"></path>
+    </defs>
+    <g id="share" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

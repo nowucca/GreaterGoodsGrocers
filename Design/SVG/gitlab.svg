@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>gitlab</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.16335933,9.80203124 L12,21.2857032 L2.31539058,14.0976172 C2.04757808,13.8967578 1.93601557,13.5508984 2.03644526,13.2385156 L3.16335933,9.80203124 Z M6.10886716,2.97367183 C5.98613278,2.62781245 5.49523434,2.62781245 5.37249997,2.97367183 L3.16335933,9.80203124 L8.31808592,9.80203124 L6.10886716,2.97367183 Z M8.31808592,9.80203124 L12,21.2857032 L15.6819141,9.80203124 L8.31808592,9.80203124 Z M21.9635547,13.2385156 L20.8366407,9.80203124 L12,21.2857032 L21.6846094,14.0976172 C21.9523829,13.8967578 22.0639454,13.5508984 21.9635547,13.2385156 Z M18.627461,2.97367183 C18.5047266,2.62781245 18.0138282,2.62781245 17.8910938,2.97367183 L15.6819141,9.80203124 L20.8366407,9.80203124 L18.627461,2.97367183 Z" id="path-1"></path>
+    </defs>
+    <g id="gitlab" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

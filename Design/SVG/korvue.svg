@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>korvue</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18.3671875,3.32812496 L5.59374997,3.32812496 C4.31640621,3.32812496 3.26953121,4.37499996 3.26953121,5.65234372 L3.26953121,18.4296875 C3.26953121,19.703125 4.31640621,20.75 5.59374997,20.75 L18.3710938,20.75 C19.6601563,20.75 20.6953125,19.703125 20.6953125,18.4257813 L20.6953125,5.65234372 C20.6914063,4.37499996 19.6445313,3.32812496 18.3671875,3.32812496 Z M6.67187497,6.71874997 L10.421875,6.71874997 L10.421875,11.25 L12.8359375,6.71874997 L17.1679688,6.71874997 L13.9960938,11.875 L6.67187497,11.875 L6.67187497,6.71874997 Z M12.9921875,17.3476563 L10.4257812,12.9101563 L10.4257812,17.3476563 L6.67578122,17.3476563 L6.67578122,12.2382813 L14.15625,12.2382813 L17.6171875,17.3476563 L12.9921875,17.3476563 Z" id="path-1"></path>
+    </defs>
+    <g id="korvue" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>dropbox</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12.0151515,6.70833331 L7.01515149,9.90151514 L12.0151515,13.094697 L7.01515149,16.2878788 L1.99999995,13.0643939 L7.01136361,9.87121211 L1.99999995,6.70833331 L7.01136361,3.51515147 L12.0151515,6.70833331 Z M6.98484846,17.2916667 L11.9848485,14.0984849 L16.9848485,17.2916667 L11.9848485,20.4848485 L6.98484846,17.2916667 Z M12.0151515,13.0643939 L17.0151515,9.87121211 L12.0151515,6.70454543 L16.9886364,3.51515147 L22.0000001,6.70833331 L16.9886364,9.90151514 L22.0000001,13.0909091 L16.9886364,16.2840909 L12.0151515,13.0643939 Z" id="path-1"></path>
+    </defs>
+    <g id="dropbox" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

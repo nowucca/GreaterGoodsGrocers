@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>black-tie</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.24999996,3.24999996 L3.24999996,20.75 L20.75,20.75 L20.75,3.24999996 L3.24999996,3.24999996 Z M15.6132813,15.953125 L12,19.4179688 L8.38671873,15.953125 L10.90625,8.76562498 L8.38671873,5.38281247 L15.609375,5.38281247 L13.09375,8.76562498 L15.6132813,15.953125 Z" id="path-1"></path>
+    </defs>
+    <g id="black-tie" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

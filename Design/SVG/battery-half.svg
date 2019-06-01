@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>battery-half</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M19,8.99999999 L19,11 L20,11 L20,13 L19,13 L19,15 L3.99999996,15 L3.99999996,8.99999999 L19,8.99999999 Z M19.5,6.99999997 L3.49999996,6.99999997 C2.67156245,6.99999997 1.99999995,7.67156248 1.99999995,8.49999998 L1.99999995,15.5 C1.99999995,16.3284375 2.67156245,17 3.49999996,17 L19.5,17 C20.3284375,17 21,16.3284375 21,15.5 L21,15 L21.25,15 C21.6642188,15 22.0000001,14.6642188 22.0000001,14.25 L22.0000001,9.74999999 C22.0000001,9.33578124 21.6642188,8.99999999 21.25,8.99999999 L21,8.99999999 L21,8.49999998 C21,7.67156248 20.3284375,6.99999997 19.5,6.99999997 Z M12,9.99999999 L4.99999996,9.99999999 L4.99999996,14 L12,14 L12,9.99999999 Z" id="path-1"></path>
+    </defs>
+    <g id="battery-half" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>slash</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20.5790625,19.9103125 L2.19312495,5.69999997 C1.97531245,5.53062497 1.93593745,5.21656247 2.10531245,4.99843746 L2.71906245,4.20874996 C2.88843745,3.99062496 3.20281246,3.95124996 3.42093746,4.12093746 L21.806875,18.33125 C22.0246876,18.500625 22.0640626,18.8146875 21.8946875,19.0328125 L21.2809375,19.8225 C21.1115625,20.040625 20.7971875,20.0796875 20.5790625,19.9103125 Z" id="path-1"></path>
+    </defs>
+    <g id="slash" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>google-drive</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.2421875,14.3007813 L8.85156248,3.24999996 L15.1484375,3.24999996 L21.5390625,14.3007813 L15.2421875,14.3007813 Z M9.87109374,15.2226563 L6.72265622,20.75 L18.8515625,20.75 L22.0000001,15.2226563 L9.87109374,15.2226563 Z M8.01953123,4.63281246 L1.99999995,15.2226563 L5.14843747,20.75 L11.2578125,10.15625 L8.01953123,4.63281246 Z" id="path-1"></path>
+    </defs>
+    <g id="google-drive" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

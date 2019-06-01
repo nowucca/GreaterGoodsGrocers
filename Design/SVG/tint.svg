@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>tint</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M13.1414063,2.86289058 C12.83125,1.73867182 11.2101562,1.68632807 10.8585937,2.86289058 C9.03164061,9.02539061 5.12499997,10.7 5.12499997,15.0433594 C5.12499997,18.8886719 8.19999998,22.0000001 12,22.0000001 C15.8,22.0000001 18.875,18.8886719 18.875,15.0433594 C18.875,10.678125 14.9769531,9.05351561 13.1414063,2.86289058 Z M12,19.5 C9.58789061,19.5 7.62499998,17.5371094 7.62499998,15.125 C7.62499998,14.7796875 7.90468748,14.5 8.24999998,14.5 C8.59531248,14.5 8.87499998,14.7796875 8.87499998,15.125 C8.87499998,16.8480469 10.2769531,18.25 12,18.25 C12.3453125,18.25 12.625,18.5296875 12.625,18.875 C12.625,19.2203125 12.3453125,19.5 12,19.5 Z" id="path-1"></path>
+    </defs>
+    <g id="tint" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

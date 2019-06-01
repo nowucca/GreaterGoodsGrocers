@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>filter</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M21.0615625,1.99999995 L2.9385937,1.99999995 C2.10585933,1.99999995 1.68566401,3.01039058 2.27570308,3.60042965 L9.49999999,10.8258203 L9.49999999,18.875 C9.49999999,19.1808985 9.6492578,19.4675782 9.8998828,19.6430469 L13.0248828,21.8297657 C13.6414063,22.2613282 14.5,21.8239454 14.5,21.0617188 L14.5,10.8258203 L21.7244922,3.60042965 C22.3133204,3.01156246 21.8960157,1.99999995 21.0615625,1.99999995 Z" id="path-1"></path>
+    </defs>
+    <g id="filter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>store-alt</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,16 L5.99999997,16 L5.99999997,11 L3.99999996,11 L3.99999996,19 C3.99999996,19.553125 4.44687496,20 4.99999996,20 L13,20 C13.553125,20 14,19.553125 14,19 L14,11 L12,11 L12,16 Z M21.83125,8.44374998 L19.165625,4.44374996 C18.978125,4.16562496 18.665625,3.99999996 18.33125,3.99999996 L5.66874997,3.99999996 C5.33437497,3.99999996 5.02187497,4.16562496 4.83749996,4.44374996 L2.17187495,8.44374998 C1.72812495,9.10937499 2.20312495,9.99999999 3.00312496,9.99999999 L21,9.99999999 C21.796875,9.99999999 22.2718751,9.10937499 21.83125,8.44374998 Z M18,19.5 C18,19.775 18.225,20 18.5,20 L19.5,20 C19.775,20 20,19.775 20,19.5 L20,11 L18,11 L18,19.5 Z" id="path-1"></path>
+    </defs>
+    <g id="store-alt" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

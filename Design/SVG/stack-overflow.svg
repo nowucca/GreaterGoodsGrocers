@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>stack-overflow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.9726563,13.71875 L8.89453123,10.4179687 L9.54687499,8.99218748 L16.6289063,12.3007813 L15.9726563,13.71875 Z M17.8476563,10.75 L11.8515625,5.73828122 L10.8554687,6.94140622 L16.8515625,11.953125 L17.8476563,10.75 Z M19.3945313,9.51171874 L14.734375,3.24999996 L13.484375,4.18749996 L18.1445313,10.4492187 L19.3945313,9.51171874 Z M15.8554688,14.1484375 L8.21093748,12.5351563 L7.89062498,14.0703125 L15.5351563,15.671875 L15.8554688,14.1484375 Z M17.0898438,19.1875 L6.16796872,19.1875 L6.16796872,14.5 L4.60546871,14.5 L4.60546871,20.75 L18.6484375,20.75 L18.6484375,14.5 L17.0859375,14.5 L17.0859375,19.1875 L17.0898438,19.1875 Z M15.5351563,16.0625 L7.72265623,16.0625 L7.72265623,17.6132813 L15.5351563,17.6132813 L15.5351563,16.0625 Z" id="path-1"></path>
+    </defs>
+    <g id="stack-overflow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

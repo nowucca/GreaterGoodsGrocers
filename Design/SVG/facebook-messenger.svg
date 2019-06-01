@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook-messenger</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,3.24999996 C3.87109371,3.24999996 0.222656191,12.859375 6.55468747,17.6484375 L6.55468747,20.75 L9.51171874,19.109375 C15.0664063,20.6640625 20.6601563,16.7695313 20.6601563,11.3476562 C20.6640625,6.87499997 16.7851563,3.24999996 12,3.24999996 Z M12.9140625,14.1132813 L10.671875,11.7851562 L6.35937497,14.171875 L11.0898437,9.15234374 L13.3320313,11.4804687 L17.6445313,9.09374999 L12.9140625,14.1132813 Z" id="path-1"></path>
+    </defs>
+    <g id="facebook-messenger" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

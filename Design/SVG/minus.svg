@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>minus</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M19.5,10.125 L4.49999996,10.125 C3.80976558,10.125 3.24999996,10.6847656 3.24999996,11.375 L3.24999996,12.625 C3.24999996,13.3152344 3.80976558,13.875 4.49999996,13.875 L19.5,13.875 C20.1902344,13.875 20.75,13.3152344 20.75,12.625 L20.75,11.375 C20.75,10.6847656 20.1902344,10.125 19.5,10.125 Z" id="path-1"></path>
+    </defs>
+    <g id="minus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

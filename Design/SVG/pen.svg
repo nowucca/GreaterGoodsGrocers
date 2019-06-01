@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>pen</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M13.351751,5.66692604 L18.333074,10.648249 L7.51634239,21.4649806 L3.07509723,21.955253 C2.4805447,22.0210117 1.97821007,21.518288 2.04435793,20.9237355 L2.53852135,16.4793775 L13.351751,5.66692604 Z M21.4140078,4.92529179 L19.0750973,2.58638128 C18.3455253,1.85680929 17.1622568,1.85680929 16.4326848,2.58638128 L14.2322957,4.78677039 L19.2136187,9.76809337 L21.4140078,7.56770426 C22.1435798,6.83774316 22.1435798,5.65486378 21.4140078,4.92529179 Z" id="path-1"></path>
+    </defs>
+    <g id="pen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

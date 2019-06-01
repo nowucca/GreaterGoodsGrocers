@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>map-marker</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M11.2292187,21.5964844 C5.55351559,13.3683984 4.49999996,12.5239453 4.49999996,9.49999999 C4.49999996,5.35785153 7.85785154,1.99999995 12,1.99999995 C16.1421485,1.99999995 19.5,5.35785153 19.5,9.49999999 C19.5,12.5239453 18.4464844,13.3683984 12.7707813,21.5964844 C12.3983203,22.1345313 11.6016406,22.1344922 11.2292187,21.5964844 Z" id="path-1"></path>
+    </defs>
+    <g id="map-marker" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

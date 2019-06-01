@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>play</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M19.8128655,10.3703704 L6.08966859,2.25730989 C4.97465883,1.59844049 3.26705649,2.23781672 3.26705649,3.86744635 L3.26705649,20.0896687 C3.26705649,21.551657 4.85380113,22.4327486 6.08966859,21.6998051 L19.8128655,13.5906433 C21.0370371,12.8693957 21.0409357,11.0916179 19.8128655,10.3703704 Z" id="path-1"></path>
+    </defs>
+    <g id="play" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

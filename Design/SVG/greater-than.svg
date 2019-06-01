@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>greater-than</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18.778125,10.1972656 L6.81328122,4.61757809 C6.18593747,4.32499996 5.44023434,4.59648434 5.14765622,5.22382809 L4.61757809,6.3597656 C4.32499996,6.98710935 4.59648434,7.73281248 5.22382809,8.02539061 L13.75625,12.0039063 L5.22226559,15.9839844 C4.59648434,16.2757813 4.32578121,17.0195313 4.61757809,17.6453125 L5.14570309,18.778125 C5.43749997,19.4039063 6.18124997,19.6746094 6.80703122,19.3828125 L18.7785157,13.8003906 C19.2188041,13.5951187 19.5003068,13.1533666 19.5003907,12.6675781 L19.5003907,11.3304687 C19.5,10.8441406 19.21875,10.4023437 18.778125,10.1972656 Z" id="path-1"></path>
+    </defs>
+    <g id="greater-than" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

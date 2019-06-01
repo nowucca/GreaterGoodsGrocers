@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>glass-martini</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M21.6113282,4.24999996 C22.4414063,3.41953121 21.8535157,1.99999995 20.6796875,1.99999995 L3.32031246,1.99999995 C2.14648433,1.99999995 1.5585937,3.41953121 2.38867183,4.24999996 L10.75,12.6109375 L10.75,20.125 L8.56249998,20.125 C7.69960935,20.125 6.99999997,20.8246094 6.99999997,21.6875 C6.99999997,21.8601563 7.13984373,22.0000001 7.31249998,22.0000001 L16.6875,22.0000001 C16.8601563,22.0000001 17,21.8601563 17,21.6875 C17,20.8246094 16.3003906,20.125 15.4375,20.125 L13.25,20.125 L13.25,12.6109375 L21.6113282,4.24999996 Z" id="path-1"></path>
+    </defs>
+    <g id="glass-martini" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>mountain</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M21.8105919,18.4392524 L12.8386293,4.48286601 C12.6551402,4.19750775 12.3392523,4.02492208 12,4.02492208 C11.6607477,4.02492208 11.3448598,4.19750775 11.1613707,4.48286601 L2.18940805,18.4392524 C1.9921877,18.7460127 1.97820906,19.135981 2.15295945,19.4560748 C2.32779026,19.7760879 2.6633811,19.9751247 3.02803734,19.9750779 L20.9719627,19.9750779 C21.3367602,19.9750779 21.6722742,19.7760125 21.8470405,19.4557633 C22.02179,19.1357787 22.0078103,18.7458995 21.8105919,18.4392524 Z M12,6.86542054 L14.6601246,11.0031153 L12,11.0031153 L10.0062305,12.9968847 L8.82056073,11.811215 L12,6.86542054 Z" id="path-1"></path>
+    </defs>
+    <g id="mountain" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

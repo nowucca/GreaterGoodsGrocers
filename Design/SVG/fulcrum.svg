@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>fulcrum</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M9.49023436,8.41171873 L8.10820311,10.1128906 L6.72656247,8.41171873 L8.10859373,6.71054685 L9.49023436,8.41171873 Z M11.3839844,1.99999995 L10.5816406,9.74140624 L8.59062498,12 L10.5820312,14.2585938 L11.3839844,22.0000001 L11.3839844,13.7535156 L9.77929686,12 L11.3839844,10.2464844 L11.3839844,1.99999995 Z M14.4960938,8.41171873 L15.878125,10.1128906 L17.2601563,8.41171873 L15.878125,6.71054685 L14.4960938,8.41171873 Z M12.6023438,10.2464844 L14.2070313,12 L12.6023438,13.7535156 L12.6023438,22.0000001 L13.4046875,14.2585938 L15.3960938,12 L13.4046875,9.74140624 L12.6023438,1.99999995 L12.6023438,10.2464844 Z" id="path-1"></path>
+    </defs>
+    <g id="fulcrum" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

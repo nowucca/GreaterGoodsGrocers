@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>uikit</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20.5898438,6.99999997 L20.5898438,17 L11.765625,22.0000001 L3.24999996,17 L3.24999996,8.62890623 L6.67187497,10.390625 L6.67187497,14.9609375 L11.8867187,17.9101563 L17.1914063,14.9609375 L17.1914063,9.06249999 L13.2421875,6.81249997 L16.6640625,4.73828121 L20.5898438,6.99999997 Z M15.3046875,3.91796871 L11.9921875,1.99999995 L8.53124998,4.14062496 L11.890625,5.98828122 L15.3046875,3.91796871 Z" id="path-1"></path>
+    </defs>
+    <g id="uikit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

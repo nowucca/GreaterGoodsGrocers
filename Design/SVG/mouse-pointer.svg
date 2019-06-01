@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>mouse-pointer</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M17.5434308,14.831423 L13.4076023,14.831423 L15.5842495,20.1332944 C15.7358675,20.5008577 15.5626121,20.9129825 15.2160624,21.0689279 L13.2992983,21.9042885 C12.9419883,22.060234 12.5412866,21.8820273 12.3896686,21.5255751 L10.3213255,16.4910332 L6.94261206,19.9661989 C6.49235865,20.4292398 5.7621832,20.0722807 5.7621832,19.4649903 L5.7621832,2.71341126 C5.7621832,2.07403504 6.53883038,1.76233913 6.94257307,2.21220268 L18.0307603,13.6173489 C18.4780117,14.0531774 18.1479922,14.831423 17.5434308,14.831423 Z" id="path-1"></path>
+    </defs>
+    <g id="mouse-pointer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

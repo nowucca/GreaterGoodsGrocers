@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>adjust</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M2.31249995,12 C2.31249995,17.3502344 6.64972654,21.6875 12,21.6875 C17.3502735,21.6875 21.6875,17.3502344 21.6875,12 C21.6875,6.6497656 17.3502344,2.31249995 12,2.31249995 C6.6497656,2.31249995 2.31249995,6.64972654 2.31249995,12 Z M12,19.1875 L12,4.81249996 C15.9728516,4.81249996 19.1875,8.02777342 19.1875,12 C19.1875,15.9728516 15.9722266,19.1875 12,19.1875 Z" id="path-1"></path>
+    </defs>
+    <g id="adjust" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

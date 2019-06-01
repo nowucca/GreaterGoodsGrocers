@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>sticky-note</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20.75,15.5978906 L20.75,5.12499997 C20.75,4.08945309 19.9105469,3.24999996 18.875,3.24999996 L5.12499997,3.24999996 C4.08945309,3.24999996 3.24999996,4.08945309 3.24999996,5.12499997 L3.24999996,18.8745313 C3.24999996,19.9100782 4.08945309,20.7495313 5.12499997,20.7495313 L15.5983594,20.7495313 C16.0956393,20.7495287 16.572551,20.5519829 16.9241797,20.2003516 L20.2008204,16.923711 C20.5524517,16.5720823 20.7499974,16.0951706 20.75,15.5978906 Z M15.75,18.7228907 L15.75,15.7495313 L18.7233594,15.7495313 L15.75,18.7228907 Z M18.875,5.12499997 L18.875,13.8745313 L14.8125,13.8745313 C14.2947266,13.8745313 13.875,14.2942578 13.875,14.8120313 L13.875,18.8745313 L5.12499997,18.8745313 L5.12499997,5.12499997 L18.875,5.12499997 Z" id="path-1"></path>
+    </defs>
+    <g id="sticky-note" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

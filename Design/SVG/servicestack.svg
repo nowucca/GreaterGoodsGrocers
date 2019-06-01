@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>servicestack</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M5.74999997,10.4375 C8.94140623,10.8359375 16.4414063,14.4335938 17.625,19.5 L2.31249995,19.5 C6.19921872,19.1835938 9.51953124,14.1484375 5.74999997,10.4375 Z M6.99999997,4.49999996 C8.26171873,5.89062497 8.86328123,7.77734373 8.81249998,9.71874999 C12.0507813,11.0351562 16.9101563,14.5507813 17.9375,19.5 L21.6875,19.5 C20.0976563,11.0585937 11.015625,5.10546872 6.99999997,4.49999996 Z" id="path-1"></path>
+    </defs>
+    <g id="servicestack" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>shield-alt</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M21.3567252,6.99025339 C21.3567252,15.617232 16.057154,20.4267057 12.7197271,21.8170761 C12.2590892,22.0090081 11.7408718,22.0090081 11.2802339,21.8170761 C7.10701752,20.0784796 2.64327481,14.728538 2.64327481,6.99025339 C2.6432735,6.23478035 3.09752949,5.55340405 3.79489275,5.26284597 L11.2802729,2.14393757 C11.7409108,1.95200558 12.2591282,1.95200558 12.7197661,2.14393757 L20.2051462,5.26284597 C20.9024942,5.55341615 21.3567331,6.2347898 21.3567252,6.99025339 Z M12,19.400117 L12.0025731,19.4014425 C15.6569591,17.5812086 18.7276024,13.3075634 18.8570371,7.4042105 L12,4.54709548 L12,19.400117 Z" id="path-1"></path>
+    </defs>
+    <g id="shield-alt" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

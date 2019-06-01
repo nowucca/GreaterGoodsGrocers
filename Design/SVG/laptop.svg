@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>laptop</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M21.5,17 L13.923125,17 C13.9,17.6190625 13.4634375,18 12.9,18 L11,18 C10.4159375,18 9.96812499,17.4540625 9.97593749,17 L2.49999995,17 C2.22499995,17 1.99999995,17.225 1.99999995,17.5 L1.99999995,18 C1.99999995,19.1 2.89999995,20 3.99999996,20 L20,20 C21.1,20 22.0000001,19.1 22.0000001,18 L22.0000001,17.5 C22.0000001,17.225 21.775,17 21.5,17 Z M20,5.49999997 C20,4.67499996 19.325,3.99999996 18.5,3.99999996 L5.49999997,3.99999996 C4.67499996,3.99999996 3.99999996,4.67499996 3.99999996,5.49999997 L3.99999996,16 L20,16 L20,5.49999997 Z M18,14 L5.99999997,14 L5.99999997,5.99999997 L18,5.99999997 L18,14 Z" id="path-1"></path>
+    </defs>
+    <g id="laptop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

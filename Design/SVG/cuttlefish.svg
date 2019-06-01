@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>cuttlefish</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M16.84375,13.9335938 C16.1601563,15.1679688 14.6015625,16.0625 13.09375,16.0625 C10.8828125,16.0625 9.03124999,14.2109375 9.03124999,12 C9.03124999,9.78906249 10.8828125,7.93749998 13.09375,7.93749998 C14.6015625,7.93749998 16.1601563,8.83203123 16.84375,10.0664062 C17.3789063,8.07812498 18.4726563,6.42187497 20.2421875,5.46484372 C18.4726563,3.52734371 15.9257813,2.31249995 13.09375,2.31249995 C7.74218748,2.31249995 3.40624996,6.64843747 3.40624996,12 C3.40624996,17.3515625 7.74218748,21.6875 13.09375,21.6875 C15.9257813,21.6875 18.4726563,20.4726563 20.2421875,18.5351563 C18.4726563,17.578125 17.3789063,15.921875 16.84375,13.9335938 Z" id="path-1"></path>
+    </defs>
+    <g id="cuttlefish" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

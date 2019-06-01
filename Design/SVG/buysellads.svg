@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>buysellads</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,7.88671873 L13.6757813,14.1640625 L10.3242187,14.1640625 L12,7.88671873 Z M20.75,5.12499997 L20.75,18.875 C20.75,19.9101563 19.9101563,20.75 18.875,20.75 L5.12499997,20.75 C4.08984371,20.75 3.24999996,19.9101563 3.24999996,18.875 L3.24999996,5.12499997 C3.24999996,4.08984371 4.08984371,3.24999996 5.12499997,3.24999996 L18.875,3.24999996 C19.9101563,3.24999996 20.75,4.08984371 20.75,5.12499997 Z M18.1992188,17.8320313 L14.5078125,6.16406247 L9.49218749,6.16406247 L5.80078122,17.8320313 L9.34374999,17.8320313 L13.7070313,14.2539063 L14.6523438,17.8320313 L18.1992188,17.8320313 Z" id="path-1"></path>
+    </defs>
+    <g id="buysellads" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

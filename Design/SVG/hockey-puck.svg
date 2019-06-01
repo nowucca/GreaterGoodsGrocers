@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>hockey-puck</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1.99999995,8.24999998 C1.99999995,6.17968747 6.47656247,4.49999996 12,4.49999996 C17.5234375,4.49999996 22.0000001,6.17968747 22.0000001,8.24999998 C22.0000001,10.3203125 17.5234375,12 12,12 C6.47656247,12 1.99999995,10.3203125 1.99999995,8.24999998 Z M1.99999995,11.4609375 L1.99999995,15.75 C1.99999995,17.8203125 6.47656247,19.5 12,19.5 C17.5234375,19.5 22.0000001,17.8203125 22.0000001,15.75 L22.0000001,11.4609375 C17.5703125,14.6757813 6.43359372,14.6796875 1.99999995,11.4609375 Z" id="path-1"></path>
+    </defs>
+    <g id="hockey-puck" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>hotjar</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M19.4375,8.30859373 C16.5195313,3.13281246 7.96093748,1.99999995 7.96093748,1.99999995 C7.96093748,1.99999995 11.9101562,6.31249997 6.86328122,9.72265624 C3.67187496,11.875 2.4101562,14.671875 3.77734371,17.7265625 C4.82421871,20.0664063 7.03906248,21.0195313 9.42578124,21.375 C8.28515623,19.2226563 9.16796874,16.59375 9.26562499,16.3125 C11.4960937,19.6875 15.7109375,16.3125 13.59375,12.6445313 C16.3671875,13.2460938 16.78125,18.0585938 14.6523438,21.0625 C17.796875,20.0742188 19.890625,17.5898438 20.4648438,15.375 C21.0703125,13.0585938 20.609375,10.3789062 19.4375,8.30859373 Z" id="path-1"></path>
+    </defs>
+    <g id="hotjar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

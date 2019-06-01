@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>utensil-spoon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20.7198444,3.29961085 C18.5797666,1.15564197 14.303502,1.95719839 11.8560311,4.40856027 C9.93774318,6.32684822 9.71206225,8.68871594 10.7354086,10.6498054 L2.38910501,18.1361868 C1.93774314,18.5447471 1.91828789,19.2451362 2.3501945,19.6731518 L4.34630346,21.6692607 C4.77431903,22.0972763 5.47859919,22.0778211 5.88326845,21.6264592 L13.3696498,13.2840467 C15.3307393,14.307393 17.692607,14.0817121 19.610895,12.1634241 C22.0622569,9.7159533 22.8638133,5.43968868 20.7198444,3.29961085 Z" id="path-1"></path>
+    </defs>
+    <g id="utensil-spoon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

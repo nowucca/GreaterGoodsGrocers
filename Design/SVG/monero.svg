@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>monero</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M16.0625,17 L20.296875,17 C18.6015625,19.8085938 15.5195313,21.6875 12,21.6875 C8.48046873,21.6875 5.39843747,19.8085938 3.70312496,17 L7.93749998,17 L7.93749998,12.0078125 L12,16.1015625 L16.0625,12 L16.0625,17 Z M5.74999997,15.125 L5.74999997,6.99999997 L11.9765625,13.2265625 L18.25,6.99999997 L18.25,15.125 L21.171875,15.125 C21.5039063,14.1445313 21.6875,13.09375 21.6875,12 C21.6875,6.64843747 17.3515625,2.31249995 12,2.31249995 C6.64843747,2.31249995 2.31249995,6.64843747 2.31249995,12 C2.31249995,13.09375 2.49218745,14.1445313 2.82812495,15.125 L5.74999997,15.125 Z" id="path-1"></path>
+    </defs>
+    <g id="monero" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

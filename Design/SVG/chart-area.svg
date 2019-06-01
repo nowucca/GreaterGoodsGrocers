@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>chart-area</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M21.53125,17 C21.7890625,17 22.0000001,17.2109375 22.0000001,17.46875 L22.0000001,19.03125 C22.0000001,19.2890625 21.7890625,19.5 21.53125,19.5 L2.46874995,19.5 C2.21093745,19.5 1.99999995,19.2890625 1.99999995,19.03125 L1.99999995,4.96874996 C1.99999995,4.71093746 2.21093745,4.49999996 2.46874995,4.49999996 L4.03124996,4.49999996 C4.28906246,4.49999996 4.49999996,4.71093746 4.49999996,4.96874996 L4.49999996,17 L21.53125,17 Z M16.5585938,8.23046873 L13.25,10.4375 L9.91796874,5.99609372 C9.71874999,5.73046872 9.31249999,5.74999997 9.14062499,6.03515622 L5.74999997,11.6875 L5.74999997,15.75 L20.75,15.75 L17.2382813,8.41406248 C17.1132813,8.16015623 16.7929688,8.07421873 16.5585938,8.23046873 Z" id="path-1"></path>
+    </defs>
+    <g id="chart-area" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

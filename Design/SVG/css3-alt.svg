@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>css3-alt</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4.49999996,3.24999996 L5.86328122,18.7109375 L12,20.75 L18.1367188,18.7109375 L19.5,3.24999996 L4.49999996,3.24999996 Z M16.7304688,6.37499997 L16.5429688,8.22265623 L12.0390625,10.1484375 L12.0273438,10.1523437 L16.3828125,10.1523437 L15.8828125,15.8789063 L12.046875,17 L8.18749998,15.859375 L7.93749998,12.9726563 L9.84765624,12.9726563 L9.97265624,14.46875 L12.0273438,14.9882813 L14.1640625,14.3867188 L14.3085938,11.9804687 L7.81249998,11.9609375 L7.81249998,11.9570312 L7.80468748,11.9609375 L7.66406248,10.1523437 L12.0429688,8.32812498 L12.296875,8.22265623 L7.49609373,8.22265623 L7.26953123,6.37499997 L16.7304688,6.37499997 Z" id="path-1"></path>
+    </defs>
+    <g id="css3-alt" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

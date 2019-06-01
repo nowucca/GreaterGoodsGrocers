@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook-f</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M9.83984374,22.0000001 L9.83984374,13.0546875 L6.84374997,13.0546875 L6.84374997,9.49999999 L9.83984374,9.49999999 L9.83984374,6.69921872 C9.83984374,3.65624996 11.6992187,1.99999995 14.4140625,1.99999995 C15.7148438,1.99999995 16.8320313,2.0976562 17.15625,2.14062495 L17.15625,5.32031247 L15.2734375,5.32031247 C13.796875,5.32031247 13.5117188,6.02343747 13.5117188,7.05078123 L13.5117188,9.49999999 L16.84375,9.49999999 L16.3867188,13.0546875 L13.5117188,13.0546875 L13.5117188,22.0000001" id="path-1"></path>
+    </defs>
+    <g id="facebook-f" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

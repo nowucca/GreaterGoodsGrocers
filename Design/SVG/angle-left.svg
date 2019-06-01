@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>angle-left</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8.23828123,11.3359375 L13.5507813,6.02343747 C13.9179688,5.65624997 14.5117188,5.65624997 14.875,6.02343747 L15.7578125,6.90624997 C16.125,7.27343748 16.125,7.86718748 15.7578125,8.23046873 L11.9960937,12 L15.7617188,15.765625 C16.1289063,16.1328125 16.1289063,16.7265625 15.7617188,17.0898438 L14.8789063,17.9765625 C14.5117188,18.34375 13.9179688,18.34375 13.5546875,17.9765625 L8.24218748,12.6640625 C7.87109373,12.296875 7.87109373,11.703125 8.23828123,11.3359375 Z" id="path-1"></path>
+    </defs>
+    <g id="angle-left" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

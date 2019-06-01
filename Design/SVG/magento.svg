@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>magento</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20.6432749,6.98635475 L20.6432749,16.9707603 L18.17154,18.3937622 L18.17154,8.42105261 L11.9922027,4.8499025 L5.80896683,8.42105261 L5.82456137,18.3976609 L3.3567251,16.9707603 L3.3567251,6.99415202 L12.0077973,1.99999995 L20.6432749,6.98635475 Z M13.2319688,18.3937622 L12,19.1111111 L10.7602339,18.4015595 L10.7602339,8.42105261 L8.29239764,9.84795321 L8.29629628,19.8245614 L11.9961014,21.9649123 L15.7037037,19.8245614 L15.7037037,9.84405457 L13.2319688,8.41715398 L13.2319688,18.3937622 Z" id="path-1"></path>
+    </defs>
+    <g id="magento" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>yandex</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12.9804688,14.3359375 L9.56640624,22.0000001 L7.07812498,22.0000001 L10.828125,13.8046875 C9.06640624,12.9101563 7.89062498,11.2890625 7.89062498,8.29296873 C7.88671873,4.09765621 10.546875,1.99999995 13.7070313,1.99999995 L16.921875,1.99999995 L16.921875,22.0000001 L14.7695313,22.0000001 L14.7695313,14.3359375 L12.9804688,14.3359375 Z M14.7695313,3.81640621 L13.6210938,3.81640621 C11.8867187,3.81640621 10.2070312,4.96484371 10.2070312,8.29296873 C10.2070312,11.5078125 11.7460937,12.5429688 13.6210938,12.5429688 L14.7695313,12.5429688 L14.7695313,3.81640621 Z" id="path-1"></path>
+    </defs>
+    <g id="yandex" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

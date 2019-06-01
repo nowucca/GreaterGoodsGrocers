@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>toggle-on</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M22.0000001,12 C22.0000001,15.6819097 19.0152431,18.6666667 15.3333334,18.6666667 L8.66666665,18.6666667 C4.98475691,18.6666667 1.99999995,15.6819097 1.99999995,12 C1.99999995,8.31809026 4.98475691,5.3333333 8.66666665,5.3333333 L15.3333334,5.3333333 C19.0152431,5.3333333 22.0000001,8.31809026 22.0000001,12 Z M15.3333334,7.55555553 C12.8770486,7.55555553 10.8888889,9.54336804 10.8888889,12 C10.8888889,14.4562847 12.8767014,16.4444445 15.3333334,16.4444445 C17.7896181,16.4444445 19.7777778,14.456632 19.7777778,12 C19.7777778,9.54371527 17.7899653,7.55555553 15.3333334,7.55555553 Z" id="path-1"></path>
+    </defs>
+    <g id="toggle-on" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

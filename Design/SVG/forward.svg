@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>forward</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M21.5507813,11.0390625 L14.0507813,4.78906246 C13.2460938,4.12109371 12,4.67968746 12,5.74999997 L12,18.25 C12,19.3203125 13.2460938,19.8828125 14.0507813,19.2109375 L21.5507813,12.9609375 C22.1484376,12.4609375 22.1484376,11.5390625 21.5507813,11.0390625 Z M11.5507812,11.0390625 L4.05078121,4.78906246 C3.24609371,4.12109371 1.99999995,4.67968746 1.99999995,5.74999997 L1.99999995,18.25 C1.99999995,19.3203125 3.24609371,19.8828125 4.05078121,19.2109375 L11.5507812,12.9609375 C12.1484375,12.4609375 12.1484375,11.5390625 11.5507812,11.0390625 Z" id="path-1"></path>
+    </defs>
+    <g id="forward" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

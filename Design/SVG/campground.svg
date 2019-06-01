@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>campground</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M21.5,18 L20.72875,18 L13.235625,7.67968748 L14.9046875,5.38124997 C15.066875,5.15781247 15.0175,4.84499996 14.7940625,4.68281246 L13.9846875,4.09562496 C13.76125,3.93343746 13.44875,3.98281246 13.28625,4.20656246 L12,5.97812497 L10.7134375,4.20624996 C10.55125,3.98281246 10.2384375,3.93312496 10.015,4.09531246 L9.20624999,4.68281246 C8.98281248,4.84499996 8.93312498,5.15781247 9.09562499,5.38124997 L10.7646875,7.67968748 L3.27124996,18 L2.49999995,18 C2.22374995,18 1.99999995,18.22375 1.99999995,18.5 L1.99999995,19.5 C1.99999995,19.77625 2.22374995,20 2.49999995,20 L21.5,20 C21.77625,20 22.0000001,19.77625 22.0000001,19.5 L22.0000001,18.5 C22.0000001,18.22375 21.77625,18 21.5,18 Z M12,13 L15.63625,18 L8.36374998,18 L12,13 Z" id="path-1"></path>
+    </defs>
+    <g id="campground" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

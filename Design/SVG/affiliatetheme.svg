@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>affiliatetheme</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8.23828123,11.2734375 C6.23437497,14.0429688 3.68359371,15.6015625 2.54687495,14.7578125 C1.40624995,13.9101563 2.10937495,10.984375 4.11718746,8.21484373 C6.12109372,5.44531247 8.67187498,3.88671871 9.80859374,4.73046871 C10.9453125,5.57421872 10.2421875,8.50390623 8.23828123,11.2734375 Z M21.9570313,9.03515624 C19.0742188,13.8554688 14.4609375,16.3671875 11.625,14.6445313 C10.6484375,14.0507813 10.0117187,13.0351563 9.71093749,11.7617187 C8.39843748,14.2929688 6.08593747,16.2070313 3.30078121,16.9648438 C5.24609372,19.28125 8.14843748,20.75 11.3867187,20.75 C17.2460938,20.75 21.9960938,15.9414063 21.9960938,10.0117187 C22.0000001,9.67968749 21.984375,9.35546874 21.9570313,9.03515624 Z" id="path-1"></path>
+    </defs>
+    <g id="affiliatetheme" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

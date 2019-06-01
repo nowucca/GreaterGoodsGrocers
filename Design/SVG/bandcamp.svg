@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>bandcamp</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,2.31249995 C6.64843747,2.31249995 2.31249995,6.64843747 2.31249995,12 C2.31249995,17.3515625 6.64843747,21.6875 12,21.6875 C17.3515625,21.6875 21.6875,17.3515625 21.6875,12 C21.6875,6.64843747 17.3515625,2.31249995 12,2.31249995 Z M13.8828125,15.0507813 L6.81249997,15.0507813 L10.1210937,8.95312498 L17.1914063,8.95312498 L13.8828125,15.0507813 Z" id="path-1"></path>
+    </defs>
+    <g id="bandcamp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

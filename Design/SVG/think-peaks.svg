@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>think-peaks</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10.9132075,2.33962259 L18.6943397,15.6943396 L20.7735849,12.109434 L21.9811321,12.1207547 L18.6943397,17.7886793 L10.9132075,4.43773581 L3.20754713,17.7245283 L1.99999995,17.7132076 L10.9132075,2.33962259 Z M19.8301887,21.6603774 L10.9320755,6.3924528 L5.28679242,16.1245283 L6.49811318,16.1245283 L10.9283019,8.48301885 L18.6037736,21.6566038 L19.8301887,21.6603774 Z" id="path-1"></path>
+    </defs>
+    <g id="think-peaks" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

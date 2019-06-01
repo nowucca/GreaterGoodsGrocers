@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>screwdriver</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M19.5,1.99999995 L14.5,5.74999997 L14.5,8.17421873 L11.2566406,11.4175781 C11.521875,11.5835937 11.775,11.7714844 12.0015625,11.9984375 C12.228125,12.225 12.4164063,12.478125 12.5824219,12.7433594 L15.8257813,9.49999999 L18.25,9.49999999 L22,4.49999996 L19.5,1.99999995 Z M6.99999997,12.8824219 L2.42656245,17.4558594 C1.85820307,18.0242188 1.85820307,18.9460938 2.42656245,19.5148438 L4.48515621,21.5734375 C5.05390622,22.1421876 5.97539059,22.1421876 6.5441406,21.5734375 L11.1175781,17 C12.2546875,15.8628906 12.2546875,14.0195313 11.1175781,12.8824219 C9.98046874,11.7453125 8.13710936,11.7453125 6.99999997,12.8824219 Z" id="path-1"></path>
+    </defs>
+    <g id="screwdriver" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

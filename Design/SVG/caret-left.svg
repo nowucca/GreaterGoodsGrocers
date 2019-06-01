@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>caret-left</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.75,6.9741406 L15.75,17.0258594 C15.75,17.721875 14.9084766,18.0704297 14.4163281,17.5782813 L9.39046874,12.5524219 C9.08539061,12.2473438 9.08539061,11.7526562 9.39046874,11.4475781 L14.4163281,6.42171872 C14.9084766,5.92953122 15.75,6.27812497 15.75,6.9741406 Z" id="path-1"></path>
+    </defs>
+    <g id="caret-left" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

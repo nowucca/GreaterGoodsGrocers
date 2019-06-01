@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>industry</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20.5591797,8.39769529 L15.125,11.8558203 L15.125,9.1886328 C15.125,8.44972654 14.3073828,8.00117186 13.6841797,8.39769529 L8.24999998,11.8558203 L8.24999998,4.18749996 C8.24999998,3.66972652 7.83027342,3.24999996 7.31249998,3.24999996 L2.93749995,3.24999996 C2.41972651,3.24999996 1.99999995,3.66972652 1.99999995,4.18749996 L1.99999995,19.8125 C1.99999995,20.3302735 2.41972651,20.75 2.93749995,20.75 L21.0625,20.75 C21.5802735,20.75 22.0000001,20.3302735 22.0000001,19.8125 L22.0000001,9.1886328 C22.0000001,8.44968748 21.1823829,8.00117186 20.5591797,8.39769529 Z" id="path-1"></path>
+    </defs>
+    <g id="industry" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

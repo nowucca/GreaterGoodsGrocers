@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>angular</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10.5039062,12.4726563 L13.4804688,12.4726563 L11.9921875,8.89453123 L10.5039062,12.4726563 Z M11.9921875,3.24999996 L3.87499996,6.15624997 L5.11718747,16.9257813 L11.9921875,20.75 L18.8671875,16.9257813 L20.109375,6.15624997 L11.9921875,3.24999996 Z M17.078125,16.6015625 L15.1796875,16.6015625 L14.15625,14.046875 L9.83593749,14.046875 L8.81249998,16.6015625 L6.91015622,16.6015625 L11.9921875,5.18359372 L17.078125,16.6015625 Z" id="path-1"></path>
+    </defs>
+    <g id="angular" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

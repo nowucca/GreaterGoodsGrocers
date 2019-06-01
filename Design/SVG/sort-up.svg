@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>sort-up</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M16.6484375,10.75 L7.35156248,10.75 C6.51562497,10.75 6.09765622,9.73828124 6.68749997,9.14843749 L11.3359375,4.49999996 C11.703125,4.13281246 12.296875,4.13281246 12.6601563,4.49999996 L17.3085938,9.14843749 C17.9023438,9.73828124 17.484375,10.75 16.6484375,10.75 Z" id="path-1"></path>
+    </defs>
+    <g id="sort-up" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

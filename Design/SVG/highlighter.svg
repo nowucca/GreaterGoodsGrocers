@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>highlighter</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1.99999995,20.2377982 L5.66678896,21.4128441 L6.9677064,20.1119266 L4.5075229,17.6517431 L1.99999995,20.2377982 Z M6.57284401,11.4300917 C6.1783011,11.7783024 6.02351028,12.3248761 6.1768807,12.8282569 L6.65577979,14.4 L4.78678895,16.2693578 L8.31816512,19.800734 L10.1845871,17.934312 L11.7530275,18.414312 C12.2568807,18.5684404 12.8044037,18.413945 13.1530275,18.0187156 L14.4576147,16.4906422 L8.09651374,10.1295413 L6.57284401,11.4300917 Z M21.3732111,5.532844 L19.053945,3.21357794 C18.3020184,2.46165133 17.0950459,2.42385316 16.2972477,3.12733941 L8.99266054,9.36440366 L15.2227523,15.5948624 L21.4594496,8.28990824 C22.1633028,7.49211007 22.1255046,6.28513759 21.3732111,5.532844 Z" id="path-1"></path>
+    </defs>
+    <g id="highlighter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

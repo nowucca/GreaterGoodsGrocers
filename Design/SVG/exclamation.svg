@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>exclamation</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.125,18.875 C15.125,20.598125 13.723125,22.0000001 12,22.0000001 C10.276875,22.0000001 8.87499998,20.598125 8.87499998,18.875 C8.87499998,17.151875 10.276875,15.75 12,15.75 C13.723125,15.75 15.125,17.151875 15.125,18.875 Z M9.23671874,2.98433589 L9.76796874,13.6093359 C9.79292968,14.1082813 10.2047266,14.5 10.7042969,14.5 L13.2957031,14.5 C13.7952734,14.5 14.2070703,14.1082813 14.2320313,13.6093359 L14.7632813,2.98433589 C14.7900391,2.44882808 14.363125,1.99999995 13.8269531,1.99999995 L10.1730469,1.99999995 C9.63687499,1.99999995 9.20996092,2.44882808 9.23671874,2.98433589 Z" id="path-1"></path>
+    </defs>
+    <g id="exclamation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

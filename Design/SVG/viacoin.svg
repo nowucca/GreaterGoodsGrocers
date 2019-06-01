@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>viacoin</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M19.5,3.24999996 L17,3.24999996 L13.8476563,10.75 L10.15625,10.75 L6.99999997,3.24999996 L4.49999996,3.24999996 L6.37499997,7.62499998 L4.49999996,7.62499998 L4.49999996,9.49999999 L7.17578123,9.49999999 L7.71484373,10.75 L4.49999996,10.75 L4.49999996,12.625 L8.51562498,12.625 L12,20.75 L15.484375,12.625 L19.5,12.625 L19.5,10.75 L16.2851563,10.75 L16.8242188,9.49999999 L19.5,9.49999999 L19.5,7.62499998 L17.625,7.62499998 L19.5,3.24999996 Z M12,15.125 L10.9453125,12.625 L13.0546875,12.625 L12,15.125 Z" id="path-1"></path>
+    </defs>
+    <g id="viacoin" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

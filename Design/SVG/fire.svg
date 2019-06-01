@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>fire</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12.9375,2.93195308 C12.9375,2.00218745 11.7401172,1.65207026 11.2129297,2.4226562 C6.37499997,9.49417967 13.25,9.81249999 13.25,13.25 C13.25,14.6417578 12.1127344,15.7678906 10.7167969,15.7497656 C9.34296874,15.7319531 8.24999998,14.5867188 8.24999998,13.2127344 L8.24999998,9.87249999 C8.24999998,9.02472655 7.21597654,8.61371092 6.63156247,9.22781249 C5.58597653,10.3264844 4.49999996,12.2082813 4.49999996,14.5 C4.49999996,18.6355078 7.86449217,22 12,22 C16.1355078,22 19.5,18.6355078 19.5,14.5 C19.5,7.84804685 12.9375,6.96082029 12.9375,2.93195308 Z" id="path-1"></path>
+    </defs>
+    <g id="fire" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

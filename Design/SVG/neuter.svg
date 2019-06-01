@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>neuter</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M17.625,8.87499998 C17.625,5.76953122 15.1054688,3.24999996 12,3.24999996 C8.89453123,3.24999996 6.37499997,5.76953122 6.37499997,8.87499998 C6.37499997,11.5507812 8.24609373,13.7929688 10.75,14.359375 L10.75,20.28125 C10.75,20.5390625 10.9609375,20.75 11.21875,20.75 L12.78125,20.75 C13.0390625,20.75 13.25,20.5390625 13.25,20.28125 L13.25,14.359375 C15.7539063,13.7929688 17.625,11.5507812 17.625,8.87499998 Z M12,12 C10.2773437,12 8.87499998,10.5976562 8.87499998,8.87499998 C8.87499998,7.15234373 10.2773437,5.74999997 12,5.74999997 C13.7226563,5.74999997 15.125,7.15234373 15.125,8.87499998 C15.125,10.5976562 13.7226563,12 12,12 Z" id="path-1"></path>
+    </defs>
+    <g id="neuter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>chevron-circle-left</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,21.6875 C6.64843747,21.6875 2.31249995,17.3515625 2.31249995,12 C2.31249995,6.64843747 6.64843747,2.31249995 12,2.31249995 C17.3515625,2.31249995 21.6875,6.64843747 21.6875,12 C21.6875,17.3515625 17.3515625,21.6875 12,21.6875 Z M7.55078123,12.6640625 L12.84375,17.9570313 C13.2109375,18.3242188 13.8046875,18.3242188 14.1679688,17.9570313 L14.8320313,17.2929688 C15.1992188,16.9257813 15.1992188,16.3320313 14.8320313,15.96875 L10.8632812,12 L14.8320313,8.03124998 C15.1992188,7.66406248 15.1992188,7.07031248 14.8320313,6.70703122 L14.1679688,6.04296872 C13.8007813,5.67578122 13.2070313,5.67578122 12.84375,6.04296872 L7.55078123,11.3359375 C7.18359373,11.703125 7.18359373,12.296875 7.55078123,12.6640625 Z" id="path-1"></path>
+    </defs>
+    <g id="chevron-circle-left" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

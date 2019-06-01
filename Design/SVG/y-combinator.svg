@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>y-combinator</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20.75,3.24999996 L20.75,20.75 L3.24999996,20.75 L3.24999996,3.24999996 L20.75,3.24999996 Z M12.46875,13.2304688 L15.4960938,7.54687498 L14.21875,7.54687498 L12.4296875,11.1015625 C12.2460938,11.4648437 12.078125,11.8164062 11.9296875,12.1484375 L11.453125,11.1015625 L9.68749999,7.54687498 L8.32031248,7.54687498 L11.3164062,13.1640625 L11.3164062,16.8554688 L12.46875,16.8554688 L12.46875,13.2304688 Z" id="path-1"></path>
+    </defs>
+    <g id="y-combinator" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

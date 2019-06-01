@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>bitbucket</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M2.9023437,3.24999996 C2.55468745,3.24609371 2.27343745,3.51953121 2.2695312,3.86718746 C2.2695312,3.90234371 2.27343745,3.93749996 2.2773437,3.97656246 L4.92578121,20.046875 C4.99218746,20.453125 5.34374997,20.75 5.75390622,20.7539063 L18.453125,20.7539063 C18.7617188,20.7578125 19.0273438,20.5351563 19.078125,20.2304688 L21.7265625,3.98046871 C21.78125,3.64062496 21.5507813,3.32031246 21.2109375,3.26562496 C21.1757813,3.26171871 21.140625,3.25781246 21.1015625,3.25781246 L2.9023437,3.24999996 Z M14.046875,14.8632813 L9.99218749,14.8632813 L8.89453123,9.12890624 L15.0273438,9.12890624 L14.046875,14.8632813 Z" id="path-1"></path>
+    </defs>
+    <g id="bitbucket" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

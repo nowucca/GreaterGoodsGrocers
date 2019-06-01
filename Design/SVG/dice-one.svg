@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>dice-one</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18.25,3.24999996 L5.74999997,3.24999996 C4.36914059,3.24999996 3.24999996,4.36914059 3.24999996,5.74999997 L3.24999996,18.25 C3.24999996,19.6308594 4.36914059,20.75 5.74999997,20.75 L18.25,20.75 C19.6308594,20.75 20.75,19.6308594 20.75,18.25 L20.75,5.74999997 C20.75,4.36914059 19.6308594,3.24999996 18.25,3.24999996 Z M12,13.25 C11.3097656,13.25 10.75,12.6902344 10.75,12 C10.75,11.3097656 11.3097656,10.75 12,10.75 C12.6902344,10.75 13.25,11.3097656 13.25,12 C13.25,12.6902344 12.6902344,13.25 12,13.25 Z" id="path-1"></path>
+    </defs>
+    <g id="dice-one" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

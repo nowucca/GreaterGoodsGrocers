@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>dochub</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M19.4179688,8.24999998 L13.875,8.24999998 L13.875,2.76562495 L19.4179688,8.24999998 Z M15.75,9.49999999 L15.75,14.578125 C15.75,17.1875 14.3242188,18.4882813 11.3242187,18.4882813 L7.62499998,18.4882813 L7.62499998,5.31249997 L11.3242187,5.31249997 C11.7929687,5.31249997 12.2265625,5.34374997 12.6171875,5.41015622 L12.6171875,2.1289062 C12.1914063,2.0429687 11.7421875,1.99999995 11.265625,1.99999995 L3.87499996,1.99999995 L3.87499996,22.0000001 L11.265625,22.0000001 C16.7539063,22.0000001 19.5,19.4765625 19.5,14.4257813 L19.5,9.49999999 L15.75,9.49999999 Z" id="path-1"></path>
+    </defs>
+    <g id="dochub" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

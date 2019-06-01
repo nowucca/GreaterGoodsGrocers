@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>microsoft</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.24999996,3.24999996 L11.6328125,3.24999996 L11.6328125,11.6328125 L3.24999996,11.6328125 L3.24999996,3.24999996 Z M12.3671875,3.24999996 L20.75,3.24999996 L20.75,11.6328125 L12.3671875,11.6328125 L12.3671875,3.24999996 Z M3.24999996,12.3671875 L11.6328125,12.3671875 L11.6328125,20.75 L3.24999996,20.75 L3.24999996,12.3671875 Z M12.3671875,12.3671875 L20.75,12.3671875 L20.75,20.75 L12.3671875,20.75 L12.3671875,12.3671875 Z" id="path-1"></path>
+    </defs>
+    <g id="microsoft" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

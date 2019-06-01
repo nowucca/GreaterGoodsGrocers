@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>video</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M13.6736111,5.3333333 L3.65972218,5.3333333 C2.74305551,5.3333333 1.99999995,6.07638886 1.99999995,6.99305553 L1.99999995,17.0069445 C1.99999995,17.9236111 2.74305551,18.6666667 3.65972218,18.6666667 L13.6736111,18.6666667 C14.5902778,18.6666667 15.3333334,17.9236111 15.3333334,17.0069445 L15.3333334,6.99305553 C15.3333334,6.07638886 14.5902778,5.3333333 13.6736111,5.3333333 Z M20.25,6.64236108 L16.4444445,9.2673611 L16.4444445,14.7326389 L20.25,17.3541667 C20.9861112,17.8611111 22.0000001,17.34375 22.0000001,16.4583334 L22.0000001,7.53819442 C22.0000001,6.65624997 20.9895834,6.13541664 20.25,6.64236108 Z" id="path-1"></path>
+    </defs>
+    <g id="video" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

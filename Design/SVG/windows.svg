@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>windows</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.24999996,5.66015622 L10.421875,4.67187496 L10.421875,11.6015625 L3.24999996,11.6015625 L3.24999996,5.66015622 Z M3.24999996,18.3398438 L10.421875,19.328125 L10.421875,12.484375 L3.24999996,12.484375 L3.24999996,18.3398438 Z M11.2109375,19.4335938 L20.75,20.75 L20.75,12.484375 L11.2109375,12.484375 L11.2109375,19.4335938 Z M11.2109375,4.56640621 L11.2109375,11.6015625 L20.75,11.6015625 L20.75,3.24999996 L11.2109375,4.56640621 Z" id="path-1"></path>
+    </defs>
+    <g id="windows" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

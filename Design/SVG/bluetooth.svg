@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>bluetooth</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M14.6796875,8.68359373 L13.0039063,10.359375 L12.9921875,6.99999997 L14.6796875,8.68359373 Z M12.9921875,17.2695313 L14.6757813,15.5859375 L13,13.9101563 L12.9921875,17.2695313 Z M19.5,12.1328125 C19.5,20.1640625 16.6914063,22.0000001 12.2695313,22.0000001 C7.84765623,22.0000001 4.49999996,20.1640625 4.49999996,12.1328125 C4.49999996,4.10156246 7.75781248,1.99999995 12.1796875,1.99999995 C16.6015625,1.99999995 19.5,4.10546871 19.5,12.1328125 Z M13.3085938,12.1328125 L16.4101563,8.67187498 L11.5234375,3.42578121 L11.5234375,10.3359375 L8.64062498,7.45312498 L7.58593748,8.50390623 L11.2070312,12.1367188 L7.58593748,15.7695313 L8.63671873,16.8203125 L11.5195312,13.9375 L11.609375,20.578125 L16.5859375,15.5976563 L13.3085938,12.1328125 Z" id="path-1"></path>
+    </defs>
+    <g id="bluetooth" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>hacker-news</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.24999996,3.24999996 L3.24999996,20.75 L20.75,20.75 L20.75,3.24999996 L3.24999996,3.24999996 Z M4.11164059,10.9957812 L4.09164059,10.9957812 C4.10164059,10.9857812 4.11164059,10.9657812 4.12164059,10.9557812 C4.12164059,10.9657812 4.12164059,10.9857812 4.11164059,10.9957812 Z M12.59375,13.0585938 L12.59375,17 L11.3671875,17 L11.3671875,12.9882813 L8.24999998,6.99999997 L9.70703124,6.99999997 C11.7578125,10.8398437 11.6289062,10.953125 12.0234375,11.90625 C12.5039063,10.8515625 12.25,10.953125 14.390625,6.99999997 L15.75,6.99999997 L12.59375,13.0585938 Z" id="path-1"></path>
+    </defs>
+    <g id="hacker-news" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

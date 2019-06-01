@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>google</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M21.53125,12.2265625 C21.53125,17.7539063 17.7460938,21.6875 12.15625,21.6875 C6.79687497,21.6875 2.46874995,17.359375 2.46874995,12 C2.46874995,6.64062497 6.79687497,2.31249995 12.15625,2.31249995 C14.765625,2.31249995 16.9609375,3.26953121 18.6523438,4.84765621 L16.015625,7.38281248 C12.5664063,4.05468746 6.15234372,6.55468747 6.15234372,12 C6.15234372,15.3789063 8.85156248,18.1171875 12.15625,18.1171875 C15.9921875,18.1171875 17.4296875,15.3671875 17.65625,13.9414063 L12.15625,13.9414063 L12.15625,10.609375 L21.3789063,10.609375 C21.46875,11.1054687 21.53125,11.5820312 21.53125,12.2265625 Z" id="path-1"></path>
+    </defs>
+    <g id="google" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

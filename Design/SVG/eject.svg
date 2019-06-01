@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>eject</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20.75,17 L20.75,19.5 C20.75,20.1903516 20.1903516,20.75 19.5,20.75 L4.49999996,20.75 C3.8096484,20.75 3.24999996,20.1903516 3.24999996,19.5 L3.24999996,17 C3.24999996,16.3096485 3.8096484,15.75 4.49999996,15.75 L19.5,15.75 C20.1903516,15.75 20.75,16.3096485 20.75,17 Z M5.12707028,14.5 L18.8726172,14.5 C20.4996094,14.5 21.35625,12.5596094 20.2547657,11.3580078 L13.3821484,3.85773433 C12.6394141,3.04746089 11.360625,3.04742183 10.6178125,3.85773433 L3.74492183,11.3580078 C2.64550777,12.5573438 3.49703121,14.5 5.12707028,14.5 Z" id="path-1"></path>
+    </defs>
+    <g id="eject" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

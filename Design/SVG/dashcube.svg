@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>dashcube</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M16.0078125,6.06249997 L7.56249998,6.06249997 C5.56640622,6.06249997 3.99999996,7.75390623 3.99999996,9.71484374 L3.99999996,18.6796875 C3.99999996,20.6523438 5.56640622,22.0000001 7.56249998,22.0000001 L16.4375,22.0000001 C18.4335938,22.0000001 20,20.6523438 20,18.6796875 L20,1.99999995 L16.0078125,6.06249997 Z M9.26171874,18.2695313 C8.57031248,18.2695313 7.99609373,17.6796875 7.99609373,16.9882813 L7.99609373,11.40625 C7.99609373,10.7148437 8.57031248,10.1367187 9.26171874,10.1367187 L14.7578125,10.1367187 C15.4492188,10.1367187 16.0078125,10.7148437 16.0078125,11.40625 L16.0078125,16.2304688 L18.0039063,18.2734375 L9.26171874,18.2734375 L9.26171874,18.2695313 Z" id="path-1"></path>
+    </defs>
+    <g id="dashcube" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>adn</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,8.54296873 L14.5351563,12.4023438 L9.46484374,12.4023438 L12,8.54296873 Z M21.6875,12 C21.6875,17.3476563 17.3476563,21.6875 12,21.6875 C6.65234372,21.6875 2.31249995,17.3476563 2.31249995,12 C2.31249995,6.65234372 6.65234372,2.31249995 12,2.31249995 C17.3476563,2.31249995 21.6875,6.65234372 21.6875,12 Z M17.7890625,15.2304688 L12,6.51171872 L6.21093747,15.2304688 L7.39843748,15.2304688 L8.71093748,13.2109375 L15.296875,13.2109375 L16.609375,15.2304688 L17.7890625,15.2304688 Z" id="path-1"></path>
+    </defs>
+    <g id="adn" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

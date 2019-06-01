@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>dyalog</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.87499996,3.24999996 L3.87499996,7.90624998 L6.37499997,7.90624998 L6.37499997,5.74999997 L10.5625,5.74999997 C14.9921875,5.74999997 17.625,8.88281248 17.625,11.9960937 C17.625,14.96875 15.3359375,18.25 10.5625,18.25 L3.87499996,18.25 L3.87499996,20.75 L10.5625,20.75 C16.8398438,20.75 20.125,16.3476563 20.125,11.9960937 C20.125,9.70312499 19.2617188,7.56640623 17.6914063,5.96874997 C15.9414063,4.18749996 13.4726563,3.24999996 10.5625,3.24999996 L3.87499996,3.24999996 Z" id="path-1"></path>
+    </defs>
+    <g id="dyalog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

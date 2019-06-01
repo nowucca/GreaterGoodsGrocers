@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>telegram-plane</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20.6992188,5.85156247 L18.0585938,18.3046875 C17.859375,19.1835938 17.3398438,19.4023438 16.6015625,18.9882813 L12.578125,16.0234375 L10.6367187,17.890625 C10.421875,18.1054688 10.2421875,18.2851563 9.82812499,18.2851563 L10.1171875,14.1875 L17.5742188,7.44921873 C17.8984375,7.16015623 17.5039063,6.99999997 17.0703125,7.28906248 L7.85156248,13.09375 L3.88281246,11.8515625 C3.01953121,11.5820312 3.00390621,10.9882812 4.06249996,10.5742187 L19.5859375,4.59374996 C20.3046875,4.32421871 20.9335938,4.75390621 20.6992188,5.85156247 Z" id="path-1"></path>
+    </defs>
+    <g id="telegram-plane" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

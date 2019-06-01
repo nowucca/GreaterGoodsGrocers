@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>level-up-alt</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M17.9981641,6.67457029 L13.9369922,2.29945308 C13.5664844,1.9004687 12.9340234,1.89988276 12.5630078,2.29945308 L8.50148436,6.67457029 C7.94656248,7.27222654 8.36960936,8.24999998 9.18847655,8.24999998 L11.6875,8.24999998 L11.6875,18.875 L8.40718748,18.875 C8.28286607,18.8749887 8.16363563,18.9243812 8.07574217,19.0123047 L5.88824216,21.1998047 C5.59292966,21.4950782 5.80207028,22.0000001 6.21968747,22.0000001 L13.875,22.0000001 C14.3927734,22.0000001 14.8125,21.5802735 14.8125,21.0625 L14.8125,8.24999998 L17.3111719,8.24999998 C18.1267188,8.24999998 18.5553516,7.27464841 17.9981641,6.67457029 Z" id="path-1"></path>
+    </defs>
+    <g id="level-up-alt" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

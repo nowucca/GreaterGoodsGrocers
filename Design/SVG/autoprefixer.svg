@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>autoprefixer</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M11.95,4.49999996 L6.91874997,19.5 L9.34062499,19.5 L10.134375,16.95625 L13.86875,16.95625 L14.65625,19.5 L17.078125,19.5 L11.95,4.49999996 Z M10.690625,15.184375 L11.978125,11.109375 L12.025,11.109375 L13.303125,15.184375 L10.690625,15.184375 Z M22.0000001,16.65625 L21.6875,15.675 L16.440625,15.1875 L17.046875,16.953125 L22.0000001,16.65625 Z M7.55937498,15.1875 L2.31249995,15.678125 L1.99999995,16.65625 L6.95312497,16.95 L7.55937498,15.1875 Z" id="path-1"></path>
+    </defs>
+    <g id="autoprefixer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

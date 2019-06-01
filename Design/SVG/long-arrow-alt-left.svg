@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>long-arrow-alt-left</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8.48667967,13.5625 L20.28125,13.5625 C20.5401172,13.5625 20.75,13.3526172 20.75,13.09375 L20.75,10.90625 C20.75,10.6473828 20.5401172,10.4375 20.28125,10.4375 L8.48667967,10.4375 L8.48667967,8.6383203 C8.48667967,7.80308592 7.47687498,7.38480466 6.88624997,7.9753906 L3.52457027,11.3370703 C3.15843746,11.7032031 3.15843746,12.2967969 3.52457027,12.6628906 L6.88624997,16.0245703 C7.47683591,16.6151563 8.48667967,16.196875 8.48667967,15.3616406 L8.48667967,13.5625 Z" id="path-1"></path>
+    </defs>
+    <g id="long-arrow-alt-left" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

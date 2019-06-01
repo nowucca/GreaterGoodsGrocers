@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>qrcode</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.24999996,10.75 L10.75,10.75 L10.75,3.24999996 L3.24999996,3.24999996 L3.24999996,10.75 Z M5.74999997,5.74999997 L8.24999998,5.74999997 L8.24999998,8.24999998 L5.74999997,8.24999998 L5.74999997,5.74999997 Z M13.25,3.24999996 L13.25,10.75 L20.75,10.75 L20.75,3.24999996 L13.25,3.24999996 Z M18.25,8.24999998 L15.75,8.24999998 L15.75,5.74999997 L18.25,5.74999997 L18.25,8.24999998 Z M3.24999996,20.75 L10.75,20.75 L10.75,13.25 L3.24999996,13.25 L3.24999996,20.75 Z M5.74999997,15.75 L8.24999998,15.75 L8.24999998,18.25 L5.74999997,18.25 L5.74999997,15.75 Z M19.5,13.25 L20.75,13.25 L20.75,18.25 L17,18.25 L17,17 L15.75,17 L15.75,20.75 L13.25,20.75 L13.25,13.25 L17,13.25 L17,14.5 L19.5,14.5 L19.5,13.25 Z M19.5,19.5 L20.75,19.5 L20.75,20.75 L19.5,20.75 L19.5,19.5 Z M17,19.5 L18.25,19.5 L18.25,20.75 L17,20.75 L17,19.5 Z" id="path-1"></path>
+    </defs>
+    <g id="qrcode" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

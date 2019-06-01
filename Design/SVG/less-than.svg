@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>less-than</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18.75625,15.9742188 L10.2242187,11.9957031 L18.7582032,8.01601561 C19.3839844,7.72421873 19.6546875,6.98046872 19.3628907,6.35468747 L18.8347657,5.22187497 C18.5429688,4.59609371 17.7992188,4.32539059 17.1734375,4.61718746 L5.20234372,10.1996094 C4.76212828,10.4049646 4.48065889,10.8466644 4.48046871,11.3324219 L4.48046871,12.6699219 C4.48046871,13.1558594 4.76210934,13.5976563 5.20234372,13.8027344 L17.1675782,19.3820313 C17.7949219,19.6746094 18.540625,19.403125 18.8332032,18.7757813 L19.3628907,17.6398438 C19.6554688,17.0125 19.3839844,16.2667969 18.75625,15.9742188 Z" id="path-1"></path>
+    </defs>
+    <g id="less-than" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

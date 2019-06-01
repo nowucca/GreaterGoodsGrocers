@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>mix</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.24999996,4.49999996 L3.24999996,18.1289063 C3.24999996,20.3242188 6.68749997,20.3984375 6.68749997,18.1289063 L6.68749997,8.80859373 C6.99609372,6.74218747 10.125,6.83984372 10.125,9.06249999 L10.125,15.9101563 C10.125,18.171875 13.875,18.1757813 13.875,15.9101563 L13.875,11.375 C14.0820313,9.23828124 17.3125,9.32421874 17.3125,11.5429687 L17.3125,12.4726563 C17.3125,14.8125 20.75,14.6835938 20.75,12.4726563 L20.75,4.49999996 L3.24999996,4.49999996 Z" id="path-1"></path>
+    </defs>
+    <g id="mix" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

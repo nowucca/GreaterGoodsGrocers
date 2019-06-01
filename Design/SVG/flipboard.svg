@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>flipboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.24999996,3.24999996 L3.24999996,20.75 L20.75,20.75 L20.75,3.24999996 L3.24999996,3.24999996 Z M17.25,10.25 L13.75,10.25 L13.75,13.75 L10.25,13.75 L10.25,17.25 L6.74999997,17.25 L6.74999997,6.74999997 L17.25,6.74999997 L17.25,10.25 Z" id="path-1"></path>
+    </defs>
+    <g id="flipboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

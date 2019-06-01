@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>star-half</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,16.4895834 L7.68402776,18.7604167 L8.50694443,13.9548611 L5.01388885,10.5520833 L9.84027777,9.85069443 L12,5.47569441 L12,3.11111107 C11.6041667,3.11111107 11.2083333,3.31597218 11.0034722,3.72916663 L8.73611109,8.32638887 L3.6631944,9.06249999 C2.75347218,9.19444443 2.38888884,10.3159722 3.04861107,10.9583333 L6.71874997,14.5347222 L5.85069441,19.5868056 C5.69444441,20.4930556 6.64930553,21.1840278 7.46180553,20.7569445 L12,18.375 L12,16.4895834 Z" id="path-1"></path>
+    </defs>
+    <g id="star-half" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>check</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8.79289061,19.1642188 L2.29289058,12.6642188 C1.90238276,12.2737109 1.90238276,11.6405469 2.29289058,11.25 L3.70707027,9.83578124 C4.09757809,9.44523436 4.73078121,9.44523436 5.12128903,9.83578124 L9.49999999,14.2144531 L18.878711,4.83578121 C19.2692188,4.4452734 19.9024219,4.4452734 20.2929297,4.83578121 L21.7071094,6.24999997 C22.0976172,6.64050779 22.0976172,7.27367185 21.7071094,7.66421873 L10.2071094,19.1642578 C9.81656249,19.5547657 9.18339842,19.5547657 8.79289061,19.1642188 Z" id="path-1"></path>
+    </defs>
+    <g id="check" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

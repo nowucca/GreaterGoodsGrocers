@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>genderless</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,8.87499998 C13.7226563,8.87499998 15.125,10.2773437 15.125,12 C15.125,13.7226563 13.7226563,15.125 12,15.125 C10.2773437,15.125 8.87499998,13.7226563 8.87499998,12 C8.87499998,10.2773437 10.2773437,8.87499998 12,8.87499998 Z M12,6.37499997 C8.89453123,6.37499997 6.37499997,8.89453123 6.37499997,12 C6.37499997,15.1054688 8.89453123,17.625 12,17.625 C15.1054688,17.625 17.625,15.1054688 17.625,12 C17.625,8.89453123 15.1054688,6.37499997 12,6.37499997 Z" id="path-1"></path>
+    </defs>
+    <g id="genderless" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

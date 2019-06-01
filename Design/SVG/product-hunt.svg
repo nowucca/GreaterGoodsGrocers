@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>product-hunt</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M14.7460938,10.546875 C14.7460938,11.3476562 14.09375,12 13.2929688,12 L10.546875,12 L10.546875,9.09374999 L13.2929688,9.09374999 C14.09375,9.09374999 14.7460938,9.74609374 14.7460938,10.546875 Z M21.6875,12 C21.6875,17.3515625 17.3515625,21.6875 12,21.6875 C6.64843747,21.6875 2.31249995,17.3515625 2.31249995,12 C2.31249995,6.64843747 6.64843747,2.31249995 12,2.31249995 C17.3515625,2.31249995 21.6875,6.64843747 21.6875,12 Z M16.6835938,10.546875 C16.6835938,8.67578123 15.1640625,7.15624998 13.2929688,7.15624998 L8.60937498,7.15624998 L8.60937498,16.84375 L10.546875,16.84375 L10.546875,13.9375 L13.2929688,13.9375 C15.1640625,13.9375 16.6835938,12.4179688 16.6835938,10.546875 Z" id="path-1"></path>
+    </defs>
+    <g id="product-hunt" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

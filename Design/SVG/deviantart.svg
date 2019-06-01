@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>deviantart</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18.25,5.64062497 L14.4140625,12.6367188 L14.703125,13.0078125 L18.25,13.0078125 L18.25,17.9960938 L11.9648437,17.9960938 L11.4375,18.3554688 L9.73046874,21.6367188 C9.71874999,21.6367188 9.39453124,21.9726563 9.37109374,21.9960938 L5.74999997,21.9960938 L5.74999997,18.3554688 L9.39062499,11.3476562 L9.10156249,10.9882812 L5.74999997,10.9882812 L5.74999997,6.00390622 L11.84375,6.00390622 L12.3710938,5.64453122 L14.078125,2.3632812 C14.0898438,2.3632812 14.4140625,2.0273437 14.4375,2.0039062 L18.25,2.0039062 L18.25,5.64062497 Z" id="path-1"></path>
+    </defs>
+    <g id="deviantart" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>maxcdn</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20.0117188,19.2929688 L16.2070313,19.2929688 L18.234375,9.81249999 C18.3242188,9.41406249 18.2695313,9.05078124 18.0625,8.80859373 C17.8671875,8.57031248 17.5273438,8.43359373 17.1171875,8.43359373 L15.1914063,8.43359373 L12.8671875,19.2929688 L9.06249999,19.2929688 L11.3867187,8.43359373 L8.12890623,8.43359373 L5.80468747,19.2929688 L1.99999995,19.2929688 L4.32421871,8.43359373 L2.5820312,4.70703121 L17.1171875,4.70703121 C18.65625,4.70703121 20.0585938,5.34374997 20.9570313,6.46093747 C21.8671875,7.57812498 22.1992188,9.09374999 21.8789063,10.5976562 L20.0117188,19.2929688 Z" id="path-1"></path>
+    </defs>
+    <g id="maxcdn" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

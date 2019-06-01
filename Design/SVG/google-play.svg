@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>google-play</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M14.7070313,11.1523437 L6.08593747,2.50781245 L17.0546875,8.80468748 L14.7070313,11.1523437 Z M3.83593746,1.99999995 C3.32812496,2.26562495 2.9882812,2.74999995 2.9882812,3.37890621 L2.9882812,20.6171875 C2.9882812,21.2460938 3.32812496,21.7304688 3.83593746,21.9960938 L13.859375,11.9960937 L3.83593746,1.99999995 Z M20.4453125,10.8125 L18.1445313,9.48046874 L15.578125,12 L18.1445313,14.5195313 L20.4921875,13.1875 C21.1953125,12.6289063 21.1953125,11.3710937 20.4453125,10.8125 Z M6.08593747,21.4921875 L17.0546875,15.1953125 L14.7070313,12.8476563 L6.08593747,21.4921875 Z" id="path-1"></path>
+    </defs>
+    <g id="google-play" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>ethereum</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M17.9335938,12.1875 L12,15.8125 L6.06249997,12.1875 L12,1.99999995 L17.9335938,12.1875 Z M12,16.9765625 L6.06249997,13.3515625 L12,22 L17.9375,13.3515625 L12,16.9765625 Z" id="path-1"></path>
+    </defs>
+    <g id="ethereum" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

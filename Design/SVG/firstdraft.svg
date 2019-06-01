@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>firstdraft</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M19.5,9.49999999 L17,9.49999999 L17,14.5 L12,14.5 L12,19.5 L4.49999996,19.5 L4.49999996,18.5 L11,18.5 L11,13.5 L16,13.5 L16,8.49999998 L19.5,8.49999998 L19.5,9.49999999 Z M18.5,11 L18.5,16 L13.5,16 L13.5,21 L6.99999997,21 L6.99999997,22.0000001 L14.5,22.0000001 L14.5,17 L19.5,17 L19.5,11 L18.5,11 Z M19.5,18.5 L16,18.5 L16,22.0000001 L17,22.0000001 L17,19.5 L19.5,19.5 L19.5,18.5 Z M4.49999996,1.99999995 L4.49999996,17 L9.49999999,17 L9.49999999,12 L14.5,12 L14.5,6.99999997 L19.5,6.99999997 L19.5,1.99999995 L4.49999996,1.99999995 Z" id="path-1"></path>
+    </defs>
+    <g id="firstdraft" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

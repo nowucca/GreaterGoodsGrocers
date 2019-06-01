@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>burn</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,1.99999995 C7.61328123,5.95703122 4.49999996,10.6289062 4.49999996,13.7382813 C4.49999996,18.6015625 7.58593748,22.0000001 12,22.0000001 C16.4140625,22.0000001 19.5,18.6015625 19.5,13.7382813 C19.5,10.6171875 16.3671875,5.94140622 12,1.99999995 Z M12,19.5 C9.79296874,19.5 8.24999998,17.9765625 8.24999998,15.796875 C8.24999998,15.2695313 8.42968748,13.3945313 12,9.49999999 C15.5703125,13.3945313 15.75,15.2695313 15.75,15.796875 C15.75,17.9765625 14.2070313,19.5 12,19.5 Z" id="path-1"></path>
+    </defs>
+    <g id="burn" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g fill-rule="nonzero"></g>
+        <g id="🎨-color" mask="url(#mask-2)" fill="#000000">
+            <rect id="🎨-Color" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>
