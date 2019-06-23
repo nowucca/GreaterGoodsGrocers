@@ -1,23 +1,3 @@
-/*
-
- */
-style-guide-colors {
-    color: #303216; /* main text color */
-    color: #EBF2E2; /* main background color */
-
-    color: #8AC484;
-    color: #71B869; /* base green shade used for cart currently */
-    color: #5D9756; /*navigation bar background */
-    color: #487643;
-    color: #91AF46; /* a little gaudy decided against this */
-
-    /* form borders */
-    color: #D6E1E4; /* heavier light grey */
-    color: #E6EDEF; /* lighter gray */
-
-    /* highlights */
-    color: #4A90E2; /* blue navbar */
-}
 
 header {
     background: #EBF2E2;
@@ -58,7 +38,7 @@ input#searchBar {
     color: #303216;
     font-weight: lighter;
     font-size: 18px;
-    min-width: 300  px
+    min-width: 300px
 }
 
 input#searchIcon {
@@ -114,7 +94,7 @@ header #rightHeader {
     background-color: #5D9756;
     display: flex;
 
-    top: 100;
+    top: 100px;
     width: 100%;
 }
 
