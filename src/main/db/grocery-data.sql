@@ -42,12 +42,12 @@ VALUES ('cheese', 119, 'cheddar 1/2 pound', 1003);
 INSERT INTO `product` (`name`, price, description, category_id)
 VALUES ('greek yogurt', 115, 'plain flavor 8oz', 1003);
 INSERT INTO `product` (`name`, price, description, category_id)
-VALUES ('fat free sour cream', 239, 'a healthier alternative, 8oz', 1003);
+VALUES ('ice cream in a cone', 239, 'sugar waffle cone, assorted flavors', 1003);
 
 INSERT INTO `product` (`name`, price, description, category_id)
 VALUES ('bagels', 159, 'sliced', 1004);
 INSERT INTO `product` (`name`, price, description, category_id)
-VALUES ('bread', 249, 'one loaf sliced', 1004);
+VALUES ('croissants', 249, '', 1004);
 INSERT INTO `product` (`name`, price, description, category_id)
 VALUES ('doughnuts', 129, 'assorted flavors', 1004);
 INSERT INTO `product` (`name`, price, description, category_id)
