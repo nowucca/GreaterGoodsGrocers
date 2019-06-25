@@ -1,13 +1,60 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="sql" uri="http://java.sun.com/jsp/jstl/sql"%>
 <%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
+<jsp:useBean id="selectedCategoryName" type="java.lang.String" scope="request"/>
+<jsp:useBean id="bookList" type="java.util.List" scope="request"/>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>JSP Page</title>
+</head>
+<body>
+<h1>Hello World!</h1>
+
+Selected category: ${fn:toUpperCase(fn:substring(selectedCategoryName, 0, 1))}${fn:toLowerCase(fn:substring(selectedCategoryName, 1,fn:length(selectedCategoryName)))}
+
+<table border="1">
+    <tr>
+        <th>book_id</th>
+        <th>title</th>
+        <th>author</th>
+        <th>price</th>
+        <th>is_public</th>
+        <th>category_id</th>
+    </tr>
+    <c:forEach var="book" items="${bookList}">
+        <jsp:useBean id="book" type="business.book.Book" scope="page"/>
+        <tr>
+            <td><c:out value="${book.bookId}"/></td>
+            <td><c:out value="${book.title}"/></td>
+            <td><c:out value="${book.author}"/></td>
+            <td><c:out value="${book.price}"/></td>
+            <td><c:out value="${book.isPublic}"/></td>
+            <td><c:out value="${book.categoryId}"/></td>
+        </tr>
+
+    </c:forEach>
+
+</table>
+</body>
+</html>
+
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@taglib prefix="sql" uri="http://java.sun.com/jsp/jstl/sql"%>
+<%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>JSP Page</title>
-    <script src="js/vue.js"></script>
+    <script src="../../js/vue.js"></script>
 </head>
 <body>
 
