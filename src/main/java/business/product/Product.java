@@ -40,14 +40,18 @@ public class Product {
 
     private long productId;
     private String name;
+    private String description;
     private int price;
     private Date lastUpdate;
+    private long categoryId;
 
-    public Product(long productId, String name, int price, Date lastUpdate) {
+    public Product(long productId, String name, String description, int price, Date lastUpdate, Long categoryIdFromDb) {
         this.productId = productId;
         this.name = name;
+        this.description = description;
         this.price = price;
         this.lastUpdate = lastUpdate;
+        this.categoryId = categoryIdFromDb;
     }
 
     public long getProductId() {
@@ -63,6 +67,14 @@ public class Product {
 
     public Date getLastUpdate() {
         return lastUpdate;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public long getCategoryId() {
+        return categoryId;
     }
 
     @Override

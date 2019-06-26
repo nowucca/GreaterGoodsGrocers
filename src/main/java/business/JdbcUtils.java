@@ -1,5 +1,7 @@
 package business;
 
+import business.DbException.ConnectionDbException;
+
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
@@ -9,19 +11,18 @@ import java.sql.SQLException;
 
 public class JdbcUtils {
 
-	// TODO Replace "DrK" with your assigned name
-    private static final String JDBC_BOOKSTORE = "jdbc/DrKBookstore";
+    private static final String JDBC_DATABASE_RESOURCE = "jdbc/GreaterGoodsGrocers";
 
     private static DataSource dataSource;
 
     public static Connection getConnection() {
         if (dataSource == null) {
-            dataSource = getDataSource(JDBC_BOOKSTORE);
+            dataSource = getDataSource(JDBC_DATABASE_RESOURCE);
         }
         try {
             return dataSource.getConnection();
         } catch (SQLException e) {
-            throw new BookstoreConnectionDbException("Encountered a SQL issue getting a connection", e);
+            throw new ConnectionDbException("Encountered a SQL issue getting a connection", e);
         }
     }
 

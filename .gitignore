@@ -12,3 +12,4 @@ target/
 .eclipse
 build/
 .gradle/
+out/

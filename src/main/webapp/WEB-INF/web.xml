@@ -13,4 +13,34 @@
         <param-name>productImages</param-name>
         <param-value>images/products/</param-value>
     </context-param>
+
+
+    <!-- The JERSEY REST application support is initialized here.  -->
+    <filter>
+        <filter-name>ApiFilter</filter-name>
+        <filter-class>org.glassfish.jersey.servlet.ServletContainer</filter-class>
+
+        <init-param>
+            <param-name>jersey.config.server.provider.packages</param-name>
+            <param-value>
+                api
+            </param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>jersey.config.server.provider.classnames</param-name>
+            <param-value>
+                org.glassfish.jersey.server.spring.scope.RequestContextFilter,
+                org.glassfish.jersey.jackson.JacksonFeature
+            </param-value>
+        </init-param>
+
+    </filter>
+
+    <filter-mapping>
+        <filter-name>ApiFilter</filter-name>
+        <url-pattern>/api/*</url-pattern>
+    </filter-mapping>
+
+
 </web-app>

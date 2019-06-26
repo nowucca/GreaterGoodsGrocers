@@ -5,5 +5,5 @@
               username="greatergoods" password="greatergoods" driverClassName="com.mysql.cj.jdbc.Driver"
               removeAbandonedOnBorrow="true" removeAbandonedOnMaintenance="true"
               removeAbandonedTimeout="60" logAbandoned="true" timeBetweenEvictionRunsMillis="300000"
-              url="jdbc:mysql://localhost:3306/greatergoods"/>
+              url="jdbc:mysql://localhost:3306/greatergoods?serverTimezone=GMT"/>
 </Context>

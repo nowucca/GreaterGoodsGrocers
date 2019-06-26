@@ -1,3 +1,8 @@
+/* Hide pages until data is read */
+[v-cloak] {
+    display: none !important;
+}
+
 body {
     font: 1em normal Verdana, Tahoma, sans-serif;
     color: black;
