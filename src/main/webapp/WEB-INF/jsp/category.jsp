@@ -1,4 +1,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+
 <!doctype html>
 <html>
 <head>
@@ -11,7 +15,7 @@
         always include this first.
     -->
 
-    <link rel="stylesheet" href="css/normalize-and-reset.css">
+    <link rel="stylesheet" href="<c:url value="/css/normalize-and-reset.css"/>"/>
 
     <!--
         cascading appropriately, we have:
@@ -23,18 +27,18 @@
         extras.css  --  extras you may want
     -->
 
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/product.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/category.css">
+    <link rel="stylesheet" href="<c:url value="/css/main.css"/>"/>
+    <link rel="stylesheet" href="<c:url value="/css/product.css"/>"/>
+    <link rel="stylesheet" href="<c:url value="/css/header.css"/>"/>
+    <link rel="stylesheet" href="<c:url value="/css/footer.css"/>"/>
+    <link rel="stylesheet" href="<c:url value="/css/category.css"/>"/>
     <script src="https://kit.fontawesome.com/77e84e46b8.js"></script>
 
 </head>
 
 <body>
 <main>
-    <jsp:include page="WEB-INF/jsp/header.jsp"/>
+    <jsp:include page="header.jsp"/>
 
     <section class="products-container">
 
@@ -78,7 +82,7 @@
             </div>
         </div>
     </section>
-    <jsp:include page="WEB-INF/jsp/footer.jsp"/>
+    <jsp:include page="footer.jsp"/>
 </main>
 </body>
 </html>

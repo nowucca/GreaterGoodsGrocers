@@ -2,7 +2,7 @@
 
     <div id="leftHeader">
         <div id="logo">
-            <a href="index.jsp">
+            <a href="home.jsp">
                 <img src="${initParam.siteImages}logo.png" alt="Greater Goods Grocers"/>
             </a>
         </div>

@@ -78,7 +78,7 @@
 
             selectCategory: function(categoryName) {
                 const vm = this;
-                fetch("http://localhost:8080/GreaterGoodsDao/api/product/category?name="+categoryName)
+                fetch("http://localhost:8080/GreaterGoodsMvvm/api/product/category?name="+categoryName)
                     .then(response => response.json())
                     .then(data => {
                         vm.products = data;
@@ -91,7 +91,7 @@
 
             loadCategories: function() {
                 const vm = this;
-                fetch("http://localhost:8080/GreaterGoodsDao/api/category/all")
+                fetch("http://localhost:8080/GreaterGoodsMvvm/api/category/all")
                     .then(response => response.json())
                     .then(data => {
                         vm.categories = data;

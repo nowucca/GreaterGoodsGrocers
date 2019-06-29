@@ -11,7 +11,7 @@ import java.io.IOException;
  * A servlet to serve all web pages as JSP (Java Server Pages).
  */
 @WebServlet(name = "PageServlet",
-urlPatterns = {"/test"},
+urlPatterns = {"/test","/category","/home"},
 loadOnStartup = 1)
 public class PageServlet extends HttpServlet {
 
