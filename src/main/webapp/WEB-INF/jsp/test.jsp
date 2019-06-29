@@ -21,7 +21,7 @@
 
 <ul>
   <li v-for="category in categories">
-      <a href="#" @click.stop="selectCategory(category.name)">{{category.name}}</a>
+      <a href="#" @click.stop.prevent="selectCategory(category.name)">{{category.name}}</a>
   </li>
 </ul>
 
@@ -66,7 +66,6 @@
 
             this.selectCategory(this.selectedCategoryName);
 
-
         },
 
         methods: {
@@ -81,15 +80,25 @@
                 const vm = this;
                 fetch("http://localhost:8080/GreaterGoodsDao/api/product/category?name="+categoryName)
                     .then(response => response.json())
-                    .then(data => { vm.products = data; vm.selectedCategoryName = categoryName; })
-                    .catch(reason => {console.log("Error fetching product data", reason)});
+                    .then(data => {
+                        vm.products = data;
+                        vm.selectedCategoryName = categoryName;
+                    })
+                    .catch(reason => {
+                        console.log("Error fetching product data", reason)
+                    });
             },
+
             loadCategories: function() {
                 const vm = this;
                 fetch("http://localhost:8080/GreaterGoodsDao/api/category/all")
                     .then(response => response.json())
-                    .then(data => { vm.categories = data;})
-                    .catch(reason => {console.log("Error fetching category data", reason)});
+                    .then(data => {
+                        vm.categories = data;
+                    })
+                    .catch(reason => {
+                        console.log("Error fetching category data", reason)
+                    });
             }
         }
     })
