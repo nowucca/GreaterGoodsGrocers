@@ -32,6 +32,9 @@
     <link rel="stylesheet" href="<c:url value="/css/header.css"/>"/>
     <link rel="stylesheet" href="<c:url value="/css/footer.css"/>"/>
     <link rel="stylesheet" href="<c:url value="/css/category.css"/>"/>
+
+    <script src="<c:out value='js/vue.js'/>"></script>
+    <script src="<c:out value='js/helper.js'/>"></script>
     <script src="https://kit.fontawesome.com/77e84e46b8.js"></script>
 
 </head>
@@ -52,7 +55,7 @@
 
             <div class="productCost">
                 <p class="productPrice">$1.49/lb</p>
-                <p class="ggPointsBadge">4            </p>
+                <p class="ggPointsBadge">4</p>
             </div>
         </div>
         <div class="product">
@@ -84,5 +87,6 @@
     </section>
     <jsp:include page="footer.jsp"/>
 </main>
+<script type="application/javascript"  src="<c:out value='js/category.js'/>"></script>
 </body>
 </html>
