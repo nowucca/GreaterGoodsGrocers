@@ -18,37 +18,37 @@ VALUES (1004, 'Bakery');
 -- Sample data for table `product`
 --
 INSERT INTO `product` (`name`, price, description, category_id)
-VALUES ('bell pepper', 170, 'organic red juicy', 1001);
+VALUES ('Bell Pepper', 170, 'organic red juicy', 1001);
 INSERT INTO `product` (`name`, price, description, category_id)
-VALUES ('broccoli', 239, 'whole with stalks', 1001);
+VALUES ('Broccoli', 239, 'whole with stalks', 1001);
 INSERT INTO `product` (`name`, price, description, category_id)
-VALUES ('cauliflower', 109, 'whole, not riced', 1001);
+VALUES ('Cauliflower', 109, 'whole, not riced', 1001);
 INSERT INTO `product` (`name`, price, description, category_id)
-VALUES ('carrots', 176, 'baby size', 1001);
+VALUES ('Carrots', 176, 'baby size', 1001);
 
 INSERT INTO `product` (`name`, price, description, category_id)
-VALUES ('meat patties', 229, '2 patties (1/2 lb)', 1002);
+VALUES ('Meat Patties', 229, '2 patties (1/2 lb)', 1002);
 INSERT INTO `product` (`name`, price, description, category_id)
-VALUES ('sausages', 349, 'organic bratwurst (1 lb)', 1002);
+VALUES ('Sausages', 349, 'organic bratwurst (1 lb)', 1002);
 INSERT INTO `product` (`name`, price, description, category_id)
-VALUES ('chicken drumsticks', 259, 'free range (1/2 lb)', 1002);
+VALUES ('Chicken Drumsticks', 259, 'free range (1/2 lb)', 1002);
 INSERT INTO `product` (`name`, price, description, category_id)
-VALUES ('pork chops', 355, 'trimmed, reduced fat (1 lb)', 1002);
+VALUES ('Pork Chops', 355, 'trimmed, reduced fat (1 lb)', 1002);
 
 INSERT INTO `product` (`name`, price, description, category_id)
-VALUES ('whole milk', 189, '1 gallon', 1003);
+VALUES ('Whole Milk', 189, '1 gallon', 1003);
 INSERT INTO `product` (`name`, price, description, category_id)
-VALUES ('cheese', 119, 'cheddar 1/2 pound', 1003);
+VALUES ('Cheese', 119, 'cheddar 1/2 pound', 1003);
 INSERT INTO `product` (`name`, price, description, category_id)
-VALUES ('greek yogurt', 115, 'plain flavor 8oz', 1003);
+VALUES ('Greek Yogurt', 115, 'plain flavor 8oz', 1003);
 INSERT INTO `product` (`name`, price, description, category_id)
-VALUES ('ice cream in a cone', 239, 'sugar waffle cone, assorted flavors', 1003);
+VALUES ('Ice Cream in a Cone', 239, 'sugar waffle cone, assorted flavors', 1003);
 
 INSERT INTO `product` (`name`, price, description, category_id)
-VALUES ('bagels', 159, 'sliced', 1004);
+VALUES ('Bagels', 159, 'sliced', 1004);
 INSERT INTO `product` (`name`, price, description, category_id)
-VALUES ('croissants', 249, '', 1004);
+VALUES ('Croissants', 249, '', 1004);
 INSERT INTO `product` (`name`, price, description, category_id)
-VALUES ('doughnuts', 129, 'assorted flavors', 1004);
+VALUES ('Doughnuts', 129, 'assorted flavors', 1004);
 INSERT INTO `product` (`name`, price, description, category_id)
-VALUES ('chocolate cake', 149, 'with chocolate filling', 1004);
+VALUES ('Chocolate Cake', 149, 'with chocolate filling', 1004);

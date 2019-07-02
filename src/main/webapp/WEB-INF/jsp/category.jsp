@@ -45,11 +45,11 @@
 
     <section class="products-container">
 
-        <div class="product">
+        <div v-for="product in products" class="product">
             <image class="productImage" src="${initParam.productImages}broccoli.jpg"></image>
 
             <div class="productDetails">
-                <span class="productTitle">Broccoli</span>
+                <span class="productTitle">{{product.name}}</span>
                 <button class="addItem">Add to Cart</button>
             </div>
 
@@ -58,32 +58,7 @@
                 <p class="ggPointsBadge">4</p>
             </div>
         </div>
-        <div class="product">
-            <image class="productImage" src="${initParam.productImages}cauliflower.jpg"></image>
 
-            <div class="productDetails">
-                <span class="productTitle">Caulifower</span>
-                <button class="addItem">Add to Cart</button>
-            </div>
-
-            <div class="productCost">
-                <p class="productPrice">$1.49/lb</p>
-                <p class="ggPointsBadge">5</p>
-            </div>
-        </div>
-        <div class="product">
-            <image class="productImage" src="${initParam.productImages}bell-pepper.jpg"></image>
-
-            <div class="productDetails">
-                <span class="productTitle">Bell Pepper (Red)</span>
-                <button class="addItem">Add to Cart</button>
-            </div>
-
-            <div class="productCost">
-                <p class="productPrice">$1.49/lb</p>
-                <p class="ggPointsBadge">5</p>
-            </div>
-        </div>
     </section>
     <jsp:include page="footer.jsp"/>
 </main>

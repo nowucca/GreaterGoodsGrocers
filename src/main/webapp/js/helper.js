@@ -1,5 +1,10 @@
+window.config = {
+    "url": "http://localhost:8080/GreaterGoodsMvvm",
+    "siteImages": "images/site",
+    "productImages": "images/product"
+};
 
-// Functions to handle reaading request parameters
+// Functions to handle reading request parameters
 // From: https://html-online.com/articles/get-url-parameters-javascript/
 
 function getUrlVars() {
