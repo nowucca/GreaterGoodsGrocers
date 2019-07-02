@@ -60,6 +60,7 @@ public class ProductDaoJdbc implements ProductDao {
             "p.name, " +
             "p.description, "+
             "p.price, " +
+            "p.points, " +
             "p.last_update " +
         "FROM " +
             "product p " +
@@ -71,8 +72,9 @@ public class ProductDaoJdbc implements ProductDao {
             " p.product_id, " +
             " p.category_id, " +
             " p.name, " +
-            "p.description, "+
+            " p.description, "+
             " p.price, " +
+            " p.points, " +
             " p.last_update " +
         "FROM " +
             " product p " +
@@ -128,8 +130,9 @@ public class ProductDaoJdbc implements ProductDao {
         Long categoryIdFromDb = resultSet.getLong("category_id");
         int price = resultSet.getInt("price");
         Date lastUpdate = resultSet.getTimestamp("last_update");
+        int points = resultSet.getInt("points");
 
-        result = new Product(productIdFromDb, name, description, price, lastUpdate, categoryIdFromDb);
+        result = new Product(productIdFromDb, name, description, price, points, lastUpdate, categoryIdFromDb);
         return result;
     }
 }

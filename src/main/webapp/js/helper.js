@@ -1,8 +1,10 @@
 window.config = {
     "url": "http://localhost:8080/GreaterGoodsMvvm",
-    "siteImages": "images/site",
-    "productImages": "images/product"
 };
+
+window.config["siteImages"] =  + "images/site";
+window.config["productImages"] =  "images/products";
+
 
 // Functions to handle reading request parameters
 // From: https://html-online.com/articles/get-url-parameters-javascript/
@@ -21,3 +23,11 @@ function getUrlParam(parameter, defaultvalue){
     }
     return urlparameter;
 }
+
+// From https://flaviocopes.com/how-to-format-number-as-currency-javascript/
+
+const priceFormatter = new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD',
+    minimumFractionDigits: 2
+});

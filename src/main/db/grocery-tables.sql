@@ -80,6 +80,7 @@ CREATE TABLE IF NOT EXISTS `greatergoods`.`product`
   `category_id` INT UNSIGNED NOT NULL,
   `name`        VARCHAR(45)  NOT NULL,
   `price`       INT UNSIGNED NOT NULL,
+  `points`      INT UNSIGNED NOT NULL,
   `description` TINYTEXT     NULL,
   `last_update` TIMESTAMP    NOT NULL DEFAULT CURRENT_TIMESTAMP
                                       ON UPDATE CURRENT_TIMESTAMP,

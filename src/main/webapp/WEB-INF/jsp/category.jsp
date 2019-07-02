@@ -33,8 +33,8 @@
     <link rel="stylesheet" href="<c:url value="/css/footer.css"/>"/>
     <link rel="stylesheet" href="<c:url value="/css/category.css"/>"/>
 
-    <script src="<c:out value='js/vue.js'/>"></script>
     <script src="<c:out value='js/helper.js'/>"></script>
+    <script src="<c:out value='js/vue.js'/>"></script>
     <script src="https://kit.fontawesome.com/77e84e46b8.js"></script>
 
 </head>
@@ -46,7 +46,7 @@
     <section class="products-container">
 
         <div v-for="product in products" class="product">
-            <image class="productImage" src="${initParam.productImages}broccoli.jpg"></image>
+            <image class="productImage" v-bind:src="productImageSrc(product)"></image>
 
             <div class="productDetails">
                 <span class="productTitle">{{product.name}}</span>
@@ -54,8 +54,8 @@
             </div>
 
             <div class="productCost">
-                <p class="productPrice">$1.49/lb</p>
-                <p class="ggPointsBadge">4</p>
+                <p class="productPrice">{{formatPrice(product.price/100)}}</p>
+                <p class="ggPointsBadge">{{product.points}}</p>
             </div>
         </div>
 

@@ -6,6 +6,7 @@ var app = new Vue({
         selectedCategoryName: "Dairy",
         products: null,
         categories: null
+
     },
 
     mounted: function() {
@@ -48,6 +49,16 @@ var app = new Vue({
                 .catch(reason => {
                     console.log("Error fetching category data", reason)
                 });
+        },
+
+        productImageSrc: function(product) {
+            var name = product.name.toLowerCase();
+            name = name.replace(/\ /g , '-');
+            return window.config.productImages + '/' + name + '.jpg';
+        },
+
+        formatPrice: function(price) {
+            return priceFormatter.format(price);
         }
     }
 })
