@@ -33,11 +33,14 @@
     <link rel="stylesheet" href="<c:url value="/css/footer.css"/>"/>
     <link rel="stylesheet" href="<c:url value="/css/category.css"/>"/>
 
-    <script src="<c:out value='js/helper.js'/>"></script>
+    <!-- Javascript libraries -->
+    <script src="<c:out value='js/libs/helper.js'/>"></script>
+    <script src="<c:out value='js/libs/vue.js'/>"></script>
+    <script src="https://kit.fontawesome.com/77e84e46b8.js"></script>
+
+    <!-- Vue mixins -->
     <script src="<c:out value='js/mixins/formatMixins.js'/>"></script>
     <script src="<c:out value='js/mixins/categoryMixins.js'/>"></script>
-    <script src="<c:out value='js/vue.js'/>"></script>
-    <script src="https://kit.fontawesome.com/77e84e46b8.js"></script>
 
     <!-- Vue components -->
     <script src="<c:out value='js/components/header.js'/>"></script>
@@ -76,6 +79,6 @@
     <ggg-footer></ggg-footer>
 </main>
 <!-- Vue app for page -->
-<script type="application/javascript"  src="<c:out value='js/category.js'/>"></script>
+<script type="application/javascript"  src="<c:out value='js/page-category.js'/>"></script>
 </body>
 </html>
