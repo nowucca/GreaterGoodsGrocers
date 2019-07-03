@@ -4,7 +4,7 @@ Vue.component('ggg-header', {
 <header>
     <div id="leftHeader">
         <div id="logo">
-            <a :href="link('/home')">
+            <a :href="link('home')">
                 <img :src="siteImage('logo.png')" alt="Greater Goods Grocers"/>
             </a>
         </div>
@@ -26,7 +26,7 @@ Vue.component('ggg-header', {
     <div id="rightHeader">
 
         <div id="cartButton">
-            <a :href="link('/cart')">
+            <a :href="link('cart')">
                 <img :src="siteImage('cart-icon.png')" alt="Cart Icon">
             </a>
             <div id="cartCount">0</div>

@@ -34,6 +34,8 @@
     <link rel="stylesheet" href="<c:url value="/css/category.css"/>"/>
 
     <script src="<c:out value='js/helper.js'/>"></script>
+    <script src="<c:out value='js/mixins/formatMixins.js'/>"></script>
+    <script src="<c:out value='js/mixins/categoryMixins.js'/>"></script>
     <script src="<c:out value='js/vue.js'/>"></script>
     <script src="https://kit.fontawesome.com/77e84e46b8.js"></script>
 
@@ -48,7 +50,10 @@
 <main v-cloak>
     <ggg-header></ggg-header>
 
-    <ggg-navbar :categories="categories" :selectedcategoryname="selectedCategoryName"></ggg-navbar>
+    <ggg-navbar :selectedStatus="selectedStatus"
+                :categories="categories"
+                :selectedcategoryname="selectedCategoryName">
+    </ggg-navbar>
 
     <section class="products-container">
 

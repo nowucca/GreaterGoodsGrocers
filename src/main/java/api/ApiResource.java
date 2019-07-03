@@ -5,6 +5,7 @@ import business.category.Category;
 import business.category.CategoryDao;
 import business.product.Product;
 import business.product.ProductDao;
+import org.checkerframework.common.reflection.qual.GetClass;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.*;
@@ -46,6 +47,19 @@ public class ApiResource {
             }
 
             return productDao.findByCategoryId(category.getCategoryId());
+        } catch (ApiException e) {
+            throw e;
+        } catch (Exception e) {
+            throw new ApiException("products lookup via categoryName failed", e);
+        }
+    }
+
+    @GET
+    @Path("product/specials")
+    @Produces(javax.ws.rs.core.MediaType.APPLICATION_JSON)
+    public List<Product> specialProducts(@Context HttpServletRequest request) {
+        try {
+            return productDao.findSpecials();
         } catch (ApiException e) {
             throw e;
         } catch (Exception e) {

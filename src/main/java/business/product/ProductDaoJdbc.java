@@ -81,6 +81,18 @@ public class ProductDaoJdbc implements ProductDao {
         "WHERE " +
             "p.product_id = ?";
 
+    private static final String FIND_SPECIALS_SQL =
+            "SELECT " +
+                    " p.product_id, " +
+                    " p.category_id, " +
+                    " p.name, " +
+                    " p.description, "+
+                    " p.price, " +
+                    " p.points, " +
+                    " p.last_update " +
+                    "FROM " +
+                    " product p " +
+                    "order by rand() limit 4";
 
     @Override
     public List<Product> findByCategoryId(long categoryId) {
@@ -117,6 +129,26 @@ public class ProductDaoJdbc implements ProductDao {
         } catch (SQLException e) {
             logger.error("Trouble finding product by product id {}", productId, e);
             throw new QueryDbException("Encountered problem reading products by product id", e);
+        }
+
+        return result;
+    }
+
+    @Override
+    public List<Product> findSpecials() {
+
+        List<Product> result = new ArrayList<>(16);
+
+        try (Connection connection = getConnection();
+             PreparedStatement statement = connection.prepareStatement(FIND_SPECIALS_SQL)) {
+            try (ResultSet resultSet = statement.executeQuery()) {
+                while (resultSet.next()) {
+                    result.add(readProduct(resultSet));
+                }
+            }
+        } catch (SQLException e) {
+            logger.error("Trouble finding specials {}", e);
+            throw new QueryDbException("Encountered problem reading special products", e);
         }
 
         return result;

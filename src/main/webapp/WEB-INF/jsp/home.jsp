@@ -35,6 +35,8 @@
 
     <!-- Vue library and helper library -->
     <script src="<c:out value='js/helper.js'/>"></script>
+    <script src="<c:out value='js/mixins/formatMixins.js'/>"></script>
+    <script src="<c:out value='js/mixins/categoryMixins.js'/>"></script>
     <script src="<c:out value='js/vue.js'/>"></script>
 
     <!-- Vue components -->
@@ -48,7 +50,10 @@
 <main>
     <ggg-header></ggg-header>
 
-    <ggg-navbar :categories="categories" :selectedcategoryname="selectedCategoryName"></ggg-navbar>
+    <ggg-navbar :selectedStatus="false"
+                :categories="categories"
+                :selectedcategoryname="selectedCategoryName">
+    </ggg-navbar>
 
     <section id="homeHero">
 
@@ -87,45 +92,19 @@
 
         <div class="products-container">
 
-            <div class="product">
-                <image class="productImage" src="${initParam.productImages}broccoli.jpg"></image>
+            <div class="product" v-for="product in specialProducts">
+                <image class="productImage" v-bind:src="productImage(product)"></image>
 
                 <div class="productDetails">
-                    <span class="productTitle">Broccoli</span>
+                    <span class="productTitle">{{product.name}}</span>
                     <button class="addItem">Add to Cart</button>
                 </div>
 
                 <div class="productCost">
-                    <p class="productPrice">$1.49/lb</p>
-                    <p class="ggPointsBadge">4            </p>
-                </div>
-            </div>
-            <div class="product">
-                <image class="productImage" src="${initParam.productImages}cauliflower.jpg"></image>
-
-                <div class="productDetails">
-                    <span class="productTitle">Caulifower</span>
-                    <button class="addItem">Add to Cart</button>
+                    <p class="productPrice">{{formatPrice(product.price/100)}}</p>
+                    <p class="ggPointsBadge">{{product.points}}</p>
                 </div>
 
-                <div class="productCost">
-                    <p class="productPrice">$1.49/lb</p>
-                    <p class="ggPointsBadge">5</p>
-                </div>
-            </div>
-            <div class="product">
-                <image class="productImage" src="${initParam.productImages}bell-pepper.jpg"></image>
-
-                <div class="productDetails">
-                    <span class="productTitle">Bell Pepper (Red)</span>
-                    <button class="addItem">Add to Cart</button>
-                </div>
-
-                <div class="productCost">
-                    <p class="productPrice">$1.49/lb</p>
-                    <p class="ggPointsBadge">5</p>
-                </div>
-            </div>
         </div>
     </section>
     <ggg-footer></ggg-footer>

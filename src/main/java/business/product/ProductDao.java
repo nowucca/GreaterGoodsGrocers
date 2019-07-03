@@ -39,4 +39,6 @@ public interface ProductDao {
     List<Product> findByCategoryId(long categoryId);
 
     Product findByProductId(long productId);
+
+    List<Product> findSpecials();
 }
