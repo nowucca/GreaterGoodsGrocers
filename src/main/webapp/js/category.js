@@ -1,5 +1,7 @@
 var app = new Vue({
-    el: '.products-container',
+    el: 'main',
+
+    mixins: [formatMixin],
 
     data: {
         message: 'Hello from Vue!',
@@ -49,16 +51,8 @@ var app = new Vue({
                 .catch(reason => {
                     console.log("Error fetching category data", reason)
                 });
-        },
-
-        productImageSrc: function(product) {
-            var name = product.name.toLowerCase();
-            name = name.replace(/\ /g , '-');
-            return window.config.productImages + '/' + name + '.jpg';
-        },
-
-        formatPrice: function(price) {
-            return priceFormatter.format(price);
         }
+
+
     }
 })

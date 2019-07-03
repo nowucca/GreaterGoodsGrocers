@@ -37,16 +37,23 @@
     <script src="<c:out value='js/vue.js'/>"></script>
     <script src="https://kit.fontawesome.com/77e84e46b8.js"></script>
 
+    <!-- Vue components -->
+    <script src="<c:out value='js/components/header.js'/>"></script>
+    <script src="<c:out value='js/components/navbar.js'/>"></script>
+    <script src="<c:out value='js/components/footer.js'/>"></script>
+
 </head>
 
 <body>
-<main>
-    <jsp:include page="header.jsp"/>
+<main v-cloak>
+    <ggg-header></ggg-header>
+
+    <ggg-navbar :categories="categories" :selectedcategoryname="selectedCategoryName"></ggg-navbar>
 
     <section class="products-container">
 
         <div v-for="product in products" class="product">
-            <image class="productImage" v-bind:src="productImageSrc(product)"></image>
+            <image class="productImage" v-bind:src="productImage(product)"></image>
 
             <div class="productDetails">
                 <span class="productTitle">{{product.name}}</span>
@@ -60,8 +67,10 @@
         </div>
 
     </section>
-    <jsp:include page="footer.jsp"/>
+
+    <ggg-footer></ggg-footer>
 </main>
+<!-- Vue app for page -->
 <script type="application/javascript"  src="<c:out value='js/category.js'/>"></script>
 </body>
 </html>

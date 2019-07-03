@@ -33,11 +33,23 @@
     <link rel="stylesheet" href="<c:url value="/css/homepage.css"/>"/>
     <script src="https://kit.fontawesome.com/77e84e46b8.js"></script>
 
+    <!-- Vue library and helper library -->
+    <script src="<c:out value='js/helper.js'/>"></script>
+    <script src="<c:out value='js/vue.js'/>"></script>
+
+    <!-- Vue components -->
+    <script src="<c:out value='js/components/header.js'/>"></script>
+    <script src="<c:out value='js/components/navbar.js'/>"></script>
+    <script src="<c:out value='js/components/footer.js'/>"></script>
+
 </head>
 
 <body>
 <main>
-    <jsp:include page="header.jsp"/>
+    <ggg-header></ggg-header>
+
+    <ggg-navbar :categories="categories" :selectedcategoryname="selectedCategoryName"></ggg-navbar>
+
     <section id="homeHero">
 
         <div class="hero-text">
@@ -116,7 +128,9 @@
             </div>
         </div>
     </section>
-    <jsp:include page="footer.jsp"/>
+    <ggg-footer></ggg-footer>
 </main>
+<!-- Vue app for page -->
+<script type="application/javascript"  src="<c:out value='js/home.js'/>"></script>
 </body>
 </html>
