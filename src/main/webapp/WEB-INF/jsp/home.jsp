@@ -54,7 +54,7 @@
 <main>
     <ggg-header></ggg-header>
 
-    <ggg-navbar :selectedStatus="false"
+    <ggg-navbar :showSelection="false"
                 :categories="categories"
                 :selectedcategoryname="selectedCategoryName">
     </ggg-navbar>

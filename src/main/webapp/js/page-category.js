@@ -1,9 +1,4 @@
-var app = new Vue({
+var categoryVueApp = new Vue({
     el: 'main',
-
     mixins: [formatMixin, categoryMixin],
-
-    data: {
-        message: 'Hello from Vue!',
-    }
-})
+});
