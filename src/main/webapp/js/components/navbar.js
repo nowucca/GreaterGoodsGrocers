@@ -1,11 +1,11 @@
 Vue.component('ggg-navbar', {
-    props: ['selectedcategoryname', 'categories', 'selectedstatus'],
+    props: ['selectedCategoryName', 'categories', 'showSelection'],
     mixins: [formatMixin],
     template: `
 <nav id="headerNav">
     <ul>
         <template v-for="cat in categories">
-            <li v-if="selectedstatus === true && selectedcategoryname === cat.name" class="active">
+            <li v-if="showSelection === true && selectedCategoryName === cat.name" class="active">
                 <a :href="link('category','name',cat.name)">{{cat.name}}</a></li>
             <li v-else>
                 <a :href="link('category','name',cat.name)">{{cat.name}}</a></li>

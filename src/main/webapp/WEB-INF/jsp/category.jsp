@@ -33,16 +33,18 @@
     <link rel="stylesheet" href="<c:url value="/css/footer.css"/>"/>
     <link rel="stylesheet" href="<c:url value="/css/category.css"/>"/>
 
-    <!-- Javascript libraries -->
-    <script src="<c:out value='js/libs/helper.js'/>"></script>
+    <!-- Provided Javascript libraries -->
     <script src="<c:out value='js/libs/vue.js'/>"></script>
     <script src="https://kit.fontawesome.com/77e84e46b8.js"></script>
 
-    <!-- Vue mixins -->
+    <!-- GGG helper functions -->
+    <script src="<c:out value='js/libs/helper.js'/>"></script>
+
+    <!-- GGG Vue mixins -->
     <script src="<c:out value='js/mixins/formatMixins.js'/>"></script>
     <script src="<c:out value='js/mixins/categoryMixins.js'/>"></script>
 
-    <!-- Vue components -->
+    <!-- GGG Vue components -->
     <script src="<c:out value='js/components/header.js'/>"></script>
     <script src="<c:out value='js/components/navbar.js'/>"></script>
     <script src="<c:out value='js/components/footer.js'/>"></script>
@@ -53,9 +55,9 @@
 <main v-cloak>
     <ggg-header></ggg-header>
 
-    <ggg-navbar :selectedStatus="selectedStatus"
+    <ggg-navbar :show-selection="showSelection"
                 :categories="categories"
-                :selectedcategoryname="selectedCategoryName">
+                :selected-category-name="selectedCategoryName">
     </ggg-navbar>
 
     <section class="products-container">

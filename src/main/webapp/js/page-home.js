@@ -1,4 +1,4 @@
-var app = new Vue({
+var homeVueApp = new Vue({
     el: 'main',
 
     mixins: [formatMixin, categoryMixin],

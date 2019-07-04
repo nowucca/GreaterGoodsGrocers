@@ -4,7 +4,7 @@ var categoryMixin = {
         selectedCategoryName: "Dairy",
         products: null,
         categories: null,
-        selectedStatus: true
+        showSelection: true
     },
 
     mounted: function() {
@@ -12,7 +12,7 @@ var categoryMixin = {
 
         this.handleRequestedCategoryIfAny();
 
-        if (this.selectedStatus === true) {
+        if (this.showSelection === true) {
             this.selectCategory(this.selectedCategoryName);
         }
 
