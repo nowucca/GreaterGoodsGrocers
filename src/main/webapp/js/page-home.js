@@ -1,6 +1,10 @@
-import Header from "./components/header.js"
-import Footer from "./components/footer.js";
-import NavBar from "./components/navbar.js"
+import Header from './components/header.js'
+import Footer from './components/footer.js';
+import NavBar from './components/navbar.js'
+
+import formatMixin from './mixins/formatMixins.js'
+import categoryMixin from './mixins/categoryMixins.js';
+import { SiteConfig } from './libs/helper.js';
 
 export default function (topElement) {
     var homePageVue = new Vue({
@@ -25,7 +29,7 @@ export default function (topElement) {
         methods: {
             loadSpecialProducts: function () {
                 const vm = this;
-                fetch(window.config.url + "/api/product/specials")
+                fetch(SiteConfig.url + "/api/product/specials")
                     .then(response => response.json())
                     .then(data => {
                         vm.specialProducts = data;

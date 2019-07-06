@@ -1,3 +1,5 @@
+import formatMixin from '../mixins/formatMixins.js';
+
 export default {
     template: `
 <header>

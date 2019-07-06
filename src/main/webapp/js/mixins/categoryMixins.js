@@ -1,4 +1,6 @@
-var categoryMixin = {
+import { getUrlParam, SiteConfig } from '../libs/helper.js';
+
+export default {
 
     data: {
         selectedCategoryName: "Dairy",
@@ -17,6 +19,7 @@ var categoryMixin = {
         }
 
     },
+
     methods: {
         handleRequestedCategoryIfAny: function() {
             var requestedCategoryName = getUrlParam('name', '');
@@ -27,7 +30,7 @@ var categoryMixin = {
 
         selectCategory: function(categoryName) {
             const vm = this;
-            fetch(window.config.url+"/api/product/category?name="+categoryName)
+            fetch(SiteConfig.url+"/api/product/category?name="+categoryName)
                 .then(response => response.json())
                 .then(data => {
                     vm.products = data;
@@ -40,7 +43,7 @@ var categoryMixin = {
 
         loadCategories: function() {
             const vm = this;
-            fetch(window.config.url + "/api/category/all")
+            fetch(SiteConfig.url + "/api/category/all")
                 .then(response => response.json())
                 .then(data => {
                     vm.categories = data;

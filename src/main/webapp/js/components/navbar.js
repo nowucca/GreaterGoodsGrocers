@@ -1,4 +1,7 @@
+import formatMixin from '../mixins/formatMixins.js';
+
 export default {
+
     template: `
 <nav id="headerNav">
     <ul>

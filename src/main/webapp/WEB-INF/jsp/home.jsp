@@ -31,17 +31,11 @@
     <link rel="stylesheet" href="<c:url value="/css/header.css"/>"/>
     <link rel="stylesheet" href="<c:url value="/css/footer.css"/>"/>
     <link rel="stylesheet" href="<c:url value="/css/homepage.css"/>"/>
-    <script src="https://kit.fontawesome.com/77e84e46b8.js"></script>
 
 
     <!-- Javascript libraries -->
-    <script src="<c:out value='js/libs/helper.js'/>"></script>
     <script src="<c:out value='js/libs/vue.js'/>"></script>
     <script src="https://kit.fontawesome.com/77e84e46b8.js"></script>
-
-    <!-- Vue mixins -->
-    <script src="<c:out value='js/mixins/formatMixins.js'/>"></script>
-    <script src="<c:out value='js/mixins/categoryMixins.js'/>"></script>
 
 </head>
 

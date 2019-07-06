@@ -1,24 +1,25 @@
+import { PriceFormatter, SiteConfig  } from '../libs/helper.js';
 
-var formatMixin = {
+export default {
     methods: {
         siteUrl: function() {
-            return window.config.url + '/';
+            return SiteConfig.url + '/';
         },
 
         productImage: function(product) {
             var name = product.name.toLowerCase();
             name = name.replace(/\ /g , '-');
-            return window.config.productImages + '/' + name + '.jpg';
+            return SiteConfig.productImages + '/' + name + '.jpg';
         },
 
         siteImage: function(fileName) {
             var name = fileName.toLowerCase();
             name = name.replace(/\ /g , '-');
-            return window.config.siteImages + '/' + fileName;
+            return SiteConfig.siteImages + '/' + fileName;
         },
 
         link: function(path, ...nvPairs) {
-            var result = window.config.url + '/' + path;
+            var result = SiteConfig.url + '/' + path;
             for (var i = 0; i < nvPairs.length - 1; i+=2) {
                 var name = nvPairs[i];
                 var val = nvPairs[i + 1];
@@ -33,7 +34,7 @@ var formatMixin = {
         },
 
         formatPrice: function(price) {
-            return priceFormatter.format(price);
+            return PriceFormatter.format(price);
         }
     }
 };
