@@ -1,6 +1,4 @@
-Vue.component('ggg-navbar', {
-    props: ['selectedCategoryName', 'categories', 'showSelection'],
-    mixins: [formatMixin],
+export default {
     template: `
 <nav id="headerNav">
     <ul>
@@ -11,5 +9,14 @@ Vue.component('ggg-navbar', {
                 <a :href="link('category','name',cat.name)">{{cat.name}}</a></li>
         </template>
     </ul>
-</nav>`
-});
+</nav>`,
+
+    props: {
+        'selectedCategoryName': String,
+        'categories': Array /* Category */,
+        'showSelection': Boolean
+    },
+
+    mixins: [formatMixin]
+
+};

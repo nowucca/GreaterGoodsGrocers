@@ -1,5 +1,4 @@
-Vue.component('ggg-header', {
-    mixins: [formatMixin],
+export default {
     template: `
 <header>
     <div id="leftHeader">
@@ -41,5 +40,6 @@ Vue.component('ggg-header', {
             <div id="signinLinks">Sign In | Register</div>
         </div>
     </div>
-</header>`
-    });
+</header>`,
+    mixins: [formatMixin]
+};

@@ -1,4 +1,6 @@
-import GroceryFooter from './components/footer.js';
+import Header from "./components/header.js"
+import Footer from "./components/footer.js";
+import NavBar from "./components/navbar.js"
 
 export default function (topElement) {
     var homePageVue = new Vue({
@@ -7,7 +9,9 @@ export default function (topElement) {
         mixins: [formatMixin, categoryMixin],
 
         components: {
-            "grocery-footer": GroceryFooter
+            "grocery-header": Header,
+            "grocery-navbar": NavBar,
+            "grocery-footer": Footer
         },
 
         data: {

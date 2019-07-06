@@ -44,20 +44,16 @@
     <script src="<c:out value='js/mixins/formatMixins.js'/>"></script>
     <script src="<c:out value='js/mixins/categoryMixins.js'/>"></script>
 
-    <!-- GGG Vue components -->
-    <script src="<c:out value='js/components/header.js'/>"></script>
-    <script src="<c:out value='js/components/navbar.js'/>"></script>
-
 </head>
 
 <body>
 <main v-cloak>
-    <ggg-header></ggg-header>
+    <grocery-header></grocery-header>
 
-    <ggg-navbar :show-selection="showSelection"
+    <grocery-navbar :show-selection="showSelection"
                 :categories="categories"
                 :selected-category-name="selectedCategoryName">
-    </ggg-navbar>
+    </grocery-navbar>
 
     <section class="products-container">
 
