@@ -46,7 +46,6 @@
     <!-- Vue components -->
     <script src="<c:out value='js/components/header.js'/>"></script>
     <script src="<c:out value='js/components/navbar.js'/>"></script>
-    <script src="<c:out value='js/components/footer.js'/>"></script>
 
 </head>
 
@@ -111,9 +110,11 @@
 
         </div>
     </section>
-    <ggg-footer></ggg-footer>
+    <grocery-footer></grocery-footer>
 </main>
 <!-- Vue app for page -->
-<script type="application/javascript"  src="<c:out value='js/page-home.js'/>"></script>
-</body>
+<script type="module">
+    import init from '${pageContext.request.contextPath}/js/page-home.js';
+    init('main');
+</script></body>
 </html>

@@ -1,5 +1,4 @@
-Vue.component('ggg-footer', {
-   mixins: [formatMixin],
+export default {
    template: `
 <footer>
     <div id="hours">Store Hours: 7 days a week. 6am-10pm PST</div>
@@ -25,4 +24,5 @@ Vue.component('ggg-footer', {
     </div>
 
 </footer>`
-});
+
+};

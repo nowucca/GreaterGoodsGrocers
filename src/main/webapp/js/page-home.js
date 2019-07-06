@@ -1,27 +1,35 @@
-var homeVueApp = new Vue({
-    el: 'main',
+import GroceryFooter from './components/footer.js';
 
-    mixins: [formatMixin, categoryMixin],
+export default function (topElement) {
+    var homePageVue = new Vue({
+        el: topElement,
 
-    data: {
-        specialProducts: null
-    },
+        mixins: [formatMixin, categoryMixin],
 
-    mounted: function() {
-        this.loadSpecialProducts();
-    },
+        components: {
+            "grocery-footer": GroceryFooter
+        },
 
-    methods: {
-        loadSpecialProducts: function() {
-            const vm = this;
-            fetch(window.config.url+"/api/product/specials")
-                .then(response => response.json())
-                .then(data => {
-                    vm.specialProducts = data;
-                })
-                .catch(reason => {
-                    console.log("Error fetching special product data", reason)
-                });
+        data: {
+            specialProducts: null
+        },
+
+        mounted: function () {
+            this.loadSpecialProducts();
+        },
+
+        methods: {
+            loadSpecialProducts: function () {
+                const vm = this;
+                fetch(window.config.url + "/api/product/specials")
+                    .then(response => response.json())
+                    .then(data => {
+                        vm.specialProducts = data;
+                    })
+                    .catch(reason => {
+                        console.log("Error fetching special product data", reason)
+                    });
+            }
         }
-    }
-})
+    });
+}
