@@ -10,8 +10,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>JSP Page</title>
-    <script src="<c:out value='js/vue.js'/>"></script>
-    <script src="<c:out value='js/helper.js'/>"></script>
+    <script src="<c:out value='js/libs/vue.js'/>"></script>
 
 </head>
 <body>
@@ -47,62 +46,10 @@
 </table>
 </div>
 
-<script type="application/javascript">
-
-    var app = new Vue({
-        el: '#app',
-
-        data: {
-            message: 'Hello from Vue!',
-            selectedCategoryName: "Dairy",
-            products: null,
-            categories: null
-        },
-
-        mounted: function() {
-            this.loadCategories();
-
-            this.handleRequestedCategoryIfAny();
-
-            this.selectCategory(this.selectedCategoryName);
-
-        },
-
-        methods: {
-            handleRequestedCategoryIfAny: function() {
-                var requestedCategoryName = getUrlParam('name', '');
-                if (requestedCategoryName !== '') {
-                    this.selectedCategoryName = requestedCategoryName;
-                }
-            },
-
-            selectCategory: function(categoryName) {
-                const vm = this;
-                fetch("http://localhost:8080/GreaterGoodsMvvm/api/product/category?name="+categoryName)
-                    .then(response => response.json())
-                    .then(data => {
-                        vm.products = data;
-                        vm.selectedCategoryName = categoryName;
-                    })
-                    .catch(reason => {
-                        console.log("Error fetching product data", reason)
-                    });
-            },
-
-            loadCategories: function() {
-                const vm = this;
-                fetch("http://localhost:8080/GreaterGoodsMvvm/api/category/all")
-                    .then(response => response.json())
-                    .then(data => {
-                        vm.categories = data;
-                    })
-                    .catch(reason => {
-                        console.log("Error fetching category data", reason)
-                    });
-            }
-        }
-    })
+<!-- Vue app for page -->
+<script type="module">
+    import init from '${pageContext.request.contextPath}/js/page-test.js';
+    init('#app');
 </script>
-
 </body>
 </html>
