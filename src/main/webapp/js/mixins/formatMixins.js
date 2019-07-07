@@ -7,7 +7,7 @@ export default {
         },
 
         productImage: function(product) {
-            var name = product.name.toLowerCase();
+            var name = product.getName().toLowerCase();
             name = name.replace(/\ /g , '-');
             return SiteConfig.productImages + '/' + name + '.jpg';
         },

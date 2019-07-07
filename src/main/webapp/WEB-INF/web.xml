@@ -3,17 +3,6 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
-    <context-param>
-        <description>path to site images</description>
-        <param-name>siteImages</param-name>
-        <param-value>images/site/</param-value>
-    </context-param>
-    <context-param>
-        <description>path to product images</description>
-        <param-name>productImages</param-name>
-        <param-value>images/products/</param-value>
-    </context-param>
-
 
     <!-- The JERSEY REST application support is initialized here.  -->
     <filter>

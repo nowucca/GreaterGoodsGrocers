@@ -35,7 +35,7 @@
 
     <!-- Javascript libraries -->
     <script src="<c:out value='js/libs/vue.js'/>"></script>
-    <script src="https://kit.fontawesome.com/77e84e46b8.js"></script>
+    <script src="<c:out value='js/libs/fontawesome-kit.js'/>"></script>
 
 
 </head>

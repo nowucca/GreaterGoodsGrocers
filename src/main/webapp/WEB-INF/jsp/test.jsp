@@ -43,6 +43,7 @@
         <td>{{product.price}}</td>
         <td>{{product.categoryId}}</td>
     </tr>
+
 </table>
 </div>
 

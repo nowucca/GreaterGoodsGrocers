@@ -5,6 +5,7 @@ import NavBar from './components/navbar.js'
 import formatMixin from './mixins/formatMixins.js'
 import categoryMixin from './mixins/categoryMixins.js';
 import { SiteConfig } from './libs/helper.js';
+import {Product} from "./libs/Product.js";
 
 export default function (topElement) {
     var homePageVue = new Vue({
@@ -19,7 +20,7 @@ export default function (topElement) {
         },
 
         data: {
-            specialProducts: null
+            specialProducts: []
         },
 
         mounted: function () {
@@ -31,8 +32,12 @@ export default function (topElement) {
                 const vm = this;
                 fetch(SiteConfig.url + "/api/product/specials")
                     .then(response => response.json())
-                    .then(data => {
-                        vm.specialProducts = data;
+                    .then(jsonProducts => {
+                        for (let p in jsonProducts) {
+                            if (jsonProducts.hasOwnProperty(p)) {
+                                vm.specialProducts.push(new Product(jsonProducts[p]));
+                            }
+                        }
                     })
                     .catch(reason => {
                         console.log("Error fetching special product data", reason)

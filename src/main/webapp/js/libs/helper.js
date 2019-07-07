@@ -1,5 +1,5 @@
 export const SiteConfig = {
-    "url": "http://localhost:8080/GreaterGoodsMvvm",
+    "url": "http://localhost:8080/GreaterGoodsSession",
     "siteImages": "images/site",
     "productImages": "images/products"
 };
@@ -24,3 +24,9 @@ export const PriceFormatter = new Intl.NumberFormat('en-US', {
     currency: 'USD',
     minimumFractionDigits: 2
 });
+
+export function toInt(x, defaultInt) {
+    var parsed = parseInt(x, 10);
+    if (isNaN(parsed)) { return 0; }
+    return parsed;
+}

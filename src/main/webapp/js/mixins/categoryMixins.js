@@ -1,11 +1,13 @@
 import { getUrlParam, SiteConfig } from '../libs/helper.js';
+import { Product } from '../libs/Product.js';
+import { Category } from '../libs/Category.js';
 
 export default {
 
     data: {
         selectedCategoryName: "Dairy",
-        products: null,
-        categories: null,
+        products: [],
+        categories: [],
         showSelection: true
     },
 
@@ -30,10 +32,14 @@ export default {
 
         selectCategory: function(categoryName) {
             const vm = this;
-            fetch(SiteConfig.url+"/api/product/category?name="+categoryName)
+            fetch(`${SiteConfig.url}/api/product/category?name=${categoryName}`)
                 .then(response => response.json())
-                .then(data => {
-                    vm.products = data;
+                .then(jsonProducts => {
+                    for (let p in jsonProducts) {
+                        if (jsonProducts.hasOwnProperty(p)) {
+                            vm.products.push(new Product(jsonProducts[p]));
+                        }
+                    }
                     vm.selectedCategoryName = categoryName;
                 })
                 .catch(reason => {
@@ -43,10 +49,14 @@ export default {
 
         loadCategories: function() {
             const vm = this;
-            fetch(SiteConfig.url + "/api/category/all")
+            fetch(`${SiteConfig.url}/api/category/all`)
                 .then(response => response.json())
-                .then(data => {
-                    vm.categories = data;
+                .then(jsonCategories => {
+                    for (let c in jsonCategories) {
+                        if (jsonCategories.hasOwnProperty(c)) {
+                            vm.categories.push(new Category(jsonCategories[c]));
+                        }
+                    }
                 })
                 .catch(reason => {
                     console.log("Error fetching category data", reason)

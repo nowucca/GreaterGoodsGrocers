@@ -1,7 +1,6 @@
-
 import formatMixin from './mixins/formatMixins.js'
 import categoryMixin from './mixins/categoryMixins.js';
-import { SiteConfig } from './libs/helper.js';
+import {ShoppingCart} from "./libs/ShoppingCart.js";
 
 export default function (topElement) {
     var testPageVue = new Vue({
@@ -11,6 +10,11 @@ export default function (topElement) {
 
         data: {
             message: 'Hello from Vue!',
+            cart: new ShoppingCart()
+        },
+
+        mounted: function() {
+            console.log('Test mounted')
         },
 
     });
