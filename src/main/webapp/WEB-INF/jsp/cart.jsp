@@ -73,6 +73,8 @@
     </template>
 
     <span v-else>Your Cart is Empty</span>
+    <p><a :href="link('category')"><button>Continue Shopping</button></a></p>
+    <p><a :href="link('checkout')"><button>Proceed to Checkout</button></a></p>
 
 
 
