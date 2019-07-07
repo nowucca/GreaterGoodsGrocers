@@ -4,9 +4,9 @@ An associative array of ShoppingCartItem, where the key is the product identifie
 
  */
 
-import { ShoppingCartItem } from './ShoppingCartItem.js';
+import {ShoppingCartItem} from './ShoppingCartItem.js';
 
-import { toInt } from './helper.js';
+import {toInt, SiteConfig, shrunkenAssociativeArray } from './helper.js';
 
 class ShoppingCart {
 
@@ -16,7 +16,6 @@ class ShoppingCart {
         this.total = 0;
         this._type = "ShoppingCart";
     }
-
 
     /**
      * Adds a <code>ShoppingCartItem</code> to the <code>ShoppingCart</code>'s
@@ -28,11 +27,11 @@ class ShoppingCart {
      */
     addItem(product /*: Product */) {
 
-        let  isNewItem = true;
+        let isNewItem = true;
 
         for (var scProductId in this.items) {
 
-            if (scProductId === product.getProductId()) {
+            if (toInt(scProductId) === product.getProductId()) {
                 isNewItem = false;
                 this.items[scProductId].increment();
             }
@@ -40,31 +39,32 @@ class ShoppingCart {
 
         if (isNewItem === true) {
             let scItem = new ShoppingCartItem(product);
-            items.add(scItem);
+            this.items[scItem.getProductId()] = scItem;
         }
+        this.numberOfItems = this.getNumberOfItems();
     }
 
 
-/**
- * Updates the <code>ShoppingCartItem</code> of the specified
- * <code>product</code> to the specified quantity. If '<code>0</code>'
- * is the given quantity, the <code>ShoppingCartItem</code> is removed
- * from the <code>ShoppingCart</code>'s <code>items</code> list.
- *
- * @param quantity the number which the <code>ShoppingCartItem</code> is updated to
- * @see ShoppingCartItem
- */
+    /**
+     * Updates the <code>ShoppingCartItem</code> of the specified
+     * <code>product</code> to the specified quantity. If '<code>0</code>'
+     * is the given quantity, the <code>ShoppingCartItem</code> is removed
+     * from the <code>ShoppingCart</code>'s <code>items</code> list.
+     *
+     * @param product the product for which to update quantity
+     * @param quantity the number which the <code>ShoppingCartItem</code> is updated to
+     * @see ShoppingCartItem
+     */
     update(product /*: Product*/ , quantity) {
 
         if (quantity < 0 || quantity > 99) return;
 
 
-        var item = null;
         for (var scProductId in this.items) {
 
             let scItem = this.items[scProductId];
 
-            if (scProductId === product.getProductId()) {
+            if (toInt(scProductId) === product.getProductId()) {
 
                 if (quantity !== 0) {
                     // set item quantity to new value
@@ -75,6 +75,7 @@ class ShoppingCart {
                 }
             }
         }
+        this.numberOfItems = this.getNumberOfItems();
     }
 
 
@@ -86,7 +87,7 @@ class ShoppingCart {
      * @see ShoppingCartItem
      */
     getItems() {
-        return this.items;
+        return shrunkenAssociativeArray(this.items);
     }
 
     /**
@@ -137,7 +138,7 @@ class ShoppingCart {
     calculateTotal(surcharge) {
         var amount;
         amount = this.getSubtotal();
-        amount += toInt(surcharge);
+        amount += SiteConfig.surcharge;
         this.total = amount;
     }
 
@@ -148,21 +149,11 @@ class ShoppingCart {
      * @return the cost of all items times their quantities plus surcharge
      */
     getTotal() {
+        this.calculateTotal(500)
         return this.total;
     }
 
-    /**
-     * Empties the shopping cart. All items are removed from the shopping cart
-     * <code>items</code> list, <code>numberOfItems</code> and
-     * <code>total</code> are reset to '<code>0</code>'.
-     *
-     * @see ShoppingCartItem
-     */
-    clear() {
-        this.items.length = 0;
-        this.numberOfItems = 0;
-        this.total = 0;
-    }
+
 
 }
 

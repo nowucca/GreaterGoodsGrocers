@@ -35,6 +35,7 @@
         <th>description</th>
         <th>price</th>
         <th>category_id</th>
+        <th>Add Button</th>
     </tr>
     <tr v-for="product in products">
         <td>{{product.productId}}</td>
@@ -42,9 +43,25 @@
         <td>{{product.description}}</td>
         <td>{{product.price}}</td>
         <td>{{product.categoryId}}</td>
+        <td><button @click.stop.prevent="addToCart(product)">Add to Cart</button></td>
     </tr>
 
 </table>
+
+    Cart total: {{cart.total}}
+    Cart subtotal {{cart.getSubtotal()}}
+
+<table border="1" cellpadding="3">
+    <tr v-for="item in cart.getItems()">
+        <td>{{item.getProduct().getName()}}</td>
+        <td>{{item.getPrice()}}</td>
+        <td>{{item.getQuantity()}}</td>
+        <td>{{item.getTotal()}}</td>
+    </tr>
+</table>
+
+<p><button @click.stop.prevent="clearCart">Clear Cart</button></p>
+
 </div>
 
 <!-- Vue app for page -->

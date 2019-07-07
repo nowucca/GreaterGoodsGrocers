@@ -35,6 +35,7 @@ export default {
             fetch(`${SiteConfig.url}/api/product/category?name=${categoryName}`)
                 .then(response => response.json())
                 .then(jsonProducts => {
+                    vm.products.length = 0;
                     for (let p in jsonProducts) {
                         if (jsonProducts.hasOwnProperty(p)) {
                             vm.products.push(new Product(jsonProducts[p]));
@@ -49,9 +50,11 @@ export default {
 
         loadCategories: function() {
             const vm = this;
+
             fetch(`${SiteConfig.url}/api/category/all`)
                 .then(response => response.json())
                 .then(jsonCategories => {
+                    vm.categories.length = 0;
                     for (let c in jsonCategories) {
                         if (jsonCategories.hasOwnProperty(c)) {
                             vm.categories.push(new Category(jsonCategories[c]));

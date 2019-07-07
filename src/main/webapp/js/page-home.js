@@ -30,9 +30,10 @@ export default function (topElement) {
         methods: {
             loadSpecialProducts: function () {
                 const vm = this;
-                fetch(SiteConfig.url + "/api/product/specials")
+                fetch(`${SiteConfig.url}/api/product/specials`)
                     .then(response => response.json())
                     .then(jsonProducts => {
+                        vm.specialProducts.length = 0;
                         for (let p in jsonProducts) {
                             if (jsonProducts.hasOwnProperty(p)) {
                                 vm.specialProducts.push(new Product(jsonProducts[p]));
