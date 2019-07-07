@@ -56,7 +56,8 @@
 
             <div class="productDetails">
                 <span class="productTitle">{{product.name}}</span>
-                <button class="addItem">Add to Cart</button>
+                <button class="addItem"
+                @click.stop="addToCart(product)">Add to Cart</button>
             </div>
 
             <div class="productCost">

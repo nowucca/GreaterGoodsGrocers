@@ -4,11 +4,12 @@ import NavBar from './components/navbar.js'
 
 import formatMixin from './mixins/formatMixins.js'
 import categoryMixin from './mixins/categoryMixins.js'
+import cartMixin from "./mixins/cartMixins.js";
 
 export default function(topElement) {
     var categoryPageVue = new Vue({
         el: topElement,
-        mixins: [formatMixin, categoryMixin],
+        mixins: [formatMixin, categoryMixin, cartMixin],
         components: {
             "grocery-header": Header,
             "grocery-navbar": NavBar,
