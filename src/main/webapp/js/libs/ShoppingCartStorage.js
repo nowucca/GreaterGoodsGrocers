@@ -69,7 +69,7 @@ class ShoppingCartStorage {
         cart.items.length = 0;
         cart.numberOfItems = 0;
         cart.total = 0;
-        localStorage.setItem(STORAGE_KEY, undefined);
+        localStorage.removeItem(STORAGE_KEY);
     }
 
 
