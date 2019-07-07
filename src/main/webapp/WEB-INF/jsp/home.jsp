@@ -41,7 +41,7 @@
 
 <body>
 <main>
-    <grocery-header></grocery-header>
+    <grocery-header :cart="cart"></grocery-header>
 
     <grocery-navbar :show-selection="false"
                 :categories="categories"

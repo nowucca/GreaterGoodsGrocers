@@ -30,7 +30,7 @@ export default {
             <a :href="link('cart')">
                 <img :src="siteImage('cart-icon.png')" alt="Cart Icon">
             </a>
-            <div id="cartCount">0</div>
+            <div id="cartCount">{{cart.getNumberOfItems()}}</div>
         </div>
 
         <div id="avatarArea"><a href="#">
@@ -43,5 +43,8 @@ export default {
         </div>
     </div>
 </header>`,
+    props: {
+        'cart': Object /*ShoppingCart*/
+    },
     mixins: [formatMixin]
 };
