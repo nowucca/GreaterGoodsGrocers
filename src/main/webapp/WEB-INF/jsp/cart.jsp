@@ -51,8 +51,8 @@
 
 
     <template v-if="cart.getNumberOfItems() > 0">
-        Cart total: {{cart.total}}
-        Cart subtotal {{cart.getSubtotal()}}
+        Cart total: {{formatPrice(cart.total/100)}}
+        Cart subtotal {{formatPrice(cart.getSubtotal()/100)}}
 
         <table  border="1" cellpadding="3">
             <tr>
@@ -64,15 +64,17 @@
 
             <tr v-for="item in cart.getItems()">
                 <td>{{item.getProduct().getName()}}</td>
-                <td>{{item.getPrice()}}</td>
+                <td>{{formatPrice(item.getPrice()/100)}}</td>
                 <td>{{item.getQuantity()}}</td>
-                <td>{{item.getTotal()}}</td>
+                <td>{{formatPrice(item.getTotal()/100)}}</td>
             </tr>
         </table>
         <p><button @click.stop.prevent="clearCart">Clear Cart</button></p>
     </template>
 
-    <span v-else>Cart is empty</span>
+    <span v-else>Your Cart is Empty</span>
+
+
 
 
 
