@@ -30,7 +30,7 @@ export default {
             <a :href="link('cart')">
                 <img :src="siteImage('cart-icon.png')" alt="Cart Icon">
             </a>
-            <div id="cartCount">{{cart.getNumberOfItems()}}</div>
+            <div id="cartCount">{{cart.numberOfItems}}</div>
         </div>
 
         <div id="avatarArea"><a href="#">
