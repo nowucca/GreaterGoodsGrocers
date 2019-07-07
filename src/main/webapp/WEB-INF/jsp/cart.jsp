@@ -6,9 +6,9 @@
 <!doctype html>
 <html>
 <head>
-    <title>Bookstore Category Page</title>
+    <title>Cart Page</title>
     <meta charset="utf-8">
-    <meta name="description" content="The category page for a ecommerce website">
+    <meta name="description" content="The cart page for a ecommerce website">
 
     <!--
         normalize-and-reset.css.css is a basic CSS reset; useful for starting from ground zero.
@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="<c:url value="/css/product.css"/>"/>
     <link rel="stylesheet" href="<c:url value="/css/header.css"/>"/>
     <link rel="stylesheet" href="<c:url value="/css/footer.css"/>"/>
-    <link rel="stylesheet" href="<c:url value="/css/category.css"/>"/>
+    <link rel="stylesheet" href="<c:url value="/css/cart.css"/>"/>
 
     <!-- Javascript libraries -->
     <script src="<c:out value='js/libs/vue.js'/>"></script>
@@ -44,34 +44,43 @@
 <main v-cloak>
     <grocery-header></grocery-header>
 
-    <grocery-navbar :show-selection="showSelection"
-                :categories="categories"
-                :selected-category-name="selectedCategoryName">
+    <grocery-navbar :show-selection="false"
+                    :categories="categories"
+                    :selected-category-name="selectedCategoryName">
     </grocery-navbar>
 
-    <section class="products-container">
 
-        <div v-for="product in products" class="product">
-            <image class="productImage" v-bind:src="productImage(product)"></image>
+    <template v-if="cart.getNumberOfItems() > 0">
+        Cart total: {{cart.total}}
+        Cart subtotal {{cart.getSubtotal()}}
 
-            <div class="productDetails">
-                <span class="productTitle">{{product.name}}</span>
-                <button class="addItem">Add to Cart</button>
-            </div>
+        <table  border="1" cellpadding="3">
+            <tr>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+            </tr>
 
-            <div class="productCost">
-                <p class="productPrice">{{formatPrice(product.price/100)}}</p>
-                <p class="ggPointsBadge">{{product.points}}</p>
-            </div>
-        </div>
+            <tr v-for="item in cart.getItems()">
+                <td>{{item.getProduct().getName()}}</td>
+                <td>{{item.getPrice()}}</td>
+                <td>{{item.getQuantity()}}</td>
+                <td>{{item.getTotal()}}</td>
+            </tr>
+        </table>
+        <p><button @click.stop.prevent="clearCart">Clear Cart</button></p>
+    </template>
 
-    </section>
+    <span v-else>Cart is empty</span>
+
+
 
     <grocery-footer></grocery-footer>
 </main>
 <!-- Vue app for page -->
 <script type="module">
-    import init from '${pageContext.request.contextPath}/js/page-category.js';
+    import init from '${pageContext.request.contextPath}/js/page-cart.js';
     init('main');
 </script>
 </body>
