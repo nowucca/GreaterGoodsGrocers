@@ -24,7 +24,12 @@ export default {
 
     methods: {
         handleRequestedCategoryIfAny: function() {
-            var requestedCategoryName = getUrlParam('name', '');
+            var requestedCategoryName = sessionStorage.getItem("selectedCategoryName");
+            if (requestedCategoryName !== null) {
+                this.selectedCategoryName = requestedCategoryName;
+            }
+
+            requestedCategoryName = getUrlParam('name', '');
             if (requestedCategoryName !== '') {
                 this.selectedCategoryName = requestedCategoryName;
             }
@@ -42,6 +47,7 @@ export default {
                         }
                     }
                     vm.selectedCategoryName = categoryName;
+                    sessionStorage.setItem("selectedCategoryName", categoryName);
                 })
                 .catch(reason => {
                     console.log("Error fetching product data", reason)
