@@ -1,5 +1,5 @@
-import {ShoppingCartStorage} from "../libs/ShoppingCartStorage.js";
-import {ShoppingCart} from "../libs/ShoppingCart.js";
+import {ShoppingCartStorage} from "../business/ShoppingCartStorage.js";
+import {ShoppingCart} from "../business/ShoppingCart.js";
 
 export default {
 

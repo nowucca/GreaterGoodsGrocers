@@ -1,6 +1,6 @@
-import Header from '../components/header.js'
-import Footer from '../components/footer.js';
-import NavBar from '../components/navbar.js'
+import Header from '../components/Header.js'
+import Footer from '../components/Footer.js';
+import NavBar from '../components/NavBar.js'
 
 import FormatMixin from '../mixins/FormatMixin.js'
 import CategoryMixin from '../mixins/CategoryMixin.js'

@@ -4,7 +4,7 @@ import {Product} from "./Product.js";
 import {ShoppingCart} from './ShoppingCart.js';
 
 
-import { shrunkenAssociativeArray } from './helper.js';
+import { shrunkenAssociativeArray } from './Utils.js';
 
 const STORAGE_KEY = "cart";
 

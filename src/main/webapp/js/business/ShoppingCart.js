@@ -6,7 +6,7 @@ An associative array of ShoppingCartItem, where the key is the product identifie
 
 import {ShoppingCartItem} from './ShoppingCartItem.js';
 
-import {toInt, SiteConfig, shrunkenAssociativeArray } from './helper.js';
+import {toInt, SiteConfig, shrunkenAssociativeArray } from './Utils.js';
 
 class ShoppingCart {
 

@@ -1,6 +1,6 @@
-import { getUrlParam, SiteConfig } from '../libs/helper.js';
-import { Product } from '../libs/Product.js';
-import { Category } from '../libs/Category.js';
+import { getUrlParam, SiteConfig } from '../business/Utils.js';
+import { Product } from '../business/Product.js';
+import { Category } from '../business/Category.js';
 
 export default {
 

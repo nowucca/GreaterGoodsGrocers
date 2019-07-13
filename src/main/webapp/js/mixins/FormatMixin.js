@@ -1,4 +1,4 @@
-import { PriceFormatter, SiteConfig  } from '../libs/helper.js';
+import { PriceFormatter, SiteConfig  } from '../business/Utils.js';
 
 export default {
     methods: {
