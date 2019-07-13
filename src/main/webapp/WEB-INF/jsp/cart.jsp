@@ -51,8 +51,8 @@
 
 
     <template v-if="cart.getNumberOfItems() > 0">
-        Cart total: {{formatPrice(this.getCartTotal/100)}}
-        Cart subtotal {{formatPrice(this.getCartSubtotal/100)}}
+        Cart total: {{formatPrice(this.getCartTotal()/100)}}
+        Cart subtotal {{formatPrice(this.getCartSubtotal()/100)}}
 
         <table  border="1" cellpadding="3">
             <tr>
