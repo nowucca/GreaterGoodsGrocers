@@ -51,8 +51,8 @@
 
 
     <template v-if="cart.getNumberOfItems() > 0">
-        Cart total: {{formatPrice(cart.total/100)}}
-        Cart subtotal {{formatPrice(cart.getSubtotal()/100)}}
+        Cart total: {{formatPrice(getCartTotal()/100)}}
+        Cart subtotal {{formatPrice(getCartSubtotal()/100)}}
 
         <table  border="1" cellpadding="3">
             <tr>
@@ -65,7 +65,7 @@
             <tr v-for="item in cart.getItems()">
                 <td>{{item.getProduct().getName()}}</td>
                 <td>{{formatPrice(item.getPrice()/100)}}</td>
-                <td>{{item.getQuantity()}}</td>
+                <td><input type="number" placeholder="placeholder text" v-model="item.quantity"/> // {{item.quantity}}</td>
                 <td>{{formatPrice(item.getTotal()/100)}}</td>
             </tr>
         </table>
@@ -84,7 +84,7 @@
 </main>
 <!-- Vue app for page -->
 <script type="module">
-    import init from '${pageContext.request.contextPath}/js/page-cart.js';
+    import init from '${pageContext.request.contextPath}/js/pages/CartPage.js';
     init('main');
 </script>
 </body>

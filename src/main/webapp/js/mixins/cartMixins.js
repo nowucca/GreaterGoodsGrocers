@@ -7,6 +7,15 @@ export default {
         cart: new ShoppingCart()
     },
 
+    computed: {
+        getCartTotal: function() {
+            return this.cart.getTotal();
+        },
+        getCartSubtotal: function() {
+            return this.cart.getSubtotal();
+        }
+    },
+
     mounted: function() {
         this.cart = ShoppingCartStorage.loadCart();
     },

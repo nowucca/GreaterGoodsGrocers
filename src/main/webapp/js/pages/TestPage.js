@@ -1,6 +1,6 @@
-import formatMixin from './mixins/formatMixins.js'
-import categoryMixin from './mixins/categoryMixins.js';
-import cartMixin from './mixins/cartMixins.js';
+import formatMixin from '../mixins/formatMixins.js'
+import categoryMixin from '../mixins/categoryMixins.js';
+import cartMixin from '../mixins/cartMixins.js';
 
 export default function (topElement) {
     var testPageVue = new Vue({

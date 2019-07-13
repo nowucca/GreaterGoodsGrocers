@@ -66,7 +66,7 @@
 
 <!-- Vue app for page -->
 <script type="module">
-    import init from '${pageContext.request.contextPath}/js/page-test.js';
+    import init from '${pageContext.request.contextPath}/js/pages/TestPage.js';
     init('#app');
 </script>
 </body>

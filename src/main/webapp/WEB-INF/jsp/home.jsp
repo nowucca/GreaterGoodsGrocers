@@ -104,7 +104,7 @@
 </main>
 <!-- Vue app for page -->
 <script type="module">
-    import init from '${pageContext.request.contextPath}/js/page-home.js';
+    import init from '${pageContext.request.contextPath}/js/pages/HomePage.js';
     init('main');
 </script></body>
 </html>

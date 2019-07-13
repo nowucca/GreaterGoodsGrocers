@@ -72,7 +72,7 @@
 </main>
 <!-- Vue app for page -->
 <script type="module">
-    import init from '${pageContext.request.contextPath}/js/page-category.js';
+    import init from '${pageContext.request.contextPath}/js/pages/CategoryPage.js';
     init('main');
 </script>
 </body>

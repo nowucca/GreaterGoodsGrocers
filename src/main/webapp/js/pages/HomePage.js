@@ -1,13 +1,13 @@
-import Header from './components/header.js'
-import Footer from './components/footer.js';
-import NavBar from './components/navbar.js'
+import Header from '../components/header.js'
+import Footer from '../components/footer.js';
+import NavBar from '../components/navbar.js'
 
-import formatMixin from './mixins/formatMixins.js'
-import categoryMixin from './mixins/categoryMixins.js';
-import cartMixin from "./mixins/cartMixins.js";
+import formatMixin from '../mixins/formatMixins.js'
+import categoryMixin from '../mixins/categoryMixins.js';
+import cartMixin from "../mixins/cartMixins.js";
 
-import { SiteConfig } from './libs/helper.js';
-import {Product} from "./libs/Product.js";
+import { SiteConfig } from '../libs/helper.js';
+import {Product} from "../libs/Product.js";
 
 export default function (topElement) {
     var homePageVue = new Vue({
