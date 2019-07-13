@@ -2,9 +2,9 @@ import Header from '../components/header.js'
 import Footer from '../components/footer.js';
 import NavBar from '../components/navbar.js'
 
-import formatMixin from '../mixins/formatMixins.js'
-import categoryMixin from '../mixins/categoryMixins.js';
-import cartMixin from "../mixins/cartMixins.js";
+import FormatMixin from '../mixins/FormatMixin.js'
+import CategoryMixin from '../mixins/CategoryMixin.js';
+import CartMixin from "../mixins/CartMixin.js";
 
 import { SiteConfig } from '../libs/helper.js';
 import {Product} from "../libs/Product.js";
@@ -13,7 +13,7 @@ export default function (topElement) {
     var homePageVue = new Vue({
         el: topElement,
 
-        mixins: [formatMixin, categoryMixin, cartMixin],
+        mixins: [FormatMixin, CategoryMixin, CartMixin],
 
         components: {
             "grocery-header": Header,

@@ -1,4 +1,4 @@
-import formatMixin from '../mixins/formatMixins.js';
+import formatMixin from '../mixins/FormatMixin.js';
 
 export default {
 
