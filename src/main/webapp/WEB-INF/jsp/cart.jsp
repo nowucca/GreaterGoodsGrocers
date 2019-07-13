@@ -68,7 +68,7 @@
                 <td><input type="number"
                            placeholder="placeholder text"
                            v-model.trim.number="item.quantity"
-                           @change="cart.update(item.getProduct(), item.quantity)"/>
+                           @change="updateCart(item.getProduct(), item.quantity)"/>
                 </td>
                 <td>{{formatPrice(item.getTotal()/100)}}</td>
             </tr>
@@ -79,9 +79,6 @@
     <span v-else>Your Cart is Empty</span>
     <p><a :href="link('category')"><button>Continue Shopping</button></a></p>
     <p><a :href="link('checkout')"><button>Proceed to Checkout</button></a></p>
-
-
-
 
 
     <grocery-footer></grocery-footer>
