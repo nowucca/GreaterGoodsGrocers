@@ -65,7 +65,11 @@
             <tr v-for="item in cart.getItems()">
                 <td>{{item.getProduct().getName()}}</td>
                 <td>{{formatPrice(item.getPrice()/100)}}</td>
-                <td><input type="number" placeholder="placeholder text" v-model="item.quantity"/> // {{item.quantity}}</td>
+                <td><input type="number"
+                           placeholder="placeholder text"
+                           v-model.trim.number="item.quantity"
+                           @change="cart.update(item.getProduct(), item.quantity)"/>
+                </td>
                 <td>{{formatPrice(item.getTotal()/100)}}</td>
             </tr>
         </table>
