@@ -3,8 +3,8 @@ class Category {
 
     // private long categoryId;
     // private String name;
-    constructor(options = {}) {
-        Object.assign(this, options);
+    constructor(jsonObject = {}) {
+        Object.assign(this, jsonObject);
         this._type = "Category";
     }
 

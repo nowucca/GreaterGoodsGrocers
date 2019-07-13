@@ -1,8 +1,8 @@
 
 class Product {
 
-    constructor(options = {}) {
-        Object.assign(this, options);
+    constructor(jsonObject = {}) {
+        Object.assign(this, jsonObject);
         this._type = "Product";
     }
 
