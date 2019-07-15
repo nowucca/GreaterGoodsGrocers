@@ -27,11 +27,11 @@
         extras.css  --  extras you may want
     -->
 
-    <link rel="stylesheet" href="<c:url value="/css/main.css"/>"/>
-    <link rel="stylesheet" href="<c:url value="/css/product.css"/>"/>
-    <link rel="stylesheet" href="<c:url value="/css/header.css"/>"/>
-    <link rel="stylesheet" href="<c:url value="/css/footer.css"/>"/>
-    <link rel="stylesheet" href="<c:url value="/css/category.css"/>"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/product.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/category.css"/>
 
     <!-- Javascript libraries -->
     <script src="<c:out value='js/libs/vue.js'/>"></script>

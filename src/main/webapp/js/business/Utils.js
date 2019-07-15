@@ -1,11 +1,11 @@
 export const SiteConfig = {
-    "url": "http://localhost:8080/GreaterGoodsSession",
+    "url": function() { return window.location.origin + window.location.pathname.substring(0, window.location.pathname.indexOf("/",2));}(),
     "siteImages": "images/site",
     "productImages": "images/products",
     "surcharge": 500
 };
 
-// Functions to handle reading request parameters
+// Functions to handle reading request parameter
 // https://usefulangle.com/post/78/javascript-get-url-parameters
 export function getUrlParam(parameter, defaultvalue){
     var url = new URL(window.location.href);

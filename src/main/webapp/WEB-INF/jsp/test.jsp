@@ -10,8 +10,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>JSP Page</title>
-    <script src="<c:out value='js/libs/vue.js'/>"></script>
-
+    <script src="js/libs/vue.js"></script>
 </head>
 <body>
 <div id="app" v-cloak>

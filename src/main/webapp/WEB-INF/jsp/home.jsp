@@ -26,16 +26,16 @@
         extras.css  --  extras you may want
     -->
 
-    <link rel="stylesheet" href="<c:url value="/css/main.css"/>"/>
-    <link rel="stylesheet" href="<c:url value="/css/product.css"/>"/>
-    <link rel="stylesheet" href="<c:url value="/css/header.css"/>"/>
-    <link rel="stylesheet" href="<c:url value="/css/footer.css"/>"/>
-    <link rel="stylesheet" href="<c:url value="/css/homepage.css"/>"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/product.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/homepage.css"/>
 
 
     <!-- Javascript libraries -->
-    <script src="<c:out value='js/libs/vue.js'/>"></script>
-    <script src="<c:out value='js/libs/fontawesome-kit.js'/>"></script>
+    <script src="js/libs/vue.js"></script>
+    <script src="js/libs/fontawesome-kit.js"></script>
 
 </head>
 
