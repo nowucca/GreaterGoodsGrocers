@@ -49,14 +49,30 @@
                     :selected-category-name="selectedCategoryName">
     </grocery-navbar>
 
+    <div id="cartDescription">
+        <ul>
+            <li>
+                <template v-if="cart.getNumberOfItems() > 1">
+                    Your shopping cart contains {{cart.getNumberOfItems()}} items.
+                </template>
+                <template v-else-if="cart.getNumberOfItems() == 1">
+                    Your shopping cart contains {{cart.getNumberOfItems()}} item.
+                </template>
+                <template v-else>
+                    Your shopping cart is empty.
+                </template>
+            </li>
 
-    <template v-if="cart.getNumberOfItems() > 0">
-        Cart total: {{formatPrice(this.getCartTotal()/100)}}
-        Cart subtotal {{formatPrice(this.getCartSubtotal()/100)}}
+        </ul>
+    </div>
+
+    <section id="cartContents" v-if="cart.getNumberOfItems() > 0">
 
         <table  border="1" cellpadding="3">
             <tr>
                 <th>Product Name</th>
+                <th>Description</th>
+                <th>Points</th>
                 <th>Price</th>
                 <th>Quantity</th>
                 <th>Total</th>
@@ -64,8 +80,14 @@
 
             <tr v-for="item in cart.getItems()">
                 <td>{{item.getProduct().getName()}}</td>
+                <td>{{item.getProduct().getDescription()}}</td>
+                <td><p class="productPoints">{{item.getProduct().getPoints()}}</p>
+                </td>
                 <td>{{formatPrice(item.getPrice()/100)}}</td>
                 <td><input type="number"
+                           min="1"
+                           max="9"
+                           step="1"
                            placeholder="placeholder text"
                            v-model.trim.number="item.quantity"
                            @change="updateCart(item.getProduct(), item.quantity)"/>
@@ -73,13 +95,24 @@
                 <td>{{formatPrice(item.getTotal()/100)}}</td>
             </tr>
         </table>
-        <p><button @click.stop.prevent="clearCart">Clear Cart</button></p>
-    </template>
 
-    <span v-else>Your Cart is Empty</span>
-    <p><a :href="link('category')"><button>Continue Shopping</button></a></p>
-    <p><a :href="link('checkout')"><button>Proceed to Checkout</button></a></p>
+        <ul id="cartTotals" v-if="cart.getNumberOfItems() > 0">
+            <li>Cart subtotal: {{formatPrice(this.getCartSubtotal()/100)}}</li>
+            <li>Cart total: <b>{{formatPrice(this.getCartTotal()/100)}}</b></li>
+        </ul>
 
+    </section>
+
+
+    <section id="cartActions">
+      <button class="normal2xButton" v-if="cart.getNumberOfItems() > 0" @click.stop.prevent="clearCart">Clear Cart</button>
+      <a :href="link('category')">
+          <button class="normal2xButton">Continue Shopping</button>
+      </a>
+      <a :href="link('checkout')" v-if="cart.getNumberOfItems() > 0">
+          <button class="emphasized2xButton">Proceed to Checkout</button>
+      </a>
+    </section>
 
     <grocery-footer></grocery-footer>
 </main>

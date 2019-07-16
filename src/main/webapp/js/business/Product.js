@@ -23,6 +23,14 @@ class Product {
         return this.price;
     }
 
+    getDescription() {
+        return this.description;
+    }
+
+    getPoints() {
+        return this.points;
+    }
+
     getLastUpdate() {
         return this.lastUpdate;
     }
