@@ -22,7 +22,7 @@ public class ApiResource {
 
 
     @GET
-    @Path("category/all")
+    @Path("categories")
     @Produces(javax.ws.rs.core.MediaType.APPLICATION_JSON)
     public Collection<Category> categories(@Context HttpServletRequest httpRequest) {
         try {
@@ -33,7 +33,7 @@ public class ApiResource {
     }
 
     @GET
-    @Path("product/category")
+    @Path("products/category")
     @Produces(javax.ws.rs.core.MediaType.APPLICATION_JSON)
     public List<Product> productsByCategoryName(@QueryParam("name") @DefaultValue("Dairy") String categoryName,
                                                 @Context HttpServletRequest httpRequest) {
@@ -55,7 +55,7 @@ public class ApiResource {
     }
 
     @GET
-    @Path("product/specials")
+    @Path("products/specials")
     @Produces(javax.ws.rs.core.MediaType.APPLICATION_JSON)
     public List<Product> specialProducts(@Context HttpServletRequest request) {
         try {

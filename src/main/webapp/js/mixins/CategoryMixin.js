@@ -37,7 +37,7 @@ export default {
 
         selectCategory: function(categoryName) {
             const vm = this;
-            fetch(`${SiteConfig.url}/api/product/category?name=${categoryName}`)
+            fetch(`${SiteConfig.url}/api/products/category?name=${categoryName}`)
                 .then(response => response.json())
                 .then(jsonProducts => {
                     vm.products.length = 0;
@@ -57,7 +57,7 @@ export default {
         loadCategories: function() {
             const vm = this;
 
-            fetch(`${SiteConfig.url}/api/category/all`)
+            fetch(`${SiteConfig.url}/api/categories`)
                 .then(response => response.json())
                 .then(jsonCategories => {
                     vm.categories.length = 0;

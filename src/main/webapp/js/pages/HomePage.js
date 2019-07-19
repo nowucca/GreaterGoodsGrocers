@@ -32,7 +32,7 @@ export default function (topElement) {
         methods: {
             loadSpecialProducts: function () {
                 const vm = this;
-                fetch(`${SiteConfig.url}/api/product/specials`)
+                fetch(`${SiteConfig.url}/api/products/specials`)
                     .then(response => response.json())
                     .then(jsonProducts => {
                         vm.specialProducts.length = 0;
