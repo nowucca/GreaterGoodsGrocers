@@ -90,7 +90,7 @@
 
                 <div class="productDetails">
                     <span class="productTitle">{{product.name}}</span>
-                    <button class="addItem">Add to Cart</button>
+                    <button class="normalButton">Add to Cart</button>
                 </div>
 
                 <div class="productCost">

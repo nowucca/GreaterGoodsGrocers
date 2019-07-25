@@ -149,11 +149,18 @@ class ShoppingCart {
      * @return the cost of all items times their quantities plus surcharge
      */
     getTotal() {
-        this.calculateTotal(500)
+        this.calculateTotal(this.getSurcharge())
         return this.total;
     }
 
-
+    /**
+     * Returns the surcharge to be applied for items in the cart.
+     *
+     * @returns {number}
+     */
+    getSurcharge() {
+        return SiteConfig.surcharge;
+    }
 
 }
 

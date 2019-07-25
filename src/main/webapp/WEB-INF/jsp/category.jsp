@@ -53,7 +53,7 @@
 
             <div class="productDetails">
                 <span class="productTitle">{{product.name}}</span>
-                <button class="addItem"
+                <button class="normalButton"
                 @click.stop="addToCart(product)">Add to Cart</button>
             </div>
 

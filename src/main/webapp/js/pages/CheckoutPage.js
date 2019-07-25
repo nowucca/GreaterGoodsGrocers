@@ -11,6 +11,18 @@ export default function(topElement) {
         components: {
             "grocery-header": Header,
             "grocery-footer": Footer
+        },
+
+        data: {
+            customerForm: {
+                name: ""
+            }
+        },
+
+        methods: {
+            submitOrder: function(evt) {
+                console.log("Submit Order method called")
+            }
         }
     });
 }

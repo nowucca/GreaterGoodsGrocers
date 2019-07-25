@@ -36,21 +36,6 @@
     color: #1805FF
 }
 
-.productDetails .addItem {
-    border: 1px solid #979797;
-    font-weight: bold;
-    font-size: 13px;
-    color: #71B869;
-    text-align: center;
-    width: 96px;
-    height: 30px;
-}
-
-.productDetails .addItem:hover {
-    background-color: #71B869;
-    color: white;
-    font-weight:normal;
-}
 .productCost {
     display: block;
     position: absolute;

@@ -1,0 +1,49 @@
+#checkoutInfo, #checkoutMain p  {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+#checkoutMain input, #checkoutMain select #checkoutMain button {
+    margin-top: 15px;
+    margin-right: 5px;
+    line-height: 32px;
+}
+
+#checkoutFormAndInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#checkoutFormBox {
+
+}
+
+.form-element label {
+    display: inline-block;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.form-element {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+#checkoutForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#checkoutButton {
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #818181;
+    margin-top: 30px;
+}
+
