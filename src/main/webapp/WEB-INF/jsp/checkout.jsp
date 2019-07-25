@@ -3,9 +3,9 @@
 <!doctype html>
 <html>
 <head>
-    <title>Bookstore Category Page</title>
+    <title>Checkout Page</title>
     <meta charset="utf-8">
-    <meta name="description" content="The category page for a ecommerce website">
+    <meta name="description" content="The checkout page for a ecommerce website">
 
     <!--
         normalize-and-reset.css.css is a basic CSS reset; useful for starting from ground zero.
@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="css/product.css"/>
     <link rel="stylesheet" href="css/header.css"/>
     <link rel="stylesheet" href="css/footer.css"/>
-    <link rel="stylesheet" href="css/category.css"/>
+    <link rel="stylesheet" href="css/cart.css"/>
 
     <!-- Javascript libraries -->
     <script src="js/libs/vue.js"></script>
@@ -41,35 +41,13 @@
 <main v-cloak>
     <grocery-header :cart="cart"></grocery-header>
 
-    <grocery-navbar :show-selection="showSelection"
-                :categories="categories"
-                :selected-category-name="selectedCategoryName">
-    </grocery-navbar>
-
-    <section class="products-container">
-
-        <div v-for="product in products" class="product">
-            <image class="productImage" v-bind:src="productImage(product)"></image>
-
-            <div class="productDetails">
-                <span class="productTitle">{{product.name}}</span>
-                <button class="addItem"
-                @click.stop="addToCart(product)">Add to Cart</button>
-            </div>
-
-            <div class="productCost">
-                <p class="productPrice">{{formatPrice(product.price/100)}}</p>
-                <p class="ggPointsBadge">{{product.points}}</p>
-            </div>
-        </div>
-
-    </section>
+    Checkout Page
 
     <grocery-footer></grocery-footer>
 </main>
 <!-- Vue app for page -->
 <script type="module">
-    import init from '${pageContext.request.contextPath}/js/pages/CategoryPage.js';
+    import init from '${pageContext.request.contextPath}/js/pages/CheckoutPage.js';
     init('main');
 </script>
 </body>
