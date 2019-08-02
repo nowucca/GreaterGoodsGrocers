@@ -3,6 +3,8 @@ import Footer from '../components/Footer.js';
 
 import FormatMixin from '../mixins/FormatMixin.js'
 import CartMixin from "../mixins/CartMixin.js";
+import {FieldError} from "../business/FieldError.js";
+import {denseArray} from "../business/Utils.js";
 
 export default function(topElement) {
     var checkoutPageVue = new Vue({
@@ -45,44 +47,89 @@ export default function(topElement) {
                 },
 
             },
-            errors: []
+
+            errors: [], /* sparse array [fieldName]->FieldError]; */
+
+            submitSuccess: false,
+        },
+
+        computed: {
+
+            hasAnyErrors: function() {
+                return denseArray(this.errors).length > 0;
+            },
+
+            temporaryMessage: function() {
+                return this.hasAnyErrors || this.submitSuccess !== true ? "": "Transactions have not been implemented yet.";
+            }
+
         },
 
         methods: {
 
-            performChecks: function () {
+            hasFieldError: function(fieldName) {
+                return this.errors.hasOwnProperty(fieldName);
+            },
+
+            getFieldErrorMessages: function(fieldName) {
+                if (! this.hasFieldError(fieldName)) {
+                    return [];
+                }
+                return this.errors[fieldName].getMessages();
+            },
+
+            addFieldErrorMessage(fieldName, errorMessage) {
+                if (typeof this.errors[fieldName] !== "object") {
+                    this.errors[fieldName] = new FieldError(fieldName);
+                }
+                this.errors[fieldName].add(errorMessage);
+            },
+
+            performChecks: function (fieldName = null) {
                 let v = validator; // see https://github.com/validatorjs/validator.js
                 let form = this.customerForm;
                 let msgs = this.errorMessages;
 
-                if (v.isEmpty(form.name)) {
-                    this.errors.push({field: "name", msg: msgs.name.missing});
-                } else if (!v.isLength(form.name, {min:1, max: 45})) {
-                    this.errors.push({field: "name", msg: msgs.name.value});
+                this.submitSuccess = false;
+
+                if (!fieldName || fieldName === "name") {
+                    if (v.isEmpty(form.name)) {
+                        this.addFieldErrorMessage("name", msgs.name.missing);
+                    } else if (!v.isLength(form.name, {min: 1, max: 45})) {
+                        this.addFieldErrorMessage("name", msgs.name.value);
+                    }
                 }
 
-                if (v.isEmpty(form.address)) {
-                    this.errors.push({field: "address", msg: msgs.address.missing});
-                } else if (!v.isLength(form.address, {min:1, max: 45})) {
-                    this.errors.push({field: "address", msg: msgs.address.value});
+                if (!fieldName || fieldName === "address") {
+                    if (v.isEmpty(form.address)) {
+                        this.addFieldErrorMessage("address", msgs.address.missing);
+                    } else if (!v.isLength(form.address, {min: 1, max: 45})) {
+                        this.addFieldErrorMessage("address", msgs.address.value);
+                    }
                 }
 
-                if (v.isEmpty(form.phone)) {
-                    this.errors.push({field: "phone", msg: msgs.phone.missing});
-                } else if (!v.isMobilePhone(form.phone, 'en-US', {strictMode: false})) {
-                    this.errors.push({field: "phone", msg: msgs.phone.value});
+                if (!fieldName || fieldName === "phone") {
+                    if (v.isEmpty(form.phone)) {
+                        this.addFieldErrorMessage("phone", msgs.phone.missing);
+                    } else if (!v.isMobilePhone(form.phone, 'en-US', {strictMode: false})) {
+                        this.addFieldErrorMessage("phone", msgs.phone.value);
+                    }
                 }
 
-                if (v.isEmpty(form.email)) {
-                    this.errors.push({field: "email", msg: msgs.email.missing});
-                } else if (!v.isEmail(form.email, {allow_utf8_local_part: false})) {
-                    this.errors.push({field: "email", msg: msgs.email.value});
+                if (!fieldName || fieldName === "email") {
+                    if (v.isEmpty(form.email)) {
+                        this.addFieldErrorMessage("email", msgs.email.missing);
+                    } else if (!v.isEmail(form.email, {allow_utf8_local_part: false})) {
+                        this.addFieldErrorMessage("email", msgs.email.value);
+                    }
                 }
 
-                if (v.isEmpty(form.ccNumber)) {
-                    this.errors.push({field: "ccNumber", msg: msgs.ccNumber.missing});
-                } else if (!v.isCreditCard(form.ccNumber)) {
-                    this.errors.push({field: "ccNumber", msg: msgs.ccNumber.value});
+                if (!fieldName || fieldName === "ccNumber") {
+                    if (v.isEmpty(form.ccNumber)) {
+                        this.addFieldErrorMessage("ccNumber", msgs.ccNumber.missing);
+                    } else if (!v.isCreditCard(form.ccNumber)) {
+                        this.addFieldErrorMessage("ccNumber", msgs.ccNumber.value);
+                    }
                 }
             },
 
@@ -90,10 +137,7 @@ export default function(topElement) {
                 console.log("Submit Order method called")
                 this.clearErrors();
                 this.performChecks();
-
-                if (this.errors.length === 0) {
-                    this.errors.push({field: "form", msg: "Transactions have not been implemented yet."})
-                }
+                this.submitSuccess = true;
             },
 
             resetOrder: function(evt) {
@@ -104,12 +148,25 @@ export default function(topElement) {
             blurred: function(evt) {
                 let elementId = evt.target.id;
                 console.log("Blur method called on element "+elementId);
-                this.clearErrors();
-                this.performChecks();
+                // console.log("Errors at start: ", this.errors);
+                this.clearErrors(elementId);
+                // console.log("Errors after clearing "+elementId+": ", this.errors);
+                this.performChecks(elementId);
+                //console.log("Errors after checks on "+elementId+": ", this.errors);
             },
 
-            clearErrors: function(fieldName = "") {
-                this.errors = [];
+
+
+            clearErrors: function(fieldName = null) {
+                if (fieldName !== null) {
+                    let others = denseArray(this.errors);
+                    let newFieldErrors = [];
+                    others = others.filter(fieldError=> fieldError.getFieldName() !== fieldName);
+                    others.forEach(fieldError => {newFieldErrors[fieldError.getFieldName()] = fieldError});
+                    this.errors = newFieldErrors;
+                } else {
+                    this.errors = [];
+                }
             }
 
         }

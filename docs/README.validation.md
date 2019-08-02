@@ -50,6 +50,13 @@ So, Turning Off Autofill in Chrome:
 * Click on Settings.
 * Turn off all autofill options in 'Autofill'.
 
+# Validating Individual Fields
+
+Turns out re-validating all fields on blur on not desirable.
+We need to simply validate the blurred items.
+Otherwise we are filling out the fields and they all turn red after the first field is blurred.
+
+
 # References
 
 * [Vue Mastery Video on Forms and Validation](https://www.vuemastery.com/courses/intro-to-vue-js/forms/)

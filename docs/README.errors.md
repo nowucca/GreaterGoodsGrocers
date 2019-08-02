@@ -1,7 +1,7 @@
 # Example errors   
 
 Here are some example errors and fixes I found during this module.
-
+            
 ## Extra characters in the page template
 If I have an expression
 
@@ -170,4 +170,22 @@ if (v.isEmpty(form.ccNumber)) {
 }
 ````
 
+## Bad Module Import
+
+Error:
+Blank page, console says:
+````
+GET http://localhost:8080/GreaterGoodsValidate/js/business/FieldError net::ERR_ABORTED 404
+````
+
+Cause: Lack of a .js extension when importing.
+````
+import {FieldError} from "../business/FieldError";
+````
+
+Fix:
+
+````
+import {FieldError} from "../business/FieldError.js";
+````
 

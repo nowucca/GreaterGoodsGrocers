@@ -46,13 +46,7 @@
 
         <p style="font-weight:bold">Checkout</p>
 
-        <p v-if="errors.length>0">Please fix the following errors before checkout:</p>
-
-        <div v-if="errors.length>0" id="checkoutFormErrors">
-            <template v-for="error in errors">
-                <span>{{error.msg}}</span>
-            </template>
-        </div>
+        <p style="color: red" v-if="temporaryMessage.length>0">{{temporaryMessage}}</p>
 
         <div id="checkoutFormAndInfo">
             <div id="checkoutFormBox">
@@ -68,12 +62,22 @@
                                v-on:blur="blurred"
                                v-model="customerForm.name">
                     </div>
+                    <div v-if="hasFieldError('name')" class="fieldErrorsBox">
+                        <ul v-for="msg in getFieldErrorMessages('name')">
+                            <li>{{msg}}</li>
+                        </ul>
+                    </div>
 
                     <div class="form-element">
                         <label for="address">Address</label>
                         <input class="textField" type="text" size="20" maxlength="45" id="address" name="address"
                                v-on:blur="blurred"
                                v-model="customerForm.address">
+                    </div>
+                    <div v-if="hasFieldError('address')" class="fieldErrorsBox">
+                        <ul v-for="msg in getFieldErrorMessages('address')">
+                            <li>{{msg}}</li>
+                        </ul>
                     </div>
 
                     <div class="form-element">
@@ -82,6 +86,11 @@
                                v-on:blur="blurred"
                                v-model="customerForm.phone">
                     </div>
+                    <div v-if="hasFieldError('phone')" class="fieldErrorsBox">
+                        <ul v-for="msg in getFieldErrorMessages('phone')">
+                            <li>{{msg}}</li>
+                        </ul>
+                    </div>
 
                     <div class="form-element">
                         <label for="email">Email</label>
@@ -89,12 +98,22 @@
                                v-on:blur="blurred"
                                v-model="customerForm.email">
                     </div>
+                    <div v-if="hasFieldError('email')" class="fieldErrorsBox">
+                        <ul v-for="msg in getFieldErrorMessages('email')">
+                            <li>{{msg}}</li>
+                        </ul>
+                    </div>
 
                     <div class="form-element">
                         <label for="ccNumber">Credit card</label>
                         <input class="textField" type="text" size="20" maxlength="45" id="ccNumber" name="ccNumber"
                                v-on:blur="blurred"
                                v-model="customerForm.ccNumber">
+                    </div>
+                    <div v-if="hasFieldError('ccNumber')" class="fieldErrorsBox">
+                        <ul v-for="msg in getFieldErrorMessages('ccNumber')">
+                            <li>{{msg}}</li>
+                        </ul>
                     </div>
 
                     <div id="checkoutButtonArea">
