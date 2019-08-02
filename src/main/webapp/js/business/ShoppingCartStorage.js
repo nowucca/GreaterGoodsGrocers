@@ -4,7 +4,7 @@ import {Product} from "./Product.js";
 import {ShoppingCart} from './ShoppingCart.js';
 
 
-import { shrunkenAssociativeArray } from './Utils.js';
+import { denseArray } from './Utils.js';
 
 const STORAGE_KEY = "cart";
 
@@ -19,13 +19,13 @@ class ShoppingCartStorage {
      * The provided cart is serialized (stored) into local storage
      * in the browser.
      *
-     * This is done using a shrunken array for the items to avoid
+     * This is done using a dense array for the items to avoid
      * storing null array entries.
      *
      * @param cart  The cart to store in local storage
      */
     static saveCart(cart) {
-        var tempItems = shrunkenAssociativeArray(cart.items);
+        var tempItems = denseArray(cart.items);
         localStorage.setItem(STORAGE_KEY, JSON.stringify(
             { "numberOfItems": cart.numberOfItems,
                     "total": cart.getTotal(),

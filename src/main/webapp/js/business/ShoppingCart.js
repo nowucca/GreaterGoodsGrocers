@@ -6,7 +6,7 @@ An associative array of ShoppingCartItem, where the key is the product identifie
 
 import {ShoppingCartItem} from './ShoppingCartItem.js';
 
-import {toInt, SiteConfig, shrunkenAssociativeArray } from './Utils.js';
+import {toInt, SiteConfig, denseArray } from './Utils.js';
 
 class ShoppingCart {
 
@@ -87,7 +87,7 @@ class ShoppingCart {
      * @see ShoppingCartItem
      */
     getItems() {
-        return shrunkenAssociativeArray(this.items);
+        return denseArray(this.items);
     }
 
     /**

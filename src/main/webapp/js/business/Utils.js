@@ -33,10 +33,13 @@ export function toInt(x, defaultInt) {
 };
 
 // Avoids serializing null values of an associative array
-export function shrunkenAssociativeArray(associativeArray) {
+export function denseArray(associativeArray) {
      let tempArr = [];
      Object.keys(associativeArray).forEach( (element) => {
          tempArr.push(associativeArray[element]);
      });
      return Object.freeze(tempArr);
 };
+
+// From https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from
+export const range = (start, stop, step) => Array.from({ length: (stop - start) / step + 1}, (_, i) => start + (i * step));

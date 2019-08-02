@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="css/checkout.css"/>
 
     <!-- Javascript libraries -->
+    <script type="text/javascript" src="js/libs/validator.js"></script>
     <script src="js/libs/vue.js"></script>
     <script src="js/libs/fontawesome-kit.js"></script>
 
@@ -45,20 +46,61 @@
 
         <p style="font-weight:bold">Checkout</p>
 
-        <div id="checkoutFormErrors">
+        <p v-if="errors.length>0">Please fix the following errors before checkout:</p>
 
+        <div v-if="errors.length>0" id="checkoutFormErrors">
+            <template v-for="error in errors">
+                <span>{{error.msg}}</span>
+            </template>
         </div>
+
         <div id="checkoutFormAndInfo">
             <div id="checkoutFormBox">
-                <form id="checkoutForm" v-on:submit.prevent="submitOrder" method="post">
+                <form id="checkoutForm"
+                      v-on:submit.prevent="submitOrder"
+                      v-on:reset="resetOrder" method="post">
+
                     <div class="form-element">
                         <label for="name">Name</label>
                         <input class="textField" type="text"
                                size="20" maxlength="45"
-                               id="name" name="name" v-model="customerForm.name">
+                               id="name" name="name"
+                               v-on:blur="blurred"
+                               v-model="customerForm.name">
                     </div>
 
-                    <button id="checkoutButton" class="emphasized2xButton" type="submit">Complete Purchase</button>
+                    <div class="form-element">
+                        <label for="address">Address</label>
+                        <input class="textField" type="text" size="20" maxlength="45" id="address" name="address"
+                               v-on:blur="blurred"
+                               v-model="customerForm.address">
+                    </div>
+
+                    <div class="form-element">
+                        <label for="phone">Phone</label>
+                        <input class="textField" type="tel" size="20" maxlength="45" id="phone" name="phone"
+                               v-on:blur="blurred"
+                               v-model="customerForm.phone">
+                    </div>
+
+                    <div class="form-element">
+                        <label for="email">Email</label>
+                        <input class="textField" type="email" size="20" maxlength="45" id="email" name="email"
+                               v-on:blur="blurred"
+                               v-model="customerForm.email">
+                    </div>
+
+                    <div class="form-element">
+                        <label for="ccNumber">Credit card</label>
+                        <input class="textField" type="text" size="20" maxlength="45" id="ccNumber" name="ccNumber"
+                               v-on:blur="blurred"
+                               v-model="customerForm.ccNumber">
+                    </div>
+
+                    <div id="checkoutButtonArea">
+                        <button id="checkoutButton" class="emphasized2xButton" type="submit">Complete Purchase</button>
+                        <button id="resetButton" class="normal2xButton" type="reset">Reset Form</button>
+                    </div>
                 </form>
             </div>
             <div id="checkoutInfo">

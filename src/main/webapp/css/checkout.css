@@ -4,11 +4,23 @@
     text-align: center;
 }
 
+#checkoutFormErrors {
+    margin-bottom: 30px;
+    text-align: center;
+}
 
-#checkoutMain input, #checkoutMain select #checkoutMain button {
+#checkoutMain input, #checkoutMain select, #checkoutMain button {
     margin-top: 15px;
     margin-right: 5px;
     line-height: 32px;
+}
+#checkoutFormErrors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16px;
+    color: red;
 }
 
 #checkoutFormAndInfo {
@@ -37,13 +49,19 @@
 #checkoutForm {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
 }
 
 #checkoutButton {
     text-align: center;
     text-decoration: none;
     border: 2px solid #818181;
+}
+
+#checkoutButtonArea {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
     margin-top: 30px;
 }
 
