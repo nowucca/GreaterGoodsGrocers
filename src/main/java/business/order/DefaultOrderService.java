@@ -97,7 +97,7 @@ public class DefaultOrderService implements OrderService {
 			}
 		}
 		if (hasError) {
-			throw new ApiException.InvalidParameter("");
+			throw new ApiException.InvalidParameter("Invalid customer data");
 		}
 	}
 
