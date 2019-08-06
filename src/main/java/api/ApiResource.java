@@ -3,9 +3,11 @@ package api;
 import business.ApplicationContext;
 import business.category.Category;
 import business.category.CategoryDao;
+import business.order.OrderDetails;
+import business.order.OrderForm;
+import business.order.OrderService;
 import business.product.Product;
 import business.product.ProductDao;
-import org.checkerframework.common.reflection.qual.GetClass;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.*;
@@ -19,6 +21,7 @@ public class ApiResource {
 
     private final ProductDao productDao = ApplicationContext.getInstance().getProductDao();
     private final CategoryDao categoryDao = ApplicationContext.getInstance().getCategoryDao();
+    private final OrderService orderService = ApplicationContext.getInstance().getOrderService();
 
 
     @GET
@@ -65,6 +68,28 @@ public class ApiResource {
         } catch (Exception e) {
             throw new ApiException("products lookup via categoryName failed", e);
         }
+    }
+
+    @POST
+    @Path("orders")
+	@Consumes(javax.ws.rs.core.MediaType.APPLICATION_JSON)
+    @Produces(javax.ws.rs.core.MediaType.APPLICATION_JSON)
+    public OrderDetails placeOrder(OrderForm orderForm) {
+
+		try {
+			long orderId = orderService.placeOrder(orderForm.getCustomerForm(), orderForm.getCart());
+			if (orderId > 0) {
+				return orderService.getOrderDetails(orderId);
+			} else {
+				throw new ApiException.InvalidParameter("Unknown error occurred");
+			}
+		} catch (ApiException e) {
+			throw e;
+		} catch (Exception e) {
+			throw new ApiException("order placement failed", e);
+		}
+
+
     }
 
 }
