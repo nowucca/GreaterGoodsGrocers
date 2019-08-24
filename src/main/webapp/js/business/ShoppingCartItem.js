@@ -3,30 +3,37 @@ import { Product } from "./Product.js";
 
 class ShoppingCartItem {
 
-    // Product product;
-    // short quantity;
-
     constructor(product) {
-        this.product = product;
-        this.quantity = 1;
-        this._type="ShoppingCartItem";
+        this._product = product;
+        this._quantity = 1;
     }
 
-    getProductId() { return this.product.getProductId(); }
-    getPrice() { return this.product.getPrice(); }
-    getQuantity() { return this.quantity; }
-    getTotal() { return this.quantity * this.getPrice(); }
-    getProduct() { return this.product; }
+	get product() { return this._product; }
 
-    increment() { this.quantity++; }
+	get quantity() { return this._quantity; }
+
+	set quantity(value) { this._quantity = value; }
+
+	get productId() { return this._product.productId; }
+
+    get price() { return this._product.price; }
+
+    get total() { return this._quantity * this.price; }
+
+    increment() { this._quantity++; }
+
     decrement() {
-        if (this.quantity > 0) {
-            this.quantity--;
+        if (this._quantity > 0) {
+            this._quantity--;
         }
     }
-    setQuantity(quantity) {
-        this.quantity = quantity;
-    }
+
+    toJSON() {
+		return {
+			"product": this._product,
+			"quantity": this._quantity
+		}
+	}
 
 }
 

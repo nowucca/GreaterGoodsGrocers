@@ -32,7 +32,7 @@
 
     <!-- Javascript libraries -->
     <script src="js/libs/vue.js"></script>
-    <script src="js/libs/fontawesome-kit.js"></script>
+<%--    <script src="js/libs/fontawesome-kit.js"></script>--%>
 
 
 </head>
@@ -49,11 +49,11 @@
     <div id="cartDescription">
         <ul>
             <li>
-                <template v-if="cart.getNumberOfItems() > 1">
-                    Your shopping cart contains {{cart.getNumberOfItems()}} items.
+                <template v-if="cart.numberOfItems > 1">
+                    Your shopping cart contains {{cart.numberOfItems}} items.
                 </template>
-                <template v-else-if="cart.getNumberOfItems() == 1">
-                    Your shopping cart contains {{cart.getNumberOfItems()}} item.
+                <template v-else-if="cart.numberOfItems == 1">
+                    Your shopping cart contains {{cart.numberOfItems}} item.
                 </template>
                 <template v-else>
                     Your shopping cart is empty.
@@ -63,7 +63,7 @@
         </ul>
     </div>
 
-    <section id="cartContents" v-if="cart.getNumberOfItems() > 0">
+    <section id="cartContents" v-if="!cart.empty">
 
         <table  border="1" cellpadding="3">
             <tr>
@@ -75,38 +75,38 @@
                 <th>Total</th>
             </tr>
 
-            <tr v-for="item in cart.getItems()">
-                <td>{{item.getProduct().getName()}}</td>
-                <td>{{item.getProduct().getDescription()}}</td>
-                <td><p class="productPoints">{{item.getProduct().getPoints()}}</p>
+            <tr v-for="item in cart.items">
+                <td>{{item.product.name}}</td>
+                <td>{{item.product.description}}</td>
+                <td><p class="productPoints">{{item.product.points}}</p>
                 </td>
-                <td>{{formatPrice(item.getPrice()/100)}}</td>
+                <td>{{formatPrice(item.price/100)}}</td>
                 <td><input type="number"
                            min="1"
                            max="9"
                            step="1"
-                           placeholder="placeholder text"
+                           placeholder="Quantity desired"
                            v-model.trim.number="item.quantity"
-                           @change="updateCart(item.getProduct(), item.quantity)"/>
+                           @change="updateCart(item.product, item.quantity)"/>
                 </td>
-                <td>{{formatPrice(item.getTotal()/100)}}</td>
+                <td>{{formatPrice(item.total/100)}}</td>
             </tr>
         </table>
 
-        <ul id="cartTotals" v-if="cart.getNumberOfItems() > 0">
-            <li>Cart subtotal: {{formatPrice(this.getCartSubtotal()/100)}}</li>
-            <li>Cart total: <b>{{formatPrice(this.getCartTotal()/100)}}</b></li>
+        <ul id="cartTotals" v-if="!cart.empty">
+            <li>Cart subtotal: {{formatPrice(this.cart.subtotal/100)}}</li>
+            <li>Cart total: <b>{{formatPrice(this.cart.total/100)}}</b></li>
         </ul>
 
     </section>
 
 
     <section id="cartActions">
-      <button class="normal2xButton" v-if="cart.getNumberOfItems() > 0" @click.stop.prevent="clearCart">Clear Cart</button>
+      <button class="normal2xButton" v-if="!cart.empty" @click.stop.prevent="clearCart">Clear Cart</button>
       <a :href="link('category')">
           <button class="normal2xButton">Continue Shopping</button>
       </a>
-      <a :href="link('checkout')" v-if="cart.getNumberOfItems() > 0">
+      <a :href="link('checkout')" v-if="!cart.empty">
           <button class="emphasized2xButton">Proceed to Checkout</button>
       </a>
     </section>

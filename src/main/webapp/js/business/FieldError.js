@@ -1,28 +1,33 @@
 class FieldError {
 
     constructor(fieldName, errorMessages = []) {
-        this.fieldName = fieldName;
-        this.errorMessages = []; /* Array of String, multiple messages per field allowed */
-        this._type = "FieldError";
+        this._fieldName = fieldName;
+        this._errorMessages = errorMessages; /* Array of String, multiple messages per field allowed */
     }
 
     add(errorMessage) {
-        this.errorMessages.push(errorMessage);
+        this._errorMessages.push(errorMessage);
         return this;
     }
 
-    getFieldName() {
-        return this.fieldName;
+    get fieldName() {
+        return this._fieldName;
     }
 
-    getMessages() {
-        return Object.freeze(this.errorMessages);
+    get messages() {
+        return Object.freeze(this._errorMessages);
     }
 
     toString() {
-        return "FieldError[name=" + this.fieldName + " messageCount="+this.errorMessages.length+"]";
+        return "FieldError[name=" + this.fieldName + " messageCount="+this._errorMessages.length+"]";
     }
 
+    toJSON() {
+    	return {
+			"fieldName": this._fieldName,
+			"errorMessages": this._errorMessages
+		}
+	}
 }
 
 export { FieldError }

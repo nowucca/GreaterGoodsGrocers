@@ -1,5 +1,6 @@
 export const SiteConfig = {
-    "url": function() { return window.location.origin + window.location.pathname.substring(0, window.location.pathname.indexOf("/",2));}(),
+    "url": function() { return window.location.origin +
+		window.location.pathname.substring(0, window.location.pathname.indexOf("/",2));}(),
     "siteImages": "images/site",
     "productImages": "images/products",
     "surcharge": 500

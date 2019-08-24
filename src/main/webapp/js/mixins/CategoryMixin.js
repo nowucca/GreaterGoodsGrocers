@@ -24,7 +24,7 @@ export default {
 
     methods: {
         handleRequestedCategoryIfAny: function() {
-            var requestedCategoryName = sessionStorage.getItem("selectedCategoryName");
+            let requestedCategoryName = sessionStorage.getItem("selectedCategoryName");
             if (requestedCategoryName !== null) {
                 this.selectedCategoryName = requestedCategoryName;
             }
@@ -49,7 +49,7 @@ export default {
                     vm.selectedCategoryName = categoryName;
                     sessionStorage.setItem("selectedCategoryName", categoryName);
                 })
-                .catch(reason => {
+				.catch(reason => {
                     console.log("Error fetching product data", reason)
                 });
         },

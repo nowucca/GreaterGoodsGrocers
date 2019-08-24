@@ -12,13 +12,7 @@ export default {
     },
 
     methods: {
-        getCartTotal: function() {
-            return this.cart.getTotal();
-        },
 
-        getCartSubtotal: function() {
-            return this.cart.getSubtotal();
-        },
 
         addToCart: function(product) {
             this.cart.addItem(product);

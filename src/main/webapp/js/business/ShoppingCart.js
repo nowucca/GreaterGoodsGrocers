@@ -6,18 +6,85 @@ An associative array of ShoppingCartItem, where the key is the product identifie
 
 import {ShoppingCartItem} from './ShoppingCartItem.js';
 
-import {toInt, SiteConfig, denseArray } from './Utils.js';
+import {toInt, SiteConfig, denseArray} from './Utils.js';
 
 class ShoppingCart {
 
     constructor() {
-        this.items = [];   /* Array of Shopping Cart Item */
-        this.numberOfItems = 0;
-        this.total = 0;
-        this._type = "ShoppingCart";
+        this._items = [];   /* Array of Shopping Cart Item */
+        this._numberOfItems = 0;
+        this._total = 0;
     }
 
-    /**
+	get numberOfItems() {
+		return this._numberOfItems;
+	}
+
+	get empty() {
+    	return this._numberOfItems <= 0;
+	}
+
+
+	/**
+	 * Returns the sum of the product price multiplied by the quantity for all
+	 * items in shopping cart list. This is the total cost excluding the surcharge.
+	 *
+	 * @return the cost of all items times their quantities
+	 * @see ShoppingCartItem
+	 */
+	get subtotal() {
+
+		let amount = 0;
+
+		for (var scProductId in this._items) {
+			let scItem = this._items[scProductId];
+			amount += scItem.quantity * scItem.price;
+		}
+
+		return amount;
+	}
+
+	/**
+	 * Returns the total cost of the order for the given
+	 * <code>ShoppingCart</code> instance.
+	 *
+	 * @return the cost of all items times their quantities plus surcharge
+	 */
+	get total() {
+		this._total = this.subtotal + this.surcharge;
+		return this._total;
+	}
+
+	/**
+	 * Returns the surcharge to be applied for items in the cart.
+	 *
+	 * @returns {number}
+	 */
+	get surcharge() {
+		return SiteConfig.surcharge;
+	}
+
+
+	/**
+	 * Returns the list of <code>ShoppingCartItems</code>.
+	 *
+	 * @return the <code>items</code> list
+	 * @see ShoppingCartItem
+	 */
+	get items() {
+		return denseArray(this._items);
+	}
+
+	/**
+	 * Empties this cart, discards all items.
+	 */
+	clear() {
+		this._items = [];
+		this._numberOfItems = 0;
+		this._total = 0;
+	}
+
+	/**
      * Adds a <code>ShoppingCartItem</code> to the <code>ShoppingCart</code>'s
      * <code>items</code> list. If item of the specified <code>product</code>
      * already exists in shopping cart list, the quantity of that item is
@@ -25,23 +92,25 @@ class ShoppingCart {
      *
      * @see ShoppingCartItem
      */
-    addItem(product /*: Product */) {
+    addItem(product /*: Product */, quantity=1) {
 
         let isNewItem = true;
 
-        for (var scProductId in this.items) {
-
-            if (toInt(scProductId) === product.getProductId()) {
-                isNewItem = false;
-                this.items[scProductId].increment();
-            }
+        for (var scProductId in this._items) {
+        	if (this._items.hasOwnProperty(scProductId)) {
+				if (toInt(scProductId) === product.productId) {
+					isNewItem = false;
+					this._items[scProductId].increment();
+				}
+			}
         }
 
         if (isNewItem === true) {
             let scItem = new ShoppingCartItem(product);
-            this.items[scItem.getProductId()] = scItem;
+            scItem.quantity = quantity;
+            this._items[scItem.productId] = scItem;
         }
-        this.numberOfItems = this.getNumberOfItems();
+        this.recalculateNumberOfItems();
     }
 
 
@@ -60,35 +129,25 @@ class ShoppingCart {
         if (quantity < 0 || quantity > 99) return;
 
 
-        for (var scProductId in this.items) {
+        for (let scProductId in this._items) {
+        	if (this._items.hasOwnProperty(scProductId)) {
+				let scItem = this._items[scProductId];
 
-            let scItem = this.items[scProductId];
+				if (toInt(scProductId) === product.productId) {
 
-            if (toInt(scProductId) === product.getProductId()) {
-
-                if (quantity !== 0) {
-                    // set item quantity to new value
-                    scItem.setQuantity(quantity);
-                } else {
-                    // if quantity equals 0, save item and break
-                    this.items.splice(scProductId, 1);
-                }
-            }
+					if (quantity !== 0) {
+						// set item quantity to new value
+						scItem.quantity = quantity;
+					} else {
+						// if quantity equals 0, save item and break
+						this._items.splice(product.productId, 1);
+					}
+				}
+			}
         }
-        this.numberOfItems = this.getNumberOfItems();
+        this.recalculateNumberOfItems();
     }
 
-
-
-    /**
-     * Returns the list of <code>ShoppingCartItems</code>.
-     *
-     * @return the <code>items</code> list
-     * @see ShoppingCartItem
-     */
-    getItems() {
-        return denseArray(this.items);
-    }
 
     /**
      * Returns the sum of quantities for all items maintained in shopping cart
@@ -97,71 +156,24 @@ class ShoppingCart {
      * @return the number of items in shopping cart
      * @see ShoppingCartItem
      */
-    getNumberOfItems() {
+    recalculateNumberOfItems() {
 
-        var numberOfItems = 0;
+        let numberOfItems = 0;
 
-        for (var scProductId in this.items) {
-            let scItem = this.items[scProductId];
-            numberOfItems += scItem.getQuantity();
+        for (let scProductId in this._items) {
+            let scItem = this._items[scProductId];
+            numberOfItems += scItem.quantity;
         }
-        return numberOfItems;
+		this._numberOfItems = numberOfItems;
     }
 
-    /**
-     * Returns the sum of the product price multiplied by the quantity for all
-     * items in shopping cart list. This is the total cost excluding the surcharge.
-     *
-     * @return the cost of all items times their quantities
-     * @see ShoppingCartItem
-     */
-    getSubtotal() {
-
-        let amount = 0;
-
-        for (var scProductId in this.items) {
-            let scItem = this.items[scProductId];
-            amount += scItem.getQuantity() * scItem.getPrice();
-        }
-
-        return amount;
-    }
-
-    /**
-     * Calculates the total cost of the order. This method adds the subtotal to
-     * the designated surcharge and sets the <code>total</code> instance variable
-     * with the result.
-     *
-     * @param surcharge the designated surcharge for all orders
-     * @see ShoppingCartItem
-     */
-    calculateTotal(surcharge) {
-        var amount;
-        amount = this.getSubtotal();
-        amount += SiteConfig.surcharge;
-        this.total = amount;
-    }
-
-    /**
-     * Returns the total cost of the order for the given
-     * <code>ShoppingCart</code> instance.
-     *
-     * @return the cost of all items times their quantities plus surcharge
-     */
-    getTotal() {
-        this.calculateTotal(this.getSurcharge())
-        return this.total;
-    }
-
-    /**
-     * Returns the surcharge to be applied for items in the cart.
-     *
-     * @returns {number}
-     */
-    getSurcharge() {
-        return SiteConfig.surcharge;
-    }
-
+    toJSON() {
+    	return {
+			"items": denseArray(this._items),
+		    "numberOfItems": this._numberOfItems,
+		    "total": this._total
+		}
+	}
 }
 
 export { ShoppingCart }

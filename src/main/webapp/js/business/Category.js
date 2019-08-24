@@ -1,25 +1,36 @@
 class Category {
 
-
-    // private long categoryId;
-    // private String name;
     constructor(jsonObject = {}) {
-        Object.assign(this, jsonObject);
-        this._type = "Category";
+    	this._categoryId = jsonObject.categoryId;
+    	this._name = jsonObject.name;
     }
 
-
-    getCategoryId() {
-        return this.categoryId;
+    get categoryId() {
+        return this._categoryId;
     }
 
-    getName() {
-        return this.name;
+    get name() {
+        return this._name;
     }
 
-    toString() {
-        return "Category[id=" + this.categoryId + "]";
+	set categoryId(value) {
+		this._categoryId = value;
+	}
+
+	set name(value) {
+		this._name = value;
+	}
+
+	toString() {
+        return "Category[id=" + this._categoryId + "]";
     }
+
+	toJSON() {
+		return {
+			"categoryId": this._categoryId,
+			"name": this._name
+		};
+	}
 
 }
 

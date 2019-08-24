@@ -77,7 +77,7 @@ export default function(topElement) {
                 if (! this.hasFieldError(fieldName)) {
                     return [];
                 }
-                return this.errors[fieldName].getMessages();
+                return this.errors[fieldName].messages;
             },
 
             addFieldErrorMessage(fieldName, errorMessage) {
@@ -101,8 +101,8 @@ export default function(topElement) {
 				if (fieldName !== null) {
 					let others = denseArray(this.errors);
 					let newFieldErrors = [];
-					others = others.filter(fieldError=> fieldError.getFieldName() !== fieldName);
-					others.forEach(fieldError => {newFieldErrors[fieldError.getFieldName()] = fieldError});
+					others = others.filter(fieldError=> fieldError.fieldName !== fieldName);
+					others.forEach(fieldError => {newFieldErrors[fieldError.fieldName] = fieldError});
 					this.errors = newFieldErrors;
 				} else {
 					this.errors = [];
@@ -162,12 +162,15 @@ export default function(topElement) {
                 this.clearErrors();
                 this.performChecks();
 
+                // Clear any prior orders from session storage
+				sessionStorage.removeItem("orderDetail");
+
 				var url = `${SiteConfig.url}/api/orders`;
 				var data = {
 					   customerForm: this.customerForm,
-						cart: { total: this.cart.getTotal(),
-							    numberOfItems: this.cart.getNumberOfItems(),
-							    items: denseArray(this.cart.items)}
+						cart: { total: this.cart.total,
+							    numberOfItems: this.cart.numberOfItems,
+							    items: this.cart.items}
 					};
 
 				fetch(url, {
@@ -181,7 +184,9 @@ export default function(topElement) {
 					throw new Error('Network response was not ok.');
 				}).then(response => {
 					console.log('Success:', response);
-					ShoppingCartStorage.clearCart(this.cart);
+					this.clearCart();
+					sessionStorage.setItem("orderDetail", JSON.stringify(response));
+					window.location.href = `${SiteConfig.url}/confirmation`
 					this.submitSuccess = true;
 				})
 				.catch(error => console.error('Error:', error));

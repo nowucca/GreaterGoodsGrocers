@@ -12,7 +12,6 @@ const STORAGE_KEY = "cart";
 class ShoppingCartStorage {
 
     constructor() {
-        this._type = "ShoppingCartStorage";
     }
 
     /**
@@ -25,13 +24,7 @@ class ShoppingCartStorage {
      * @param cart  The cart to store in local storage
      */
     static saveCart(cart) {
-        var tempItems = denseArray(cart.items);
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(
-            { "numberOfItems": cart.numberOfItems,
-                    "total": cart.getTotal(),
-                    "items": tempItems}
-            )
-        )
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(cart));
     }
 
 
@@ -45,16 +38,12 @@ class ShoppingCartStorage {
         let newCart = new ShoppingCart();
         if (localStorage.getItem(STORAGE_KEY)) {
             let jsonCart = JSON.parse(localStorage.getItem(STORAGE_KEY));
-            newCart.numberOfItems = jsonCart.numberOfItems;
-            newCart.total = jsonCart.total;
-            newCart.items = [];
-            jsonCart.items.forEach(item => {
-                let product = new Product(item.product);
-                let scItem = new ShoppingCartItem(product);
-                scItem.setQuantity(item.quantity);
-                newCart.items[product.getProductId()] = scItem;
+            jsonCart.items.forEach(jsonItem => {
+                let product = new Product(jsonItem.product);
+                newCart.addItem(product, jsonItem.quantity);
             });
-        }
+
+		}
         return newCart;
     }
 
@@ -66,13 +55,9 @@ class ShoppingCartStorage {
      * @see ShoppingCartItem
      */
     static clearCart(cart) {
-        cart.items.length = 0;
-        cart.numberOfItems = 0;
-        cart.total = 0;
+        cart.clear();
         localStorage.removeItem(STORAGE_KEY);
     }
-
-
 }
 
 export { ShoppingCartStorage }

@@ -189,3 +189,22 @@ Fix:
 import {FieldError} from "../business/FieldError.js";
 ````
 
+### Bad expression
+
+Error:
+````
+[Vue warn]: Error in render: "TypeError: cart.getNumberOfItems is not a function"
+````
+
+Cause: I changed this to be a getter.
+
+Fix: Do a global search and replace on cart.getNumberOfItems.
+Changed from this:
+````
+<template v-if="cart.getNumberOfItems() > 1">
+````
+
+to this:
+````
+<template v-if="cart.numberOfItems > 1">
+````

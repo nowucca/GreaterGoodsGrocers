@@ -1,0 +1,85 @@
+#confirmationSummary h1 {
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+section p {
+    margin-top: 5px;
+}
+#confirmationSummary {
+    display: flex;
+    flex-direction: column;
+	text-align: center;
+}
+
+#confirmationOrderDetails {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+#orderDetailsTable {
+    text-align: center
+}
+#customerDetails {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    align-self: center;
+    background-color: #e1e1e1;
+    border: 2px solid black;
+    text-align: left;
+    padding: 10px;
+}
+
+#customerDetails p:last-of-type {
+    margin-bottom: 10px;
+}
+
+#customerDetails h1 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#confirmationContinue {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.continueShoppingButton {
+    background-color: #00882B;
+    color: white;
+    margin-top: 20px;
+    padding: 8px 16px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px #818181 solid;
+    cursor: pointer;
+}
+
+#orderDetailsTable {
+    border: 2px solid black;
+    background-color: #f1f1e1;
+
+}
+#orderDetailsTable th {
+    font-weight: bold;
+}
+
+#orderDetailsTable td, #orderDetailsTable th {
+    padding: 5px;
+}
+
+#orderDetailsTable td {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#confirmationInvalid {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+

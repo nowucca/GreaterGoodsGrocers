@@ -1,43 +1,101 @@
 
 class Product {
 
+	/*
+	    Sample JSON:
+		{
+		  "productId": 1009,
+		  "name": "Whole Milk",
+		  "description": "1 gallon",
+		  "price": 189,
+		  "points": 1,
+		  "lastUpdate": 1562026364000,
+		  "categoryId": 1003
+		}
+    */
     constructor(jsonObject = {}) {
-        Object.assign(this, jsonObject);
-        this._type = "Product";
+    	this._productId = jsonObject.productId;
+    	this._name = jsonObject.name;
+    	this._description = jsonObject.description;
+    	this._price = jsonObject.price;
+    	this._points = jsonObject.points;
+    	this._lastUpdate = new Date(jsonObject.lastUpdate);
+    	this._categoryId = jsonObject.categoryId;
     }
 
-    // private long productId;
-    // private String name;
-    // private int price;
-    // private Date lastUpdate;
 
-    getProductId() {
-        return this.productId;
-    }
+	get productId() {
+		return this._productId;
+	}
 
-    getName() {
-        return this.name;
-    }
+	set productId(value) {
+		this._productId = value;
+	}
 
-    getPrice() {
-        return this.price;
-    }
+	get name() {
+		return this._name;
+	}
 
-    getDescription() {
-        return this.description;
-    }
+	set name(value) {
+		this._name = value;
+	}
 
-    getPoints() {
-        return this.points;
-    }
+	get description() {
+		return this._description;
+	}
 
-    getLastUpdate() {
-        return this.lastUpdate;
-    }
+	set description(value) {
+		this._description = value;
+	}
 
-    toString() {
+	get price() {
+		return this._price;
+	}
+
+	set price(value) {
+		this._price = value;
+	}
+
+	get points() {
+		return this._points;
+	}
+
+	set points(value) {
+		this._points = value;
+	}
+
+	get lastUpdate() {
+		return this._lastUpdate;
+	}
+
+	set lastUpdate(value) {
+		this._lastUpdate = value;
+	}
+
+	get categoryId() {
+		return this._categoryId;
+	}
+
+	set categoryId(value) {
+		this._categoryId = value;
+	}
+
+	toString() {
         return "Product[product_id=" + this.productId + "]";
     }
+
+    // Used inside JSON.stringify
+	toJSON() {
+    	return {
+			"productId": this._productId,
+			"name": this._name,
+			"description": this._description,
+			"price": this._price,
+			"points": this._points,
+			"lastUpdate": this._lastUpdate.getTime(),
+			"categoryId": this._categoryId
+		};
+	}
 
 }
 

@@ -33,7 +33,7 @@
     <!-- Javascript libraries -->
     <script type="text/javascript" src="js/libs/validator.js"></script>
     <script src="js/libs/vue.js"></script>
-    <script src="js/libs/fontawesome-kit.js"></script>
+<%--    <script src="js/libs/fontawesome-kit.js"></script>--%>
 
 
 </head>
@@ -42,7 +42,15 @@
 <main v-cloak>
     <grocery-header :cart="cart"></grocery-header>
 
-    <section id="checkoutMain">
+	<section id="checkoutEmpty" v-if="cart.empty">
+		<p>Your cart is empty.  Please add an item to your cart to checkout.</p>
+
+		<a :href="link('category')">
+			<button class="normal2xButton">Continue Shopping</button>
+		</a>
+
+	</section>
+    <section id="checkoutMain" v-if="!cart.empty">
 
         <p style="font-weight:bold">Checkout</p>
 
@@ -124,8 +132,8 @@
             </div>
             <div id="checkoutInfo">
         <span id="checkoutInfoText">
-            Your credit card will be charged <strong>{{formatPrice(cart.getTotal()/100)}}</strong><br>
-            (<strong>{{formatPrice(cart.getSubtotal()/100)}}</strong> + <strong>{{formatPrice(cart.getSurcharge()/100)}}</strong> shipping)
+            Your credit card will be charged <strong>{{formatPrice(cart.total/100)}}</strong><br>
+            (<strong>{{formatPrice(cart.subtotal/100)}}</strong> + <strong>{{formatPrice(cart.surcharge/100)}}</strong> shipping)
         </span>
             </div>
         </div>
